@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Archival | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/digital-archival/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/digital-archival/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Archival</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Sun, 21 Mar 2021 01:41:38 -0700</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Digital Archival</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/digital-archival/</link>
+    </image>
+    
+    <item>
+      <title>Presenting Oral Texts with Transcriptions Online</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/</link>
+      <pubDate>Sun, 21 Mar 2021 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/</guid>
+      <description>&lt;p&gt;For several years I have been tracking the progression of how interlinear glossed texts (IGT) are interacted with online. This has several dimensions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the reason for the interaction and the goals of the interaction&lt;/li&gt;
+&lt;li&gt;the visual layout and concepts driving the interaction&lt;/li&gt;
+&lt;li&gt;the supporting technology choices used to make these interactions happen&lt;/li&gt;
+&lt;li&gt;also the content of glosses used in the texts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With regard to the first point above, I find that corpus tools generally fall into one of three broad catagories and this holds true even for browser based tools: Crafting, Display &amp;amp; Navigation, and Information Extraction &amp;amp; Pattern Discovery. Even though EXMARaLDA is not a browser based corpus too these catagories are exemplified in its 
+&lt;a href=&#34;https://exmaralda.org/en/about-exmaralda/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;EXMARaLDA is a system for working with oral corpora on a computer. It consists of a transcription and annotation tool (Partitur-Editor), a tool for managing corpora (Corpus-Manager) and a query and analysis tool (EXAKT)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have used this three way distinction to catagorize some of the different software options available for browser based interactions with IGT data&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-types-of-browser-based-tools&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Types-of-Browser-based-tools_hua36818c6bed2e8af187cca8f2012a317_155372_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Types of browser based tools&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Types-of-Browser-based-tools_hua36818c6bed2e8af187cca8f2012a317_155372_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Taxonomy of browser based tools&#34; width=&#34;1576&#34; height=&#34;588&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Types of browser based tools
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://hughandbecky.us/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!-- For example many publishers use or require Leipzig glossing rules which point to a &#34;standard&#34; set of abbreviations, to be used in print publications. However, these abbreviations do not have a concrete set of definitions. Therefore one can never be exactly sure what an author means when they use these abbreviations (but in general shared conventions are more helpful than not). What I have noticed with respect to these abbreviations is that due to the mental/visual prominence the abbreviations have in print media, they are often being used in corpus annotations. To complicate matters, when additional annotations are needed but are not present in the Leipzig Glossing Rules chaos ensues. That is, authors choose to create their own abbreviations on an ad-hoc basis. Additionally abbreviations used in the Leipzig Glossing Rules by field linguists are often different from those used by computational linguists working on TreeBanks or WordNets creating a gap in the cross-discipline uses of corpora. --&gt;
+&lt;p&gt;While what is presented in terms of the content is still very important, &lt;em&gt;how&lt;/em&gt; it is presented in an interactive mode is also important. That is, how is the experience crafted around the audio or video and the transcribed segments in terms of the &lt;em&gt;interaction design&lt;/em&gt; and &lt;em&gt;visual design&lt;/em&gt;? I started to compile a list of these interactions which I present below. However, two significant components are influential in the life cycle of software and hence these interactions. First, the viral nature of the interaction, i.e., how easy is it to propagate the interaction in new contexts. Second, what is the life cycle of the technology undergirding the browser based experience? That is, how does the technology choice expose the user to obsolecence and technolgical debt. These two factors should be top ranking considerations when a project desires to &amp;ldquo;publish&amp;rdquo; or present interlinear texts online. In addition to these two factors, the following three design considerations will also impact the sustainability and maintainability of the online presence for the corpora and ought to be considered while planning for implementation.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The first consideration is, &lt;em&gt;is there a required separation between data (content) and presentation?&lt;/em&gt; By separating on these lines the code produced to present the interlinear text can be re-used liberally across texts and projects, and the visual presentation can be adjusted and applied to texts at scale.&lt;/li&gt;
+&lt;li&gt;The second consideration is, &lt;em&gt;what is the quantity of dependencies that a visual presentation requires?&lt;/em&gt; That is, are there server based requirements for the generation of the visual presentation, or can the presentation happen without the server? Server based presentations require a long term maintenance plan. More dependencies require that the software be updated as each dependency evolves (potentially motivated by security issues). Dependencies may drop features that current interactions deemed important.&lt;/li&gt;
+&lt;li&gt;The third consideration is &lt;em&gt;what is the purpose of the web-presentation?&lt;/em&gt; There are different classes of tools with respect to interlinear glossed texts. Arguably, the one of primary importance is the archived version. That is, where is the text archived and can the archived version&amp;rsquo;s annotation be viewed while the audio is heard at the same time. A secondary consideration then is the working copy, or what can one &lt;em&gt;do&lt;/em&gt; with the interlinear glossed text and how easy is it for people other than the author of the interlinear glossed text to do comparative searching across the text or in conjunction with other texts. Then a third consideration, is how is the canonical reference of the archived version persisted through to the working copy. That is, if the interlinear glossed text it loaded into an online system for investigation, does that system create new identifiers for the searches conducted or does it respect existing identifiers?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With these issues in mind I have been collecting images of the visual presentation of interlinear glossed texts online. In addition to my purpose for looking at ongoing evolution of the technical presentation of interlinear glossed text, I have been looking for a system that meets the requirements of points number one and two for use on a portfolio website like mine. Stated another way, I am looking for a tool which takes ELAN or FLExTexts and matches them with audio or video in the browser, rather than on a server. I want the tool to be limited to HTML5, JavaScript, and CSS3+.&lt;/p&gt;
+&lt;p&gt;This is just a short list of tools for presenting time-aligned texts online. These would be in the middle category of the illustration above as they are designed for presentation and discovery of the resource rather than information extraction&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;requires-no-database&#34;&gt;Requires no Database&lt;/h2&gt;
+&lt;h3 id=&#34;leipzigjs&#34;&gt;Leipzig.js&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Ben Chauvette&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://bdchauvette.net/leipzig.js&#34;&gt;https://bdchauvette.net/leipzig.js&lt;/a&gt; ; 
+&lt;a href=&#34;https://github.com/bdchauvette/leipzig.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;, 
+&lt;a href=&#34;https://www.npmjs.com/package/leipzig/v/0.5.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;npm package&lt;/a&gt;.&lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: This JavaScript library lines up interliear glosses based on spaces in the text file. Each row must be its own HTML paragraph. It can then number them for use as examples. It does not connect the the text to audio or video files, but it is great for use on blogs and websites. 
+&lt;a href=&#34;https://libraries.io/bower/glosser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glosser&lt;/a&gt; is a similar kind of product, written in jQuery (JavaScript), but in my quick 3.5 minute review it looks like &lt;strong&gt;Leipzig.js&lt;/strong&gt; has more features than Glosser.
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-german-example-showing-output-and-code-taken-from-the-leipzigjs-website&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/leipzig_hub10e4c6c263b7731bb1ac0e1e9ed1f4e_114603_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;German example showing output and code taken from the leipzig.js website&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/leipzig_hub10e4c6c263b7731bb1ac0e1e9ed1f4e_114603_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Example taken from leipzig.js website&#34; width=&#34;715&#34; height=&#34;847&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;German example showing output and code taken from the leipzig.js website
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://bdchauvette.net/leipzig.js/examples/&#34;&gt; Ben Chauvette&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Ben Chauvette&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;iath-elan-text-sync-tool-etst&#34;&gt;IATH ELAN Text-Sync Tool (ETST)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Lise Dobrin &amp;amp; Douglas Ross  
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#dobrin_iath_2017&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Lise M&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Dobrin&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Dobrin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lise M&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Ross&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Douglas&#34; /&gt;
+    D.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The IATH ELAN Text-Sync Tool: A Simple System for Mobilizing ELAN Transcripts On- or Off-Line&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;11&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;94–102&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24726&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24726&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;http://community.village.virginia.edu/etst/&#34;&gt;http://community.village.virginia.edu/etst/&lt;/a&gt; &lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: This script uses command-line PHP to convert ELAN texts to HTML and align them to audio or video files. This solution works completely within the browser and does not require a server once the annotation files are processed.
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-time-aligned-audio-and-text-where-text-is-automatically-highlighted-as-the-audio-plays&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/IATHELAN_hu7827a15245c69c5d5e8c519632c5e7d8_331560_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Time aligned audio and text where text is automatically highlighted as the audio plays.&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/IATHELAN_hu7827a15245c69c5d5e8c519632c5e7d8_331560_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Example of time aligned audio and text&#34; width=&#34;1423&#34; height=&#34;865&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Time aligned audio and text where text is automatically highlighted as the audio plays.
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;http://community.village.virginia.edu/etst/example.php&#34;&gt; Lise &amp;amp; Douglas&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Lise &amp;amp; Douglas&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;lingview&#34;&gt;LingView&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#pride_lingview_2020-1&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Kalinda&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Pride&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Pride&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Kalinda&#34; /&gt;
+    K.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Tomlin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;AnderBois&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Scott&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;LingView: A Web Interface for Viewing FLEx and ELAN Files&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;14&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;87–107&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24916&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24916&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://github.com/BrownCLPS/LingView&#34;&gt;https://github.com/BrownCLPS/LingView&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: Works with video, audio, ELAN files, FLExTexts, and does not require a server. Does depend on Node, which is a JavaScript framework.&lt;br/&gt;
+
+
+
+  
+  
+  
+
+&lt;figure itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/LingView_hu22559aeae75463bc8faa9e4d77838f02_511347_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/LingView_hu22559aeae75463bc8faa9e4d77838f02_511347_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;mulit-cast screenshot&#34; width=&#34;1854&#34; height=&#34;824&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;california-state-university-long-beach-interface&#34;&gt;California State University Long Beach Interface&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Michael Ahland &amp;amp; Cem Demir as part of the Pahka&amp;rsquo;anil Text Project&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://web.csulb.edu/projects/lingresearch/pahka&#39;anil/text/bat-and-horsefly&#34;&gt;https://web.csulb.edu/projects/lingresearch/pahka&#39;anil/text/bat-and-horsefly&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: This interaction does not appear to be downloadable as a re-usable/re-deployable package. However, the files are completly accessable for grabbing and subsequent modification. The setup currently uses 
+&lt;a href=&#34;https://wavesurfer-js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wavesurfer.js&lt;/a&gt; for media interaction and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/WebVTT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.vtt&lt;/a&gt; files, which are type of sub-title file. In an alternative to using to the use of &lt;code&gt;.vtt&lt;/code&gt; files is to use an 
+&lt;a href=&#34;https://wavesurfer-js.org/example/elan/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;existing wavesurfer.js plugin built for use with ELAN files&lt;/a&gt;. One major difference between these presentations is the orientation of the table which presents the interlinear glossed texts.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/CSULB_hudb0370fef0e167a80649bdef8b646f78_129500_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/CSULB_hudb0370fef0e167a80649bdef8b646f78_129500_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;mulit-cast screenshot&#34; width=&#34;1843&#34; height=&#34;835&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;wavesurferjs--elan&#34;&gt;wavesurfer.js + ELAN&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: J. Reuben Wetherbee&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://wavesurfer-js.org/example/elan/index.html&#34;&gt;https://wavesurfer-js.org/example/elan/index.html&lt;/a&gt; ; &lt;a href=&#34;https://wavesurfer-js.org/example/elan-wave-segment/index.html&#34;&gt;https://wavesurfer-js.org/example/elan-wave-segment/index.html&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: The ELAN plugin to wavesurfer.js was authored by 
+&lt;a href=&#34;https://github.com/katspaugh/wavesurfer.js/pull/1052&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;J. Reuben Wetherbee&lt;/a&gt;. It appears in the wavesurfer.js documentation examples, but not in the 
+&lt;a href=&#34;https://wavesurfer-js.org/plugins/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main site&amp;rsquo;s list of plugins&lt;/a&gt;. Video.js is another project which can 
+&lt;a href=&#34;https://collab-project.github.io/videojs-wavesurfer/#/examples&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;display video and text tracts&lt;/a&gt;. There is also 
+&lt;a href=&#34;https://collab-project.github.io/videojs-wavesurfer/#/plugins&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a plugin which connects video.js to wavesurfer.js&lt;/a&gt; [
+&lt;a href=&#34;https://github.com/collab-project/videojs-wavesurfer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt; ]. So it seems that there might be a possibility to use one of either of these methods to present text annotations from ELAN and video together. However, I have not found any examples of this yet.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/ELAN-wavesurfer_hu0f61d3cc2abf421572dfe77fb5597d70_75522_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/ELAN-wavesurfer_hu0f61d3cc2abf421572dfe77fb5597d70_75522_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;ELAN wavesurfer interface&#34; width=&#34;920&#34; height=&#34;776&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;require-back-end-databases&#34;&gt;Require Back-end Databases&lt;/h2&gt;
+&lt;h3 id=&#34;ethnographic-e-research-online-presentation-system-eopas&#34;&gt;Ethnographic E-Research Online Presentation System (EOPAS)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Nick Thieberger 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#schroeter_eopas_2006&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Ronald&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schroeter&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schroeter&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Ronald&#34; /&gt;
+    R.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;EOPAS, the EthnoER online representation of interlinear text&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Barwick&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Linda&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Sustainable Data from Digital Fieldwork. Proceedings of the conference held at the University of Sydney, 4-6 December 2006&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;99–124&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Sydney, Australia&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;Sydney University Press&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/2123/1297&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/2123/1297&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+ &amp;amp; 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#thieberger_ethnography_2006&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;&lt;/span&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;An ethnography of the EthnoER project&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Sydney, Australia&#34;&gt;&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/2123/1532&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/2123/1532&lt;/a&gt;&lt;/span&gt;
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://github.com/eopas/eopas&#34;&gt;https://github.com/eopas/eopas&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Note&lt;/strong&gt;: This was one of the earliest online presentations which linked grammars with texts. However, the system does not support collaborative editing or the creation of texts. It was originally designed to work with Toolbox formatted data, with other IGT formats support added later. It is open source and available via Github. It provides direct links to specific segments of the artifacts for the purpose of citation and referencing.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-screenshot-of-eopas&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/eopas_hu3800efd0c53c43f441e1c6b75aa4780d_791550_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Screenshot of Eopas&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/eopas_hu3800efd0c53c43f441e1c6b75aa4780d_791550_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Screenshot of Eopa&#34; width=&#34;1026&#34; height=&#34;775&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Screenshot of Eopas
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Nick Thieberger&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Nick Thieberger&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;nabu-collection-viewer&#34;&gt;Nabu collection viewer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Nick Thieberger&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://github.com/CoEDL/nabu-collection-viewer-v1&#34;&gt;https://github.com/CoEDL/nabu-collection-viewer-v1&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Note&lt;/strong&gt;: In many ways this is a more modern evolution of Eopas. I can be seen when logged into 
+&lt;a href=&#34;https://catalog.paradisec.org.au/viewer/#/NT1/98007/audio/NT1-98007-98007A?transcription=NT1-98007-98007A.ixt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PARADISEC&lt;/a&gt;.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-screenshot-of-nabu-collection-viewer&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Nabu_hu54745e7fefb1c102b9ebf913d7633783_65695_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Screenshot of Nabu Collection viewer&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Nabu_hu54745e7fefb1c102b9ebf913d7633783_65695_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Screenshot of Nabu Collection viewer&#34; width=&#34;1465&#34; height=&#34;857&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Screenshot of Nabu Collection viewer
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Nick Thieberger&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Nick Thieberger&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;typecraft&#34;&gt;TypeCraft&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#beermann_typecraft_2014&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Dorothee&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Beermann&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Beermann&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Dorothee&#34; /&gt;
+    D.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Mihaylov&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Pavel&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;TypeCraft collaborative databasing and resource sharing for linguists&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Resources and Evaluation&lt;/span&gt;,&amp;#32;48(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;203–225&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1007/s10579-013-9257-9&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1007/s10579-013-9257-9&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://typecraft.org/tc2wiki/TypeCraft:About&#34;&gt;https://typecraft.org/tc2wiki/TypeCraft:About&lt;/a&gt; &lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: This is software as service. It can not be locally deployed. This is a production system, that is it is designed to facilitate collaboration. It is based on MediaWiki. It is designed for collaborative creation of annotated texts. It does not align the texts for display with video or audio. The same purpose of this service could be accomplished if ELAN annotations were under version control (like git) and collaborators interacted with version control and used ELAN on their local computers.&lt;/p&gt;
+&lt;h3 id=&#34;multicast&#34;&gt;Multicast&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: Geoffrey Haig &amp;amp; Nils Norman Schiborr 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#haig_multi-cast_2016&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Geoffrey&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Haig&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Haig&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Geoffrey&#34; /&gt;
+    G.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schiborr&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nils Norman&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Multi-CAST (Multilingual Corpus of Annotated Spoken Texts): Ein Projekt zur Erstellung und Auswertung mehrsprachiger Korpora für die Sprachtypologie&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Hamburg, Germany, 7–8 June 2016&#34;&gt;&lt;/span&gt;
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://multicast.aspra.uni-bamberg.de&#34;&gt;https://multicast.aspra.uni-bamberg.de&lt;/a&gt; &lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: The presentation software does not seem to be open source and accessible. However there is an 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/multicastR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open source R package&lt;/a&gt; which one can use to download annotation files and programatically investigate them. The text being played in the audio is not highlighted, but one can quickly access the transcribed text and copy it out as formatted LaTeX for inclusion as interlinear text in an other document (a pretty nifty feature).
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-audio-is-at-the-very-bottom-of-the-screen-the-text-is-not-highlighted-as-it-is-played&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/multi-cast_hub075d7be7fd51d658edcc068bfd23fd0_115657_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Audio is at the very bottom of the screen. The text is not highlighted as it is played.&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/multi-cast_hub075d7be7fd51d658edcc068bfd23fd0_115657_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;mulit-cast screenshot&#34; width=&#34;1902&#34; height=&#34;915&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Audio is at the very bottom of the screen. The text is not highlighted as it is played.
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://multicast.aspra.uni-bamberg.de/php/preview.php?v=2101&amp;amp;corpus=arta&amp;amp;text=alisiya&#34;&gt; Geoffrey Haig &amp;amp; Nils Norman Schiborr&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Geoffrey Haig &amp;amp; Nils Norman Schiborr&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;pangloss&#34;&gt;Pangloss&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;: CNRS-LACITO 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#grenoble_sharing_2010&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2010&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Jacobson&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Michel&#34; /&gt;
+    M.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2010&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Sharing data in small and endangered languages: Cataloging and metadata, formats, and encodings&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Grenoble&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lenore A.&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Furbee&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;N. Louanna&#34; /&gt;
+    N.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Language Documentation: Practice and values&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;147–158&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Amsterdam&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;John Benjamins Publishing Company&lt;/span&gt;&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1075/z.158.15thi&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1075/z.158.15thi&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+ 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#michailovsky_simple_2011&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Boyd&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michailovsky&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2011&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;paper-conference&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michailovsky&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Boyd&#34; /&gt;
+    B.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michaud&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexis&#34; /&gt;
+    A.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Guillaume&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Severine&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2011&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;A simple architecture for the fine-grained documentation of endangered languages: The LACITO multimedia archive&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Hsinchu City, Taiwan&#34;&gt;&amp;#32;
+  &lt;span itemprop=&#34;publisher&#34; itemtype=&#34;http://schema.org/Organization&#34; itemscope=&#34;&#34;&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;IEEE&lt;/span&gt;&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1109/ICSDA.2011.6085973&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1109/ICSDA.2011.6085973&lt;/a&gt;&lt;/span&gt;
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: [Example]: &lt;a href=&#34;https://doi.org/10.24397/pangloss-0004676&#34;&gt;https://doi.org/10.24397/pangloss-0004676&lt;/a&gt; &lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;: As software the Pangloss interface is not downloadable. However, it is the front face of an archived collection. It is great for referencing a particular point in an audio or transcribed textual artifact, within an the archive&amp;rsquo;s canonical location for the item. The Pangloss use of DOIs to access the components of a resource is discussed in 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#vasile_digital_2020&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Aurélia&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Vasile&lt;/span&gt;&lt;/span&gt;
+      &lt;em&gt;et al.&lt;/em&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Vasile&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Aurélia&#34; /&gt;
+    A.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Guillaume&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Séverine&#34; /&gt;
+    S.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Aouini&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Mourad&#34; /&gt;
+    M.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michaud&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexis&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Le Digital Object Identifier, une impérieuse nécessité ?L’exemple de l’attribution de DOI à la Collection Pangloss, archive ouverte de langues en danger&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;I2D - Information, données &amp;amp; documents&lt;/span&gt;,&amp;#32;2(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;155–175&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.3917/i2d.202.0155&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.3917/i2d.202.0155&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Pangloss_hub8cf7e90014ba857c943350251fd247e_128451_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/presenting-oral-texts-with-transcriptions-online/Pangloss_hub8cf7e90014ba857c943350251fd247e_128451_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;mulit-cast screenshot&#34; width=&#34;1593&#34; height=&#34;879&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;eastlingplayer&#34;&gt;Eastlingplayer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Produced by&lt;/strong&gt;:  CNRS-LACITO &amp;amp; Alexis Michaud&lt;br/&gt;
+&lt;strong&gt;Links&lt;/strong&gt;: &lt;a href=&#34;https://github.com/CNRS-LACITO/eastlingplayer&#34;&gt;https://github.com/CNRS-LACITO/eastlingplayer&lt;/a&gt;&lt;br/&gt;
+&lt;strong&gt;Notes&lt;/strong&gt;:  Eastling Player is part of the 
+&lt;a href=&#34;https://github.com/CNRS-LACITO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eastling suite: Easy Annotation and Synchronization Tool for linguists&lt;/a&gt;. It is developed in PHP and requires a server. It was developed in response to perceptions of server lag times in early versions of Pangloss (in the 
+&lt;a href=&#34;https://pangloss.cnrs.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation interface managed by Villejuif&lt;/a&gt;; there are two interfaces). These versions of Pangloss converted ELAN files (XML) to HTML on request. As these XML files got longer they affected server-client transmission times. Technicians opted to parse these XML files into a databases to decrease load times. This is an interesting use of tools because the XML transforms could have been maintained and the HTML outputs cached or retained until XML files were updated. The alternative strategy would have not introduced PHP into the set of software required for the presentation.&lt;/p&gt;
+&lt;!-- 
+Still to finish and incorporate
+https://scholarspace.manoa.hawaii.edu/bitstream/10125/24765/1/kaufman_finkel.pdf
+Include this in the paper https://www.kratylos.org/~kratylos/display.cgi
+
+http://michel.jacobson.free.fr/ITE/index_en.html
+
+http://emeld.org/school/case/kayardild/index.html
+Nick Paper to cite.
+https://books.google.fr/books?id=mVwVDAAAQBAJ&amp;pg=PA151&amp;lpg=PA151&amp;dq=igt+linguistic+browser&amp;source=bl&amp;ots=QYEhBW9yKU&amp;sig=ACfU3U1CnlR1QQt4CxUCiA6FAOgDhPaYHw&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjaz8Khh-XwAhXC4uAKHXSVB30Q6AEwCHoECAoQAw#v=onepage&amp;q=igt%20linguistic%20browser&amp;f=false
+
+
+IGT text formats
+https://1library.net/document/zw3dj87y-igt-xml-xml-format-interlinearized-glossed-text.html
+https://hal.archives-ouvertes.fr/hal-01895439/document
+https://dl.acm.org/doi/pdf/10.5555/1642049.1642056
+http://journals.linguisticsociety.org/elanguage/lilt/article/download/663/663-1087-1-PB.pdf
+https://sigann.github.io/LAW-XIV-2020/pdf/2020.law-1.9.pdf
+ 
+--&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;beermann_typecraft_2014&#34;&gt;
+        &lt;dt&gt;
+          Beermann&amp;#32;&amp;amp;&amp;#32;Mihaylov
+
+          
+          (2014)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Beermann&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Dorothee&#34; /&gt;
+    D.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Mihaylov&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Pavel&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;TypeCraft collaborative databasing and resource sharing for linguists&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Resources and Evaluation&lt;/span&gt;,&amp;#32;48(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;203–225&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1007/s10579-013-9257-9&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1007/s10579-013-9257-9&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;dobrin_iath_2017&#34;&gt;
+        &lt;dt&gt;
+          Dobrin&amp;#32;&amp;amp;&amp;#32;Ross
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Dobrin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lise M&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Ross&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Douglas&#34; /&gt;
+    D.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The IATH ELAN Text-Sync Tool: A Simple System for Mobilizing ELAN Transcripts On- or Off-Line&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;11&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;94–102&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24726&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24726&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;grenoble_sharing_2010&#34;&gt;
+        &lt;dt&gt;
+          Thieberger&amp;#32;&amp;amp;&amp;#32;Jacobson
+
+          
+          (2010)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Jacobson&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Michel&#34; /&gt;
+    M.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2010&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Sharing data in small and endangered languages: Cataloging and metadata, formats, and encodings&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Grenoble&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lenore A.&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Furbee&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;N. Louanna&#34; /&gt;
+    N.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Language Documentation: Practice and values&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;147–158&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Amsterdam&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;John Benjamins Publishing Company&lt;/span&gt;&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1075/z.158.15thi&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1075/z.158.15thi&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;haig_multi-cast_2016&#34;&gt;
+        &lt;dt&gt;
+          Haig&amp;#32;&amp;amp;&amp;#32;Schiborr
+
+          
+          (2016)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Haig&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Geoffrey&#34; /&gt;
+    G.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schiborr&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nils Norman&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Multi-CAST (Multilingual Corpus of Annotated Spoken Texts): Ein Projekt zur Erstellung und Auswertung mehrsprachiger Korpora für die Sprachtypologie&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Hamburg, Germany, 7–8 June 2016&#34;&gt;&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;michailovsky_simple_2011&#34;&gt;
+        &lt;dt&gt;
+          Michailovsky,&amp;#32;
+          Michaud&amp;#32;&amp;amp;&amp;#32;Guillaume
+
+          
+          (2011)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;paper-conference&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michailovsky&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Boyd&#34; /&gt;
+    B.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michaud&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexis&#34; /&gt;
+    A.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Guillaume&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Severine&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2011&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;A simple architecture for the fine-grained documentation of endangered languages: The LACITO multimedia archive&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Hsinchu City, Taiwan&#34;&gt;&amp;#32;
+  &lt;span itemprop=&#34;publisher&#34; itemtype=&#34;http://schema.org/Organization&#34; itemscope=&#34;&#34;&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;IEEE&lt;/span&gt;&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1109/ICSDA.2011.6085973&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1109/ICSDA.2011.6085973&lt;/a&gt;&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;pride_lingview_2020-1&#34;&gt;
+        &lt;dt&gt;
+          Pride,&amp;#32;
+          Tomlin&amp;#32;&amp;amp;&amp;#32;AnderBois
+
+          
+          (2020)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Pride&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Kalinda&#34; /&gt;
+    K.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Tomlin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;AnderBois&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Scott&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;LingView: A Web Interface for Viewing FLEx and ELAN Files&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;14&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;87–107&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24916&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24916&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;schroeter_eopas_2006&#34;&gt;
+        &lt;dt&gt;
+          Schroeter&amp;#32;&amp;amp;&amp;#32;Thieberger
+
+          
+          (2006)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schroeter&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Ronald&#34; /&gt;
+    R.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;EOPAS, the EthnoER online representation of interlinear text&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Barwick&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Linda&#34; /&gt;
+    L.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Sustainable Data from Digital Fieldwork. Proceedings of the conference held at the University of Sydney, 4-6 December 2006&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;99–124&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Sydney, Australia&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;Sydney University Press&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/2123/1297&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/2123/1297&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;thieberger_ethnography_2006&#34;&gt;
+        &lt;dt&gt;
+          Thieberger
+
+          
+          (2006)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nicholas&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2006&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;An ethnography of the EthnoER project&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Sydney, Australia&#34;&gt;&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/2123/1532&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/2123/1532&lt;/a&gt;&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;vasile_digital_2020&#34;&gt;
+        &lt;dt&gt;
+          Vasile,&amp;#32;
+          Guillaume,&amp;#32;
+          Aouini&amp;#32;&amp;amp;&amp;#32;Michaud
+
+          
+          (2020)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Vasile&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Aurélia&#34; /&gt;
+    A.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Guillaume&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Séverine&#34; /&gt;
+    S.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Aouini&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Mourad&#34; /&gt;
+    M.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michaud&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexis&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Le Digital Object Identifier, une impérieuse nécessité ?L’exemple de l’attribution de DOI à la Collection Pangloss, archive ouverte de langues en danger&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;I2D - Information, données &amp;amp; documents&lt;/span&gt;,&amp;#32;2(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;155–175&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.3917/i2d.202.0155&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.3917/i2d.202.0155&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Lots of software packages exist for working with corpora, large bodies of text and IGTs. The website, &lt;a href=&#34;https://corpus-analysis.com&#34;&gt;https://corpus-analysis.com&lt;/a&gt; is essentially a list of over 100 software solutions of different kinds. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The tools mentioned in my diagram are the 
+&lt;a href=&#34;https://github.com/timarkh/tsakorpus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tsakonian Corpus Platform&lt;/a&gt; which depends on 
+&lt;a href=&#34;https://www.elastic.co&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elasticsearch&lt;/a&gt;, 
+&lt;a href=&#34;https://www.sketchengine.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sketch Engine&lt;/a&gt; and 
+&lt;a href=&#34;https://www.sketchengine.eu/nosketch-engine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NoSketch Engine&lt;/a&gt;, and 
+&lt;a href=&#34;http://inl.github.io/BlackLab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blacklab&lt;/a&gt; which is developed by CLARIN-NL and can be found 
+&lt;a href=&#34;https://github.com/INL/BlackLab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on Github&lt;/a&gt;. &lt;!-- presentation on black lab https://www.clarin.eu/sites/default/files/Niestadt_BlackLab.pdf --&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Materiality for Language Artifacts</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/digital-materiality-for-language-artifacts/</link>
+      <pubDate>Thu, 20 Aug 2020 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/digital-materiality-for-language-artifacts/</guid>
+      <description>&lt;p&gt;Several years ago while writing a portion of a paper which related to the use of certain keyboard layouts I started down the literature trail of &amp;ldquo;materiality studies&amp;rdquo;. The broad idea is that humans are impacted by the things in their environment and form special &amp;ldquo;attachments&amp;rdquo; or relationships with those things. So my question was &lt;em&gt;what sort of relationship do minority language users create with their language and how does the tool of a keyboard layout affect that relationship?&lt;/em&gt; We know that the kind of shovel available to someone digging a trench impacts how they approach the crafting of the trench, so in the same way what is the impact of one keyboard layout as opposed to a different one? The same question can be pose about two other &amp;ldquo;objects&amp;rdquo;. For example, consider a language&amp;rsquo;s &lt;em&gt;orthography&lt;/em&gt; many would not consider this an &amp;ldquo;object&amp;rdquo; in the traditional sense, but yet people engage with it as if it were an object. I think this is significant not just for materiality studies but also social anthropology and the social use of language artifacts. The second object or set of objects was the content of a &amp;ldquo;language archive&amp;rdquo;. That is, the materiality of language artifacts. We see that these artifacts are important and do have social relationships as evidenced by the nature of relationships that indigenous communities in the USA have with various archives and speech related artifacts. It is not only these communities, it is broader than that. For example 
+&lt;a href=&#34;https://mukurtu.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mukurtu&lt;/a&gt; a CMS solution for digital engagement with cultural heritage artifacts has some wide spread uptake among indigenous communities outside of the USA. One implication of materiality considerations is that the relationships and specific attitudes about relationships are communicable without actually having material artifacts move across communities. This then has significant relevance for language development and language revitalization studies.&lt;/p&gt;
+&lt;p&gt;The following bibliography is a list of sources I started to collect on the topic.&lt;/p&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;allen-robertson_critically_2018&#34;&gt;
+        &lt;dt&gt;
+          Allen-Robertson
+
+          
+          (2018)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Allen-Robertson&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;James&#34; /&gt;
+    J.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2018&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Critically assessing digital documents: materiality and the interpretative role of software&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Information, Communication &amp;amp; Society&lt;/span&gt;,&amp;#32;21(11)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;1732–1746&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1080/1369118X.2017.1351575&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1080/1369118X.2017.1351575&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;allen-robertson_materiality_2017&#34;&gt;
+        &lt;dt&gt;
+          Allen-Robertson
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Allen-Robertson&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;James&#34; /&gt;
+    J.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The materiality of digital media: The hard disk drive, phonograph, magnetic tape and optical media in technical close-up&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;New Media &amp;amp; Society&lt;/span&gt;,&amp;#32;19(3)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;455–470&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1177/1461444815606368&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1177/1461444815606368&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;appadurai_introduction_1986&#34;&gt;
+        &lt;dt&gt;
+          Appadurai
+
+          
+          (1986)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Appadurai&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Arjun&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;1986&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Introduction: commodities and the politics of value&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Appadurai&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Arjun&#34; /&gt;
+    A.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;The Social Life of Things: Commodities in cultural perspective&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;3–63&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Cambridge, UK&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;Cambridge University Press&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;balbi_digital_2016&#34;&gt;
+        &lt;dt&gt;
+          Balbi,&amp;#32;
+          Delfanti&amp;#32;&amp;amp;&amp;#32;Magaudda
+
+          
+          (2016)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Balbi&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gabriele&#34; /&gt;
+    G.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Delfanti&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alessandro&#34; /&gt;
+    A.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Magaudda&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Paolo&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Digital Circulation: Media, Materiality, Infrastructures. An Introduction&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Italian Journal of Science &amp;amp; Technology Studies&lt;/span&gt;,&amp;#32;7(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;7–15&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;barad_posthumanist_2003-1&#34;&gt;
+        &lt;dt&gt;
+          Barad
+
+          
+          (2003)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Barad&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Karen&#34; /&gt;
+    K.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2003&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Signs: Journal of Women in Culture and Society&lt;/span&gt;,&amp;#32;28(3)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;801–831&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1086/345321&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1086/345321&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;edwards_material_2002&#34;&gt;
+        &lt;dt&gt;
+          Edwards
+
+          
+          (2002)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Edwards&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Elizabeth&#34; /&gt;
+    E.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2002&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Material beings: Objecthood and ethnographic photographs&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Visual Studies&lt;/span&gt;,&amp;#32;17(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;67–75&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1080/14725860220137336&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1080/14725860220137336&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;feenberg_modernity_2003&#34;&gt;
+        &lt;dt&gt;
+          Feenberg
+
+          
+          (2003)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Feenberg&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Andrew&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2003&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Modernity Theory and Technology Studies: Reflections on Bridging the Gap&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;73–104&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;MIT Press&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;gosden_cultural_1999&#34;&gt;
+        &lt;dt&gt;
+          Gosden&amp;#32;&amp;amp;&amp;#32;Marshall
+
+          
+          (1999)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Gosden&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Chris&#34; /&gt;
+    C.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Marshall&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Yvonne&#34; /&gt;
+    Y.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;1999&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The Cultural Biography of Objects&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;World Archaeology&lt;/span&gt;,&amp;#32;31(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;169–178&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1080/00438243.1999.9980439&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1080/00438243.1999.9980439&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;neff_learning_2015&#34;&gt;
+        &lt;dt&gt;
+          Neff
+
+          
+          (2015)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Neff&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gina&#34; /&gt;
+    G.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2015&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Learning from documents: Applying new theories of materiality to journalism&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Journalism: Theory, Practice &amp;amp; Criticism&lt;/span&gt;,&amp;#32;16(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;74–78&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1177/1464884914549294&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1177/1464884914549294&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;wajcman_border_2012&#34;&gt;
+        &lt;dt&gt;
+          Wajcman&amp;#32;&amp;amp;&amp;#32;Jones
+
+          
+          (2012)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Wajcman&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Judy&#34; /&gt;
+    J.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Jones&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Paul K.&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2012&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Border communication: media sociology and STS&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Media, Culture &amp;amp; Society&lt;/span&gt;,&amp;#32;34(6)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;673–690&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1177/0163443712449496&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1177/0163443712449496&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Academic Resources for Ethno-arts in Nigeria</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/ethnoarts-research-in-nigeria/</link>
+      <pubDate>Wed, 03 Dec 2014 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/ethnoarts-research-in-nigeria/</guid>
+      <description>&lt;p&gt;This post is a quick review of the literature before a general language documentation project in Northern Nigeria. &lt;!-- more --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;notable-authors&#34;&gt;Notable Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.cardiff.ac.uk/music/contactsandpeople/profiles/villepastour.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Amanda Villepastour&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vicki Brennan
+&lt;ul&gt;
+&lt;li&gt; 2013. &amp;ldquo;Up Above the River Jordan&amp;rdquo;: Hymns and Historical Consciousness in the Cherubim and Seraphim Churches of Nigeria. Studies in World Christianity 19 (1): 31-49&lt;/li&gt;
+&lt;li&gt; 2012. Take Control: The Labor of Immediacy in Yoruba Christian Music. Journal of Popular Music Studies 24 (4): 411-429.&lt;/li&gt;
+&lt;li&gt; 2012. “Truly we have a good heritage”: Musical Mediations in a Yoruba Christian Diaspora. Journal of Religion in Africa 42 (1): 3-25.&lt;/li&gt;
+&lt;li&gt; 2010. Mediating “The Voice of the Spirit”: Musical and Religious Transformations in Nigeria’s Oil Boom. American Ethnologist 37 (2): 354-370.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;database-indexes&#34;&gt;Database indexes&lt;/h2&gt;
+&lt;h3 id=&#34;africana-periodical-literature-bibliographic-database&#34;&gt;Africana Periodical Literature bibliographic database&lt;/h3&gt;
+&lt;p&gt;Within that database I found the following article which is relevant.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Omibiyi-Obidike, Mosunmola. 1982. 
+&lt;a href=&#34;http://www.africabib.org/rec.php?RID=186503776&amp;amp;DB=p&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ethnomusicology in Nigeria&lt;/a&gt;.Bulletin of the International Committee on Urgent Anthropological and Ethnological Research. 	24. 105-112.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article reviews the current state of etbno-musicological research in Nigeria. The emergence of ethnomusicology in Nigeria is traced; assessed is what has been done so far. Examples of available materials are given and suggestions offered for future development. Approached from a historical viewpoint, the topic is discussed under the headings: the colonial, pre-independence and post-independence periods. Ref.&lt;/p&gt;
+&lt;h2 id=&#34;archives&#34;&gt;Archives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;University of Washington: 
+&lt;a href=&#34;http://music.washington.edu/ethnomusicology-visiting-artists-archive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visiting scholars archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Indiana: 
+&lt;a href=&#34;https://www.indiana.edu/~libarchm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Archives of Traditional Music&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dissertations&#34;&gt;Dissertations&lt;/h2&gt;
+&lt;h3 id=&#34;the-development-of-a-sociocultural-curriculum-in-nigerian-studies--an-integration-of-ethnomusicology-and-social-studies&#34;&gt;The development of a sociocultural curriculum in Nigerian studies : an integration of ethnomusicology and social studies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/2429/23048&#34;&gt;http://hdl.handle.net/2429/23048&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The purpose of this study was to develop a curriculum for ethnomusicological education in Nigerian elementary schools based on the integration of ethnomusicology and social studies. The aims of the curriculum were identified so as to be consistent with the aims of the Nigerian education system and in particular with the recently expressed aims of the Nigerian social studies curriculum which is intended to foster inter- and cross-ethnic communication and understanding and national identity in a country which contains more than 250 ethnic groups. A consideration of appropriate curriculum content led to the identification of five basic concepts in ethnomusicology and five concepts basic to social studies. The integration of these concepts into a unified curriculum was made through an Identity Approach which permitted the identification of relevant cognitive, affective and skill objectives and indicated appropriate learning processes. Three curriculum units were developed in detail and field tested in upper elementary classes in two elementary schools in southeastern Nigeria. This field testing—the classroom phase of the curriculum development— involved 120 students, ten teachers and the administrators of the schools. The staff were given instruction in the curriculum materials and the Identity Approach following which the students were engaged in twenty-four sessions and covered the three units which had been developed. The results of the classroom phase were studied from students&amp;rsquo;, teachers&amp;rsquo; and administrators&amp;rsquo; opinions and recommendations and their responses to four opinionaires. All responses indicated a high degree of student interest in the project and evidence of an increase in inter-and cross-ethnic understanding and respect. Teachers found the project to have contributed to their professional development and both teachers and administrators reported community interest and involvement. Problems identified by the staff and administrators related to inadequate funds and provision of materials or equipment. Administrators also noted the need for involvement by the Ministry of Education if widespread implementation were to be contemplated.&lt;/p&gt;
+&lt;h2 id=&#34;journals&#34;&gt;Journals&lt;/h2&gt;
+&lt;p&gt;These are some journals which have or have have had relevant Ethnomusicology discussions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.jmaa.uct.ac.za/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal of the Musical Arts in Africa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Journal of Popular Music Studies&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://brill.com/view/journals/jra/jra-overview.xml?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal of Religion in Africa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;American Ethnologist&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.euppublishing.com/loi/swc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Studies in World Christianity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Musicology&lt;/li&gt;
+&lt;li&gt;Mission Frontiers&lt;/li&gt;
+&lt;li&gt;The Journal of Pan African Studies&lt;/li&gt;
+&lt;li&gt;Ethnomusicology Review&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.ethnomusicology.org/?Pub_JournalJSTOR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ethnomusicology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pacific Review of Ethnomusicology&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.aawmjournal.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Analytical Approaches to World Music&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Waterman, Christopher Alan. 1990. Jùjú : a social history and ethnography of an African popular music (Chicago studies in ethnomusicology). Chicago: University of Chicago Press.&lt;/li&gt;
+&lt;li&gt;Myers, Helen. 1992. Ethnomusicology: Historical and Regional Studies. New York: W.W. Norton.&lt;/li&gt;
+&lt;li&gt;Post, Jennifer C. 2011. Ethnomusicology: a research and information guide, 2nd edn. New York: Routledge.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The SIL Archive and its Two Sided Markets</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/</link>
+      <pubDate>Sun, 03 Feb 2013 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/</guid>
+      <description>&lt;p&gt;I have been thinking about the language data marketplace (exchange if one prefers), and the role of archives in a world where minority language speakers are also internet users and digital file consumers. In particular I have been thinking about 
+&lt;a href=&#34;http://www.sil.org/resources/language-culture-archives&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIL’s Language and Culture Archive&lt;/a&gt; and the economic model called a 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Two-sided_market&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;two sided market&lt;/a&gt;. So, SIL as “Partners in Language Development” seems to be well situated for analysis using the two sided market analysis (matching linguist and professionals with language development skills, and persons with language development skills with interested parties in developing their language). On the surface, it seems that the SIL archive would also benefit from being the center of exchange between these same two groups. This is the subject of one of my slides for 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/publication/2013-challenges-ramp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;an upcoming presentation&lt;/a&gt;, therefore I sketched out the interactions various SIL staff might have with the archive to see if I could diagram the social interactions around language data in SIL’s two sided market. To my surprise, the two sided nature of access to data in the archive is not supported, thereby blocking a data-centric archiving service. It makes me wonder what the perceived value of the archive really is, and if the perceived value is low, then why bother? What is the return on investment (ROI) for users on either side of the market?&lt;/p&gt;
+&lt;p&gt;I tried to summarize the relationships between the various clients of the archive in the following image.
+&lt;img src=&#34;https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/SIL-Archive-and-its-two-sided-markets.jpg&#34; alt=&#34;SIL Archive and its two multi-sided market representation&#34; title=&#34;SIL Archive and its two multi-sided market representation&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Socio-linguistic Profiles for Language Documentation</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/</link>
+      <pubDate>Thu, 23 Aug 2012 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/</guid>
+      <description>&lt;p&gt;Some researchers in linguistics (in my acquaintance) have been less than excited about the notion of asking for socio-linguistic data or socio-personal data from language informants. The objection has been that it is just bad form. While I am a great advocate of personal privacy (especially in digital formats), I see that one of the most informative parts of the language documentation process is understanding who the speakers being recording or being worked with are. Language variation is fundamentally connected with identity. While crucial elements of how a community segments itself along identity lines may not be known for several years, having a robust socio-cultural or socio-personal questionnaire about the language informants will later help place the documentation data in perspective of the larger waves of variation in the community.&lt;/p&gt;
+&lt;p&gt;This is to say, I am thoroughly convinced that a socio-linguistic questionnaire is important as part of the language documentation process. It might not need to be done first, but it will help researchers and future users of archived material understand where to place these speech samples in context of that speakers society.&lt;/p&gt;
+&lt;p&gt;One outstanding question, and one with a variable answer is how to appropriately approach the questions in the questionnaire. &lt;em&gt;Should the questionnaire be approached formally? Or should it be asked in conversational format? Should it be elicited digitally?&lt;/em&gt; One of the interesting things about eliciting things digitally is that they may have the appearance to be less intrusive because they are appear less formal. While I have no empirical evidence based on years of cross-cultural work, I do have the Facebook phenomena. That is, minority-language users all over the world are using Facebook. And Facebook is collection (and allowing the users to volunteer) and then verifying the users&amp;rsquo; provided data. Granted it is completly probable that many of these minority-language users do not understand or appreciate the impact of Facebook&amp;rsquo;s data elicitation scheme. So while the fact that Facebook is collectiong personally identifying information about people and their online habbits doesn&amp;rsquo;t mean that the field of language documentation doesn&amp;rsquo;t need to grapple with this issue, it does reset the social understanding of what is &amp;ldquo;normal&amp;rdquo;.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-facebook-user-base-graph-from-2010&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/Facebook-mapping-image_hu0aef8681ee99a41516320eb7e1527399_2066885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Facebook User Base Graph from 2010&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/Facebook-mapping-image_hu0aef8681ee99a41516320eb7e1527399_2066885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Facebook User Base Graph from 2010&#34; width=&#34;1600&#34; height=&#34;797&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Facebook User Base Graph from 2010
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Facebook&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Facebook&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Below is a list of elements which Facebook is collecting (it is also collecting log-in locations and times). So, some of these questions are certainly in-scope of what language documenters would minimally like to know about their indigenous language speaking informants and collaborators. Others of these questions are certainly not in-scope for the recommended socio-linguistic profile from language documenters or socio-linguists.&lt;/p&gt;
+&lt;h3 id=&#34;facebook-data-catagories-on-user-profiles&#34;&gt;FaceBook data catagories on user profiles&lt;/h3&gt;
+&lt;p&gt;Data Facebook Collects about users through their profile and activities. from: &lt;a href=&#34;https://www.facebook.com/help/326826564067688&#34;&gt;&lt;a href=&#34;https://www.facebook.com/help/326826564067688&#34;&gt;https://www.facebook.com/help/326826564067688&lt;/a&gt;&lt;/a&gt; on 23 August 2012.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;What info is available?&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;Where can I find it?&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;About Me&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Information you added to the About section of your timeline like relationships, work, education, where you live and more. It includes any updates or changes you made in the past and what’s currently in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Account Status History&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The dates when your account was reactivated, deactivated, disabled or deleted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Address&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Your current address or any past addresses you had on your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Alternate Name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any alternate names you have on your account (ex: a maiden name or a nickname).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Apps&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;All of the apps you subscribe to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Birthday Visibility&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;How your birthday appears on your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Chat&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A history of the conversations you’ve had on Facebook Chat.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Check-ins&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;All of the places you’ve checked into.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info  Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Connections&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The people who have liked your Page or Place, RSVPed to your event, installed your app or checked in to your advertised place within 24 hours of viewing or clicking on an ad or Sponsored Story.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Currency&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Your preferred currency on Facebook. If you use Facebook Payments, this will be used to display prices and charge your credit cards.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Current City&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The city you added to the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Date of Birth&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The date you added to Birthday in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Deleted Friends&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The people you’ve unfriended.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Education&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you added to Education in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Emails&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Email addresses added to your account (even those you may have removed).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Events&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Events you’ve joined or been invited to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Family&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Friends you’ve indicated are family members.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Favorite Quotes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Information you’ve added to the Favorite Quotes section of the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Friend Requests&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pending sent and received friend requests.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Friends&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of your friends.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Gender&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The gender you added to the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Groups&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of groups you belong to on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hidden from News Feed&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any friends, apps or pages you’ve hidden from your News Feed.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hometown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The place you added to hometown in the About section of your timeline (profile).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;IP Addresses&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of addresses where you’ve logged into your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Last Location&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The last location associated with an update.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Other’s Posts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Posts, photos or other content you’ve liked.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Your Posts from others&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on your own posts, photos or other content.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Other Sites&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Likes you’ve made on other sites off of Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Locale&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The language you see on Facebook is based on where you’re located.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Logins&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IP address, date and time associated with logins to your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Logouts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IP address, date and time associated with logouts from your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Messages&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Archive of messages you’ve sent and received on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The name on your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Name Changes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any changes you’ve made to the original name you used when you signed up for Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Networks&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Networks (affiliations with schools or workplaces) that you belong to on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Notes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any notes you’ve written and published to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Notification Settings&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of all your notifications and whether you have email and text enabled or disabled for each.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Pages You Admin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of pages you admin.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Phone Numbers&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mobile phone numbers you’ve added to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Photos&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any photos you’ve uploaded to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Physical Tokens&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Badges you’ve added to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Pokes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of who’s poked you and who you’ve poked.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Political Views&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you added to Political Views in the About section of timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Your Posts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anything you posted to your own timeline, like photos, videos and status updates.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Posts by Others&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anything you posted to someone else’s timeline (profile), like photos, videos and status updates.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Recent Activities&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Actions you’ve taken and interactions you’ve recently had.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Registration Date&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The date you joined Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Religious Views&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The information you added to Religious Views in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Screen Names&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The screen names you’ve added to your account, and the service they’re associated with. You can also see if they’re hidden or visible on your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Searches&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Searches you’ve made on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Spoken Languages&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The languages you added to Spoken Languages in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Status Updates&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any status updates you’ve posted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Subscribers&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of people who are subscribed to you.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Subscriptions&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of people you subscribe to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Tag Suggestions Template&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A unique number based on a comparison of the photos you&amp;rsquo;re tagged in. We use this template to help your friends tag you in the photos they upload.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Work&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you’ve added to Work in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Videos&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Videos you’ve posted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+Bibliography called, but no references
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>SEO Considerations for Linguistic Resources</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/seo-considerations-for-linguistic-resources/</link>
+      <pubDate>Sun, 19 Feb 2012 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/seo-considerations-for-linguistic-resources/</guid>
+      <description>&lt;p&gt;SEO for standard websites is pretty straight forward. I happen to be working on a website redesign (in Drupal) which presents Linguistic resources both published and unpublished. I recently came across two specialized SEO options which are useful:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Integration with Google Scholar&lt;/li&gt;
+&lt;li&gt;Aggregation with 
+&lt;a href=&#34;http://www.language-archives.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OLAC&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;google-scholar&#34;&gt;Google Scholar&lt;/h3&gt;
+&lt;p&gt;Google Scholar’s page on getting data into Google Scholar: &lt;a href=&#34;http://scholar.google.com/intl/en/scholar/inclusion.html&#34;&gt;http://scholar.google.com/intl/en/scholar/inclusion.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://drupal.org/project/biblio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biblo&lt;/a&gt;, a module for drupal which handles bibliographic data had something 
+&lt;a href=&#34;http://drupal.org/node/641580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This blog also has an interesting write up: &lt;a href=&#34;http://blog.reallywow.com/archives/123&#34;&gt;http://blog.reallywow.com/archives/123&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;olac-search&#34;&gt;OLAC Search&lt;/h3&gt;
+&lt;p&gt;This means implementing the 
+&lt;a href=&#34;https://www.openarchives.org/pmh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OAI-PMH protocol&lt;/a&gt; so that OLAC can harvest it.
+I am not sure how this is done exactly… but here is the link: &lt;a href=&#34;http://www.language-archives.org/&#34;&gt;http://www.language-archives.org/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nonprofit Managment | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/nonprofit-managment/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/nonprofit-managment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nonprofit Managment</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Mon, 06 Dec 2021 17:00:12 -0700</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Nonprofit Managment</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/nonprofit-managment/</link>
+    </image>
+    
+    <item>
+      <title>Nonprofits and Privacy Practices</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-nonprofits-and-privacy-practices/</link>
+      <pubDate>Mon, 06 Dec 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-nonprofits-and-privacy-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Funding Language Documentation</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/funding-language-documentation/</link>
+      <pubDate>Fri, 11 Mar 2016 18:20:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/funding-language-documentation/</guid>
+      <description>&lt;p&gt;Just a quick thought.&lt;/p&gt;
+&lt;p&gt;A perception based loosely on facts:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A lot of language documentation money gets pushed towards endangered languages or languages with very few speakers. Is often endowed upon the aspiring academic, who may be promising to create a grammar for a previously un-written or undescribed language.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sometimes I have the opportunity to read grammars. I read them and have questions about how the described data sounds. Both In context and as elicited. To that end, I wonder if it wouldn&amp;rsquo;t be money better spent for &lt;em&gt;language documentation&lt;/em&gt; and benefit to the academy, if organizations funding language documentation research &lt;em&gt;for the academy&lt;/em&gt; would rather fund the collection of audio texts and video texts of sentences and phrases already described in grammars. In a way—provide the support that modern grammars should have.&lt;/p&gt;
+&lt;p&gt;That is, I find that often the state of grammars about languages (often about African languages) are so fraught with errors, or jaded with theoretical disposition, that it would be immensely helpful if these grammars were supported with audio texts. It seems that the focus on small, often dying, languages supports funding requirments which necesitate an impetus of &amp;ldquo;adequate&amp;rdquo; endangerment for funding. It seems to show a pre-disposition among funders which spurrs on the collection of speech specimens of some exotic language. While the collection of rare specimens is good in some sense, such as the documentation of the diversity of human cognition, it is not always the most gentrifying for the language speakers, nor is it really the most helpful for academic pursuits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curation workflow networks at the Language &amp; Culture Archives</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/lca-curation-workflow-network/</link>
+      <pubDate>Thu, 23 May 2013 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/lca-curation-workflow-network/</guid>
+      <description>&lt;p&gt;This network diagram shows the flow of resources curated by different curator for different collections at the Language &amp;amp; Culture Archives. Clearly some curators are busier than others, and some collections recive more submissions. The network graph was created using 
+&lt;a href=&#34;https://gephi.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gephi&lt;/a&gt;. This particular graph did not make it into the Hawaiʻi version of the poster, 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/publication/2013-challenges-ramp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;but did make it into the UND version of the poster&lt;/a&gt;. If I were to try and visualize this data again I might try and use a 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Sankey_diagram&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sankey diagram&lt;/a&gt;. I would seperate out submissions (by file), curators (by person), and collections.&lt;/p&gt;
+&lt;h3 id=&#34;network-graph-of-lca-workflow-curation-data&#34;&gt;Network graph of LCA workflow curation data.&lt;/h3&gt;
+
+
+
+  
+  
+  
+
+&lt;figure itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/lca-curation-workflow-network/NetworkGraph-LCA_hu9046408fde021e7ac81feb07247ffa8d_451744_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/lca-curation-workflow-network/NetworkGraph-LCA_hu9046408fde021e7ac81feb07247ffa8d_451744_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Network Diagram&#34; width=&#34;984&#34; height=&#34;599&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

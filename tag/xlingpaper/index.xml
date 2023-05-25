@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XLingPaper | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/xlingpaper/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/xlingpaper/index.xml" rel="self" type="application/rss+xml" />
+    <description>XLingPaper</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Thu, 08 Dec 2022 14:35:45 +0100</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/xlingpaper/</link>
+    </image>
+    
+    <item>
+      <title>Wishlist for XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/wishlist-for-xlingpaper/</link>
+      <pubDate>Thu, 08 Dec 2022 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/wishlist-for-xlingpaper/</guid>
+      <description>&lt;p&gt;I am typesetting a document which requires two things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to typeset code&lt;/li&gt;
+&lt;li&gt;to typeset definition lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two things are possible to do in beautiful ways with LaTeX, a foundational tool for XLingPaper. However, the UI and packages in XLingPaper do not support XML Code (the type I most frequently use), and do not allow full access to styling definition lists.&lt;/p&gt;
+&lt;p&gt;My solution is to typeset these additional elements using Overleaf and then to include them in my document as a PDF within a figure. I have included some links here for reference.&lt;/p&gt;
+&lt;h3 id=&#34;typesetting-code&#34;&gt;Typesetting Code&lt;/h3&gt;
+&lt;p&gt;It seems that the best typesetting code package for my needs is: (listings](&lt;a href=&#34;https://ctan.org/pkg/listings?lang=en&#34;&gt;https://ctan.org/pkg/listings?lang=en&lt;/a&gt;) I still need to figure out how to make my code look the way I want including the fonts needed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See discussion 
+&lt;a href=&#34;https://tex.stackexchange.com/questions/10255/xml-syntax-highlighting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on stackexchange&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And also 
+&lt;a href=&#34;https://mirror.foobar.to/CTAN/macros/latex/contrib/listings/listings.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;primary documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interesting-fonts&#34;&gt;Interesting fonts&lt;/h4&gt;
+&lt;p&gt;Several things to consider is that I need to have a wide range of characters in my XML and I also need it to look like computer code. On the practical side, 
+&lt;a href=&#34;https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F#If_you.27re_using_XeLaTeX_or_LuaLaTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;how to add fonts to Overleaf&lt;/a&gt; is important.&lt;/p&gt;
+&lt;p&gt;Fonts in consideration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/dejavu-fonts/dejavu-fonts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DejaVu Sans Mono&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go Mono&lt;/li&gt;
+&lt;li&gt;FreeMono&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://fonts.google.com/specimen/Roboto&amp;#43;Mono&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Roboto Mono&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/adobe-fonts/source-code-pro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code Pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcefoundry.org/hack/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://input.djr.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Input&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://design.ubuntu.com/font/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Monospace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/andreberg/Meslo-Font&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meslo LG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;definition-lists&#34;&gt;Definition Lists&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;List examples can be seen in 
+&lt;a href=&#34;https://www.overleaf.com/latex/templates/testing-tex4ebook-to-generate-basic-epubs/fdthzgghvbcd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this template&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;But clearer code examples are available 
+&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/List_Structures&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on Wikipedia&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;better-title-pages&#34;&gt;Better Title Pages&lt;/h3&gt;
+&lt;p&gt;One could always wish for better title pages in XLingPaper. But the existing solution is to create these in another application and then import them to the final PDF. It doesn&amp;rsquo;t mean that LaTeX can&amp;rsquo;t be used. I like 
+&lt;a href=&#34;https://www.latextemplates.com/template/academic-title-page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XLingPaper&#39;s use of TeX technologies</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2022-xlingpapers-use-of-tex-technologies/</link>
+      <pubDate>Thu, 31 Mar 2022 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2022-xlingpapers-use-of-tex-technologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TUG 2021 Abstracts</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-use-of-tex-technologies/</link>
+      <pubDate>Fri, 31 Dec 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-use-of-tex-technologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLingPaper’s use of TeX Technologies</title>
+      <link>https://hughandbecky.us/Hugh-CV/talk/2021-xlingpapers-use-of-tex-technologies/</link>
+      <pubDate>Fri, 06 Aug 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/talk/2021-xlingpapers-use-of-tex-technologies/</guid>
+      <description>&lt;div id=&#34;watch&#34;&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/teRBJA_iiY0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some Works Created in XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-annotated-bibliography/</link>
+      <pubDate>Mon, 31 May 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-annotated-bibliography/</guid>
+      <description>&lt;h2 id=&#34;abstract-bibliography&#34;&gt;Abstract Bibliography&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/c65nf5mz&#34;&gt;
+        &lt;dt&gt;
+          Simons&amp;#32;&amp;amp;&amp;#32;Black
+
+          
+          (2008)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Simons&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gary F&#34; /&gt;
+    G.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2008&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Third Wave Writing and Publishing&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;SIL Forum for Language Fieldwork&lt;/span&gt;,&amp;#32;2009(005)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;1–15&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.sil.org/resources/publications/entry/7783&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.sil.org/resources/publications/entry/7783&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/ki9fl25p&#34;&gt;
+        &lt;dt&gt;
+          Black&amp;#32;&amp;amp;&amp;#32;Black
+
+          
+          (2012)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Cheryl A.&#34; /&gt;
+    C.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2012&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Grammars for the people, by the people, made easier using PAWS and XlingPaper&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Nordhoff&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Sebastian&#34; /&gt;
+    S.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Electronic Grammaticography&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;103–128&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Honolulu, Hawai&amp;#39;i&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;University of Hawai&amp;#39;i Press&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/4532&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/4532&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/vxp4xzdi&#34;&gt;
+        &lt;dt&gt;
+          Black
+
+          
+          (2009)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2009&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Writing Linguistic Papers in the Third Wave&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;SIL Forum for Language Fieldwork&lt;/span&gt;,&amp;#32;2009(004)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;11 pages&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.sil.org/resources/publications/entry/7790&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.sil.org/resources/publications/entry/7790&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Converting FLExText Files to XLingPaper Interlinear Texts</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/flextext-to-xlingpaper/</link>
+      <pubDate>Fri, 07 May 2021 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/flextext-to-xlingpaper/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume that we have a generous friend who has gifted us an interlinearized text from FLEx with morpheme level glossing in the format of &lt;code&gt;.flextext&lt;/code&gt;. (&lt;code&gt;.flextext&lt;/code&gt; is an XML formated file.) And lets say we want to type set that file in XLingPaper. How can we do that?&lt;/p&gt;
+&lt;p&gt;One might be tempted to import the &lt;code&gt;.flextext&lt;/code&gt; file into FLEx so that it can be re-exported with the XLingPaper exports from the FLEx menus, but this is not really a viable option becasue if we import that FLExText to an empty FLEx database, FLEx will not import the morpheme level annotations — it will recognize the free-translation and the baseline text. Bascially anything which is related to the lexicon part of the database is not viewable in the imported database.&lt;/p&gt;
+&lt;p&gt;However all is not lost we can use the XSLT transforms from FLEx by copying them to a usable location as the data start of those transforms is also &lt;code&gt;.flextext&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I run linux. On the command line I used &lt;code&gt;locate&lt;/code&gt; to find the XSL file titled &lt;code&gt;xml2XLingPapConcatMorphemes.xsl&lt;/code&gt; with &lt;code&gt;$ locate xml2XLingPapConcat&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It appeared on my comptuer at &lt;code&gt;/usr/share/fieldworks/Language Explorer/Export Templates/Interlinear/xml2XLingPapConcatMorphemes.xsl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To run these transforms I was advised to use Saxon. Saxon is already installed on linux if XLingPaper is installed. Saxon comes with XMLMind.&lt;/p&gt;
+&lt;p&gt;I also used &lt;code&gt;locate&lt;/code&gt; to find the Saxon file with &lt;code&gt;$ locate saxon&lt;/code&gt;
+Mine was located at: &lt;code&gt;/opt/xxe-perso-7_6_0/bin/saxon.jar&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The basic syntax for operating Saxon is as follows:
+&lt;code&gt;java -cp &amp;quot;wherever_saxon.jar_is/saxon.jar&amp;quot; com.icl.saxon.StyleSheet the_flextext_file path_to_the XSLT_files/\xml2XLingPapConcatMorphemes.xsl  &amp;gt; the_XLingPaper_output_file.xml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I then needed to change where I told Saxon the files were located. In my case I coppied the &lt;code&gt;.xsl&lt;/code&gt; files to their own folder within my project folder for simpler operation.&lt;/p&gt;
+&lt;p&gt;There are other &lt;code&gt;.xsl&lt;/code&gt; files for transforming FLExTexts to interlinear files in XLingPaper. These can be seen by using &lt;code&gt;locate&lt;/code&gt; or in the official repo:
+Check for the other files in the official FLEx repo at: &lt;a href=&#34;https://gerrit.lsdev.sil.org/admin/repos/FieldWorks,&#34;&gt;https://gerrit.lsdev.sil.org/admin/repos/FieldWorks,&lt;/a&gt; or specifically look at XLingPaper export xsl transforms as discussed in their origional merge into the FLEx project: &lt;a href=&#34;https://gerrit.lsdev.sil.org/c/FieldWorks/+/1961&#34;&gt;https://gerrit.lsdev.sil.org/c/FieldWorks/+/1961&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PDFs from Webpages</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/pdfs-of-webpages/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/pdfs-of-webpages/</guid>
+      <description>&lt;p&gt;In the course of writing a paper I needed to take screen shots of webpages and include those as figures in the paper. I could take a screenshot save it as a .png or .jpg and call it good. However these sorts of images do not provide a great deal of resolution and do not look clean in a published paper. Especially when dealing with screenshots as the resolution is not very high — at least in my experince. I could print the web page to PDF but a post-script style PDF would basically create an image and wrap it in a PDF. This is not really any better than the screenshot solution.&lt;/p&gt;
+&lt;p&gt;With a quick internet search I uncovered two potential solutions: 
+&lt;a href=&#34;https://wkhtmltopdf.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wkhtmltopdf&lt;/a&gt; and 
+&lt;a href=&#34;http://cssbox.sourceforge.net/webvector/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WebVector/CSSBox&lt;/a&gt;. I decided to try out &lt;code&gt;wkhtmltopdf&lt;/code&gt;. It was simple and easy to install on linux. It produces great resutls with a bit of tinkering (
+&lt;a href=&#34;https://wkhtmltopdf.org/usage/wkhtmltopdf.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manual here&lt;/a&gt;). Though it should be noted that &lt;code&gt;wkhtmltopdf&lt;/code&gt; is based on webkit which has mostly not seen progressive development. I also tried WebVector (specifically on the website Pangloss) and it did not produce expected results.&lt;/p&gt;
+&lt;p&gt;Playing around with wkhtmltopdf I was able to produce a PDF of several webpages I was looking to include. I used the following workflow after install:&lt;/p&gt;
+&lt;p&gt;I adjusted my screen size to fit the type of display I wanted. Then I measured it via 
+&lt;a href=&#34;https://whatismyviewport.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;whatismyviewport.com&lt;/a&gt;. I took that and made it my viewport size. Then I played around with my output settings for the PDF. I knew that I wanted really low margins because I was going to embed this PDF as a figure in another PDF. Then I continued to play around with the page size to find the cut-off point between the content I wanted and the footer.
+In the end the code I used looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wkhtmltopdf --no-print-media-type --viewport-size 1100 --page-height 6.25in --page-width 7.75in -T 1mm -B 1mm -R 1mm -L 1mm --load-media-error-handling skip --enable-javascript --javascript-delay 2000 https://www.sil.org/resources/archives/52216 sil-item.pdf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wkhtmltopdf --no-print-media-type --viewport-size 1100 --page-height 8in --page-width 7.75in -T 1mm -B 1mm -R 1mm -L 1mm --load-media-error-handling skip --enable-javascript --javascript-delay 2000 https://scholarspace.manoa.hawaii.edu/handle/10125/30788 K-item.pdf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wkhtmltopdf --no-print-media-type --viewport-size 1100 --page-height 8.75in --page-width 7in -T 1mm -B 1mm -R 1mm -L 1mm --load-media-error-handling skip --enable-javascript --javascript-delay 2000 http://www.language-archives.org/item/oai:sil.org:52216 olac-item1.pdf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This produced a nice PDF. But I needed to get rid of the second page. I did this with PDF-Shuffler and just deleted the second page.
+I wanted to include the final PDF in XLingPaper which uses XeLaTeX on the back end. However one of the current dependencies only allows PDFs of version 1.4 or older. So I had to &amp;ldquo;back version&amp;rdquo; the PDF version to 1.4. I the following code (adjustin for file names) to do that.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gs -q -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -o out.pdf in.pdf&lt;/code&gt; &lt;!-- https://superuser.com/questions/25598/linux-pdf-version-converter --&gt;
+My suspicion though is that passing the PDF through GhostSript also removes some of the mark-up features which already exist in the PDF via &lt;code&gt;wkhtmltopdf&lt;/code&gt;. This may include some of the links and embedded fonts — but on this last point I am not 100 percent sure.&lt;/p&gt;
+&lt;p&gt;In an earlier version of this workflow I was using standard size pages (A4, A3, etc.). Doing so required that I then cut the PDF so that the usable portion was able to usefully be scaled in xlingpaper. To do this I used 
+&lt;a href=&#34;https://pdfresizer.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdfresizer.com&lt;/a&gt; to reduce the physical dimensions of pdf paes. However this was not necessary to maintain because I was able to specify the dimentions I needed directly in &lt;code&gt;wkhtmltopdf&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reference Types in Zotero, BibTeX, and XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/reference-types-in-zotero-bibtex-and-xlingpaper/</link>
+      <pubDate>Sat, 10 Oct 2020 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/reference-types-in-zotero-bibtex-and-xlingpaper/</guid>
+      <description>&lt;p&gt;While working across systems sometimes I find this chart helpful. It aligns Zotero&amp;rsquo;s item types with how those item types are understood (with respect to exact equivalents) in BibTeX an XLingPaper. Note that per the instructions of BibTeX &lt;code&gt;@misc&lt;/code&gt; &amp;ldquo;miscellaneous&amp;rdquo; should be used for all items not otherwise specified.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Zotero types&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;BibTeX Types&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;XLingPaper Types&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;artwork&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;attachment&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;audioRecording&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bill&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;blogPost&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;book&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;book&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;book&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bookSection&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;incollection&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Paper in a collection&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;case&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;computerProgram&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;misc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;conferencePaper&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;paper presented at a conference&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dictionaryEntry&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;document&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;email&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;encyclopediaArticle&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;film&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;forumPost&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hearing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;instantMessage&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;interview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;journalArticle&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;article&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;article&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;letter&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;magazineArticle&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;manuscript&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;newspaperArticle&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;note&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;patent&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;podcast&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;presentation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;radioBroadcast&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;report&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;techreport&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;statute&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;thesis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;mastersthesis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;thesis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tvBroadcast&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;videoRecording&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;webpage&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;webPage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;phdthesis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;dissertation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;fieldNotes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;inproceedings/conference&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Paper in a proceedings volume&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;booklet&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;image&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;inbook&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;manual&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;misc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;unpublished&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XLingPaper Upgrade on Linux</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/xlingpaper-upgrade-on-linux/</link>
+      <pubDate>Tue, 30 Oct 2018 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/xlingpaper-upgrade-on-linux/</guid>
+      <description>&lt;p&gt;I never remember how to upgrade XMLMind on Linux. Here are my notes on how to do it.&lt;/p&gt;
+&lt;p&gt;I follow the install directions here: &lt;a href=&#34;http://www.xmlmind.com/xmleditor/_distrib/doc/help/installing_xxe.html&#34;&gt;http://www.xmlmind.com/xmleditor/_distrib/doc/help/installing_xxe.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Generally, the instructions follow like those below for version 8:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Make sure that the Java™ bin/ directory is referenced in the $PATH and, at the same time, check that the Java™ runtime in the $PATH has the right version:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A command like the following will show the java version number.
+&lt;code&gt;UserName$ java -version&lt;/code&gt; java version &amp;ldquo;10.0.1&amp;rdquo; 2018-04-17 Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10) Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)&lt;/p&gt;
+&lt;p&gt;Unpack the XXE distribution inside any directory you want:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;
+$ cd
+$ unzip xxe-pro-8_2_0.zip
+$ ls xxe-pro-8_2_0
+addon/
+bin/
+demo/
+doc/
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;XXE is intended to be used directly from the xxe-pro-8_2_0/ directory. That is, you can start XXE by simply executing:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;$ xxe-pro-8_2_0/bin/xxe &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I can never remember what to do next. Here is the solution:&lt;/p&gt;
+&lt;p&gt;On my system &lt;code&gt;xxe &amp;amp;&lt;/code&gt; is sym-linked to the version that I want to be primary. This is done in &lt;code&gt;/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So then there is a script in &lt;code&gt;/usr/local/bin&lt;/code&gt; which points back to the application (I don&amp;rsquo;t really know as I didn&amp;rsquo;t write it), but the point is that the symlink needs to be adjusted and can be adjusted with a combination of these tips:&lt;/p&gt;
+&lt;p&gt;Find out which version of &lt;code&gt;xxe&lt;/code&gt; the item in &lt;code&gt;local/bin&lt;/code&gt; is pointed at with the following command:
+&lt;code&gt;ls -l xxe&lt;/code&gt; Then if you want to adjust the versions one needs to over write the existing symlink. Or create a new one. In my case I changed &lt;code&gt;xxe&lt;/code&gt; to &lt;code&gt;xxe7&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; &lt;em&gt;Do not adjust &lt;code&gt;~/.bash_profile&lt;/code&gt; as that will only mess things up&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I did this once with &lt;code&gt;export $PATH=/absolute/path/to/xxe/&lt;/code&gt;and then my machine couldn&amp;rsquo;t find &lt;code&gt;/usr/local/bin&lt;/code&gt; any more.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If one wants an &lt;code&gt;xxe&lt;/code&gt; command then use that, but for me so that I don&amp;rsquo;t have to update the command all the time I use &lt;code&gt;xxe7&lt;/code&gt; for XMLMind version 7 and &lt;code&gt;xxe8&lt;/code&gt; and so forth.&lt;/p&gt;
+&lt;p&gt;then symlink like so:
+&lt;code&gt;cd /usr/local/bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;/usr/local/bin$&lt;/code&gt;&lt;/strong&gt;&lt;code&gt; sudo ln -s /home/username/path/to/XMLMind/xxe-version-folder/bin/xxe /usr/local/bin/xxe8&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Metadata and the Target Audience</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/metadata-and-the-target-audience/</link>
+      <pubDate>Sat, 31 Mar 2012 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/metadata-and-the-target-audience/</guid>
+      <description>&lt;p&gt;I have been reviewing applications for library, research and citation metadata. Things like 
+&lt;a href=&#34;http://www.w3.org/RDF/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RDF&lt;/a&gt;, 
+&lt;a href=&#34;http://www.loc.gov/standards/mets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;METS&lt;/a&gt;, 
+&lt;a href=&#34;http://dublincore.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dublin Core&lt;/a&gt;, 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/RIS_%28file_format%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.ris&lt;/a&gt; and 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/BibTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BibTeX&lt;/a&gt;. In some ways these things are related – they are metadata. But in other ways they are different animals.&lt;/p&gt;
+&lt;p&gt;In my search I have found two very different classes of metadata schemes based on two different kinds of end users.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;End users who are machines (Metadata for interoperability or resource discovery).&lt;/li&gt;
+&lt;li&gt;End users who are human.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;End Users who are machines are usually concerned with the interoperability of metadata for search, storage, and advertisement. These kinds of systems usually are engineered to use metadata schemes like Dublin Core, MODS and METS. Often these systems are able to communicate high level metadata in generic categories.&lt;/p&gt;
+&lt;p&gt;However, &lt;em&gt;End Users&lt;/em&gt; who are human are usually concerned with purposing the metadata in creative processes. And in general, desire to use and appropriate more specific elements of metadata. This is especially true with citation metadata. Students and researchers want to be able to build bibliographies with the data. Additionally, Many of the more detaied metadata elements, that is, overly detailed from a &lt;em&gt;Dublin Core&lt;/em&gt; perspective (i.e. can include geo-location name, or a Latitude value or an Altitude value), could be classified as technical metadata according to the first listing below. However, technical metadata is especially relevant for users of audio objects and graphic objects (photos and moving picture objects).&lt;/p&gt;
+&lt;p&gt;Of those users looking to use metadata to construct bibliographies and citations, they are often looking for that metadata in the interchange formats of either &lt;em&gt;BibTeX&lt;/em&gt;, &lt;em&gt;Endnote XML&lt;/em&gt; or &lt;em&gt;.ris&lt;/em&gt;. Of those users interested in finding things based on technical metadata, such as audio technicians, linguists, ethnographers, and ethnomusicologists, they are looking to use the metadata and the object it describes in a workflow. And in order to purpose that media object as they need to, those users need to make sure that the digital object fits their workflow criteria.&lt;/p&gt;
+&lt;p&gt;This discrepancy between &lt;em&gt;Metadata for System to System transmission&lt;/em&gt; and &lt;em&gt;Metadata for End Users&lt;/em&gt; creates a bit of a complext situation, in that delivery systems need to consider both sets of users.&lt;/p&gt;
+&lt;h2 id=&#34;which-information-to-record&#34;&gt;Which information to record?&lt;/h2&gt;
+&lt;p&gt;Often times no single metadata schema (set of contoled vocabularies and fields) will fill all the kinds of information a project or managment practice requires to be recorded. This means that project staff will need to choose which metadata fields best fit their situation from a variety of schemas. The result is a home-grown schema called an &lt;em&gt;application profile&lt;/em&gt;. JISC Digital Media from the UK has a really good article on what how to select elements and their purpose in your application profile and workflow.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; In general though one needs to work through the following catagories and ask questions in each phase to determine if which information needs to be retained in each step. In this sense then, structured metadata is divided into four broad categories that contain information which is defined by the schemas or extension schemas being used:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Structural metadata&lt;/strong&gt;. This is information about the structural relationship with other parent or family files and how the metadata relates to the file.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Descriptive metadata&lt;/strong&gt;. This is information about the content of the digital file. The information recorded here is more curatorial than technical, and is the primary portal for users to access your resource. Data including File name, creator, associated dates, description, summary, locations etc should be standardised using a interoperable schema such as Simple &lt;abbr title=&#34;Dublin Core&#34;&gt;DC&lt;/abbr&gt; or &lt;abbr title=&#34;Metadata Object Description Schema&#34;&gt;MODS&lt;/abbr&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Administrative metadata&lt;/strong&gt;. This contains information about the analogue source material, the rights of the content and any preservation information. Information here provides support to the managerial team of the collection and researchers in organising and providing access to the resource. Information about rights, ownership and usage restrictions is also kept within the administrative metadata.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technical metadata&lt;/strong&gt;. To make good use of the digital object data is required which describes the technical qualities of the physical and/or digital object. This includes information such as channel number, bit-depth, sampling rate, and the unique file identifier. AudioMD, is an &lt;abbr title=&#34;Extensible Mark-up Language&#34;&gt;XML&lt;/abbr&gt; based schema that has been designed primarily for this purpose. It is soon to be superseded by AES-X098, developed by the Audio Engineering Society, upon its formal release.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Though it is possible to separate out some finer grained metadata categories. Consider the differences from above and those below which were part of my post about 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/post/metadata-dynamics-for-linguistic-and-sociolinguistic-corpora/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metadata for Socio-linguistic Corpora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Descriptive meta-data&lt;/strong&gt;: supports discovery, attribution and identification of resources created.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Administrative meta-data&lt;/strong&gt;: supports management, preservation, and appropriate usage of resources created.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Technical&lt;/strong&gt;: About the machinery used to create the resource and the technical aspects of the resource.&lt;!--Make sure these two are supoints --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use and Rights&lt;/strong&gt;: Copyright, license and moral ownership of the items.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structural meta-data&lt;/strong&gt;: maintains relationships between the parts of complex, multi-part resources 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#spanne_metadata_2008&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Joan&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Spanne&lt;/span&gt;&lt;/span&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2008&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Spanne&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Joan&#34; /&gt;
+    J.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2008&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Metadata: Why, What and How (the “Who” is You)&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Dallas, Texas, USA, Graduate Institute of Applied Linguistics&#34;&gt;&lt;/span&gt;
+
+&lt;/span&gt;&lt;/span&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Situational&lt;/strong&gt;: this is metadata which describes the events around the creation of the work. Asking questions about the social setting, or the precursory events. It follows ideas put forward by 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#bergqvist_role_2007&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Henrik&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Bergqvist&lt;/span&gt;&lt;/span&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2007&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Bergqvist&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Henrik&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2007&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The role of metadata for translation and pragmatics in language documentation&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation and Description&lt;/span&gt;,&amp;#32;4&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;163–173&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.elpublishing.org/PID/055&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.elpublishing.org/PID/055&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use metadata&lt;/strong&gt;: metadata collected from or about the users themselves (e.g. user annotations, number of people accessing a particular resource) 
+
+
+
+
+
+
+
+&lt;span class=&#34;hugo-cite-intext&#34;
+        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#joint_information_systems_committee_jisc_cross-media_2010&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Joint Information Systems Committee (JISC)&lt;/span&gt;&lt;/span&gt;,&amp;#32;
+      &lt;span itemprop=&#34;datePublished&#34;&gt;2010&lt;/span&gt;&lt;/a&gt;)
+    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/WebPage&#34;
+      data-type=&#34;webpage&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Joint Information Systems Committee (JISC)&lt;/span&gt;&lt;/span&gt;(&lt;span itemprop=&#34;datePublished&#34;&gt;2010,&amp;#32;3/14&lt;/span&gt;).&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.jiscdigitalmedia.ac.uk/crossmedia/advice/an-introduction-to-metadata/&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.jiscdigitalmedia.ac.uk/crossmedia/advice/an-introduction-to-metadata/&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/span&gt;&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In that post I also said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think it is only fair to point out to archivist and to librarians that linguists and language documenters do not see a difference between descriptive and non-descriptive metadata in their workflows. That is sometimes we want to search all the corpora by licenses or by a technical attribute. This elevates the these attributes to the function of discovery metadata. It does not remove the function of descriptive metadata from its role in finding things but it does functionally mean that the other metadata is also viable as discovery metadata.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;compare-and-match-three&#34;&gt;Compare and match three&lt;/h2&gt;
+&lt;p&gt;My goal here is to compare 
+&lt;a href=&#34;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doublin Core&lt;/a&gt; with 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/BibTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BibTeX&lt;/a&gt;. There is a nice cross-walk technology for BibTex resources 
+&lt;a href=&#34;http://bibtexml.sourceforge.net/details.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in source-forge&lt;/a&gt; with some 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/RIS_%28file_format%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.ris&lt;/a&gt; support.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; In terms of resources there is a list of mappings&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; not .ris or Bibtex to DC but many other crosswalks. I started my own Crosswalk work in Google Spreadsheets 
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/15giGn4vL3yhV1gdbnfSfUH5vJfg9Wux9s0AZQZztZD8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. I started with roles but also have an interest in item types for use in XLingPaper.&lt;/p&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;bergqvist_role_2007&#34;&gt;
+        &lt;dt&gt;
+          Bergqvist
+
+          
+          (2007)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Bergqvist&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Henrik&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2007&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The role of metadata for translation and pragmatics in language documentation&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation and Description&lt;/span&gt;,&amp;#32;4&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;163–173&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.elpublishing.org/PID/055&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.elpublishing.org/PID/055&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;joint_information_systems_committee_jisc_cross-media_2010&#34;&gt;
+        &lt;dt&gt;
+          Joint Information Systems Committee (JISC)
+
+          
+          (2010)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/WebPage&#34;
+      data-type=&#34;webpage&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Joint Information Systems Committee (JISC)&lt;/span&gt;&lt;/span&gt;(&lt;span itemprop=&#34;datePublished&#34;&gt;2010,&amp;#32;3/14&lt;/span&gt;).&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.jiscdigitalmedia.ac.uk/crossmedia/advice/an-introduction-to-metadata/&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.jiscdigitalmedia.ac.uk/crossmedia/advice/an-introduction-to-metadata/&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;spanne_metadata_2008&#34;&gt;
+        &lt;dt&gt;
+          Spanne
+
+          
+          (2008)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Spanne&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Joan&#34; /&gt;
+    J.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2008&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Metadata: Why, What and How (the “Who” is You)&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Dallas, Texas, USA, Graduate Institute of Applied Linguistics&#34;&gt;&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;JISC Digital Media. 07 January 2010. Metadata and Audio Resources. &lt;a href=&#34;http://www.jiscdigitalmedia.ac.uk/audio/advice/metadata-and-audio-resources&#34;&gt;http://www.jiscdigitalmedia.ac.uk/audio/advice/metadata-and-audio-resources&lt;/a&gt; 
+&lt;a href=&#34;http://web.archive.org/web/20120125214611/http://www.jiscdigitalmedia.ac.uk/audio/advice/metadata-and-audio-resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; [Accessed: 19 March 2012] &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.feedforall.com/dublin-core.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feed for All has a nice list view of Dublin Core&lt;/a&gt; and a buch of resources for making different kinds of feeds—especially good for PodCast or RSS feed building. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Michael Day. August 1996, Last updated: 22-May-2002. Metadata: Mapping between metadata formats. UKOLN: The UK Office for Library and Information Networking, University of Bath, Bath, BA2 7AY, United Kingdom. &lt;a href=&#34;http://www.ukoln.ac.uk/metadata/interoperability/&#34;&gt;http://www.ukoln.ac.uk/metadata/interoperability/&lt;/a&gt;
+
+&lt;a href=&#34;http://www.ukoln.ac.uk/metadata/interoperability/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; [Accessed: 19 March 2012] &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

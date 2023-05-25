@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eugene, Oregon | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/written_from/eugene-oregon/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/written_from/eugene-oregon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eugene, Oregon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Tue, 08 Mar 2022 14:35:45 +0100</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Eugene, Oregon</title>
+      <link>https://hughandbecky.us/Hugh-CV/written_from/eugene-oregon/</link>
+    </image>
+    
+    <item>
+      <title>Diversity and Typology Across OLAC Providers</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/diversity-and-typology-across-olac-providers/</link>
+      <pubDate>Tue, 08 Mar 2022 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/diversity-and-typology-across-olac-providers/</guid>
+      <description>&lt;p&gt;Are all data providers to OLAC archives as some in the literature seem to imply, or are these implications an artifact of some other framing mechanism? In linguistics, framing is the establishment of a context under which a narrative is experienced. Lakoff and Filmore are both researchers in the concepts around framing.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.language-archives.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Language Archives Community (OLAC)&lt;/a&gt; metadata profile is built on 
+&lt;a href=&#34;https://www.dublincore.org/specifications/dublin-core/dcmi-terms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dublin Core&lt;/a&gt; and 
+&lt;a href=&#34;http://www.openarchives.org/OAI/openarchivesprotocol.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OAI&lt;/a&gt;. Essentially OLAC OAI feeds (to the OLAC aggregator) are modified (or &amp;ldquo;enhanced&amp;rdquo; using the XML attribute &lt;code&gt;xsi:type=&amp;quot; &amp;quot;&lt;/code&gt;) OAI-PMH feeds. The OAI protocol was originally developed to be used by repository software to communicate with other repositories—in an effort to make a network of repositories. The OAI protocol works well as designed. The OLAC implementation of OAI inherits some of the OAI provided terms and concepts. When OLAC was first created, the profile was originally assumed to be describing archived language resources, and archives were assumed to be repositories—at least in the OAI sense. Many, including recent publications talk about &amp;ldquo;archives&amp;rdquo; providing records to the OLAC aggregator. These claims and references are interesting, confusing, and inaccurate—though if the sense of archive, is really and OAI repository, then I seen the connection. However, that is not what most people think of when they hear &lt;em&gt;language archive&lt;/em&gt; or &lt;em&gt;archive&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The framing of terms from the OAI context is laid out in the 
+&lt;a href=&#34;http://www.openarchives.org/OAI/openarchivesprotocol.html#Introduction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;introduction to the OAI-PMH standard&lt;/a&gt;. The following definitions are given. [^1]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Data Providers&lt;/em&gt; administer systems that support the OAI-PMH as a means of exposing metadata; and&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Service Providers&lt;/em&gt; use metadata harvested via the OAI-PMH as a basis for building value-added services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A &lt;em&gt;repository&lt;/em&gt; is a network accessible server that can process the 6 OAI-PMH requests in the manner described in this document.&lt;/strong&gt; A repository is managed by a data provider to expose metadata to harvesters. To allow various repository configurations, the OAI-PMH distinguishes between three distinct entities related to the metadata made accessible by the OAI-PMH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The distinction here is that the corporate entity implementing data sharing technology is the &lt;em&gt;Data Provider&lt;/em&gt;. While the server technology implementing the access is call the &lt;em&gt;repository&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;However, within the OLAC documentation and academic literature presenting OLAC further conceptualization of terms occurs.&lt;/p&gt;
+&lt;p&gt;The use of the term &amp;ldquo;archive&amp;rdquo; to mean all data providers to OLAC is  &lt;em&gt;interesting&lt;/em&gt; from a linguistic point of view because by calling &lt;em&gt;Data Providers&lt;/em&gt; (in the OAI sense) &amp;ldquo;archives&amp;rdquo; authors use the language of inclusion which maps well to the concepts of &amp;ldquo;open&amp;rdquo; and &amp;ldquo;community&amp;rdquo; which can be found in the OLAC name, but the language of inclusion here does not acknowledge the diversity of the kinds of data providers. While inclusion and an under representation of diversity are the impacts, there may be other factors as well. If we look at the OLAC documentation, the documentation in the examples and in the XML elements calls things &amp;ldquo;archives&amp;rdquo;. Consider the 
+&lt;a href=&#34;http://www.language-archives.org/OLAC/protocol.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OLAC Protocol&lt;/a&gt; which is an extension of the basic OAI-PMH protocol. Specifically, in 
+&lt;a href=&#34;http://www.language-archives.org/OLAC/protocol.html#OLAC%20archive%20description&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;section 3&lt;/a&gt; where OLAC data providers are required to return a specific element when the OAI-PMH verb &lt;code&gt;Identify&lt;/code&gt; is used. The title of the XML element is &lt;code&gt;olac-archive&lt;/code&gt;.  It has two possible attribute values &lt;code&gt;personal&lt;/code&gt; or &lt;code&gt;institutional&lt;/code&gt;. The example given is as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;olac-archive
+      xmlns=&amp;quot;http://www.language-archives.org/OLAC/1.0/&amp;quot;
+      xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
+      xsi:schemaLocation=&amp;quot;http://www.language-archives.org/OLAC/1.0/
+                 http://www.language-archives.org/OLAC/1.0/olac-archive.xsd&amp;quot;
+      type=&amp;quot;institutional&amp;quot;&amp;gt;
+   &amp;lt;archiveURL&amp;gt;http://www.ethnologue.com&amp;lt;/archiveURL&amp;gt;
+   &amp;lt;curator&amp;gt;Raymond G. Gordon, Jr.&amp;lt;/curator&amp;gt;
+   &amp;lt;curatorTitle&amp;gt;Ethnologue Editor&amp;lt;/curatorTitle&amp;gt;
+   &amp;lt;curatorEmail&amp;gt;mailto:editor_ethnologue@sil.org&amp;lt;/curatorEmail&amp;gt;
+   &amp;lt;institution&amp;gt;SIL International&amp;lt;/institution&amp;gt;
+   &amp;lt;institutionURL&amp;gt;http://www.sil.org&amp;lt;/institutionURL&amp;gt;
+   &amp;lt;shortLocation&amp;gt;Dallas, USA&amp;lt;/shortLocation&amp;gt;
+   &amp;lt;location&amp;gt;7500 W. Camp Wisdom Rd., Dallas, TX 75236, U.S.A.&amp;lt;/location&amp;gt;
+   &amp;lt;synopsis&amp;gt;The Ethnologue data provider gives a metadata record for every
+   language entry in the Web edition of the Ethnologue.  The latter provides
+   basic information about each of the 7,000+ modern language of the world
+   (both living and recently extinct).&amp;lt;/synopsis&amp;gt;
+   &amp;lt;access&amp;gt;Every resource described by the Ethnologue data provider is a
+   public Web page that may be accessed without restriction. Reuse of 
+   material on the site is subject to the Terms of Use that are
+   posted.&amp;lt;/access&amp;gt;
+&amp;lt;/olac-archive&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we see in the above example, the &lt;code&gt;olac-archive&lt;/code&gt; or OAI &lt;em&gt;repository&lt;/em&gt; is the Ethnologue. It is typed as an &lt;em&gt;institutional&lt;/em&gt; OLAC archive. However, is the Ethnologue actually a language archive? What language resource can you go to the archive and get? It seems to me to be more like a typological database about socio-linguistic topics. While it might be too late now to do anything about it, the OLAC schema could have used the XML element &lt;code&gt;olac-provider&lt;/code&gt; as a more neutral term.&lt;/p&gt;
+&lt;p&gt;The use of the term &amp;ldquo;archive&amp;rdquo; to mean all data providers to OLAC is &lt;em&gt;confusing&lt;/em&gt; because the language of academic discourse around language archives and OLAC data providers is not discrete. That is, the language does not provide distinct categories where categories would be helpful. The OLAC protocol distinguishes between organizations and personal data providers, but OLAC doesn&amp;rsquo;t make any further distinction. Research which uses OLAC records as a dataset should take the diversity of data providers into account as analyses present observations and claims—especially about the description of artifacts, or percentages of Dublin Core Element use.&lt;/p&gt;
+&lt;p&gt;Finally the claims that all data providers are &amp;ldquo;archives&amp;rdquo; is &lt;em&gt;inaccurate&lt;/em&gt;—or careless at best. In my assessment I find that there is a mix of provider types which does not neatly fit into the &lt;code&gt;personal&lt;/code&gt; / &lt;code&gt;institutional&lt;/code&gt; dichotomy. In part that is because the &lt;code&gt;personal&lt;/code&gt; / &lt;code&gt;institutional&lt;/code&gt; dichotomy describes the &lt;em&gt;OAI Data provider&lt;/em&gt;, not the &lt;em&gt;OAI repository&lt;/em&gt;. As I evaluate the diversity of OAI repositories I find the dimension of &lt;code&gt;personal&lt;/code&gt; / &lt;code&gt;institutional&lt;/code&gt; less useful than one which included the terms: &lt;em&gt;Archive, Repository, Museum, Gallery, Library, Special Collection, Personal Portfolio, Lab or Department Portfolio, Project Portfolio, Typological Database, &lt;em&gt;and&lt;/em&gt; Bibliography&lt;/em&gt;. Roughly these fall into the broad categories of &lt;em&gt;access institutions&lt;/em&gt;, &lt;em&gt;exhibits&lt;/em&gt;, and &lt;em&gt;reference resources&lt;/em&gt;. The following diagram puts these terms on a gradient of a data provider which is highly likely to have an advertised resource and be able to provide access to that resource to a provider which is likely not able to provide access to an advertised resource. It is this second dimension which is likely to impact the nature of OLAC records more than the first dimension of &lt;code&gt;personal&lt;/code&gt; / &lt;code&gt;institutional&lt;/code&gt;. The second dimension should be considered when using OLAC records as an object of study. If OLAC were to revise its protocol, these other terms should be considered to provide a better context for evaluating the quality and completeness of the records.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-types-of-olac-data-providers&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/diversity-and-typology-across-olac-providers/Data_contributors_hu8da133b01ff086a7adb712d959fc9935_89197_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Types of OLAC Data Providers.&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/diversity-and-typology-across-olac-providers/Data_contributors_hu8da133b01ff086a7adb712d959fc9935_89197_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Types of OLAC Data Providers.&#34; width=&#34;2318&#34; height=&#34;840&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Types of OLAC Data Providers.
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;http://hugh4.us&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!-- It is an interesting difference presented in this paper: http://www.language-archives.org/documents/community-providers.html were B&amp;S take the following approach to parsing (open language (archive community)).
+
+[1]: Additional discussion on the OAI name terms can be found in slide 23 of the linked slide presentation: http://eprints.rclis.org/4586/1/tutorial3muller.pdf
+</description>
+    </item>
+    
+    <item>
+      <title>Nonprofits and Privacy Practices</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-nonprofits-and-privacy-practices/</link>
+      <pubDate>Mon, 06 Dec 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-nonprofits-and-privacy-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website License vs. Content License</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/website-license-vs-content-license/</link>
+      <pubDate>Mon, 24 Apr 2017 14:14:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/website-license-vs-content-license/</guid>
+      <description>&lt;p&gt;When considering internet publishing attribution and proper licensing is very important. One important context to make clear is the distinction between the HTML and visual presentation/content layer of a website, the code of a website, and any downloadable objects in a website such as PDFs. Today I was looking at the &lt;em&gt;Rapid Words&lt;/em&gt; website. &lt;em&gt;Rapid Words&lt;/em&gt; is an SIL product and methodology which facilitates a multi-party conversation to quickly discover many words in a language. SIL developed a specific website to promote this methodology and its associated downloadable content. As I review the website, I am wondering several things about the licenses advertised on the RapidWords site. The web-page I am looking at: &lt;a href=&#34;http://www.rapidwords.net/resources/files/rwc-questionnaire&#34;&gt;http://www.rapidwords.net/resources/files/rwc-questionnaire&lt;/a&gt; Screen shots are presented here for ease of access (and permanence).&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-bottom-of-page&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/Bottom-of-page_hu6da07655c86f6ebcd4582582f273570d_233266_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Bottom of Page&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/Bottom-of-page_hu6da07655c86f6ebcd4582582f273570d_233266_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Image of webpage footer&#34; width=&#34;1920&#34; height=&#34;1080&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Bottom of Page
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;http://www.rapidwords.net/resources/files/rwc-questionnaire&#34;&gt; rapidwords.net (SIL International)&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;rapidwords.net (SIL International)&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-bottom-of-page&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/Top-of-page_hu92947ba777579ad27f0550a26096e373_491839_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Bottom of Page&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/Top-of-page_hu92947ba777579ad27f0550a26096e373_491839_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Image of webpage footer&#34; width=&#34;1920&#34; height=&#34;1080&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Bottom of Page
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;http://www.rapidwords.net/resources/files/rwc-questionnaire&#34;&gt; rapidwords.net (SIL International)&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;rapidwords.net (SIL International)&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the footer, I see a copyright statement and then a CC-BY-SA license. Many websites who choose to put copyright and license material in the footer are really only referencing the Theme files of their web-page, or the immediately on-screen content. This is very common for open-source themes for WordPress, Drupal, and Joomla. It is unclear to me if this is the case on the RapidWords website. Or is the footer referring to the entire content of the website inclusive of the downloadable content? If it is referring to the theme files, then they ought to be licensed as code not as a creative work according to the Creative Commons Foundation. (The Creative Commons Foundation recommends not using Creative Commons Licenses for code base projects and points to other more appropriate licenses.)&lt;/p&gt;
+&lt;p&gt;When I go the content of the web-page link above (see screens shot), there is a CC license field in the middel of the page. This field is empty and in lieu of a license, I find a copyright statement saying all &amp;ldquo;rights are reserved&amp;rdquo;. So which is it? CC-BY-SA or All rights reserved?&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-close-up-of-screen-content&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/decalkfgkndojdgc_huf9c93931f5b10e522981e6221644a41f_12481_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Close-up of screen content&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/website-license-vs-content-license/decalkfgkndojdgc_huf9c93931f5b10e522981e6221644a41f_12481_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Close-up of screen content&#34; width=&#34;518&#34; height=&#34;211&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Close-up of screen content
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;http://www.rapidwords.net/resources/files/rwc-questionnaire&#34;&gt; rapidwords.net (SIL International)&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;rapidwords.net (SIL International)&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then when I download the PDF of the content via the PDF button provided the content of the PDF only contains the copyright statement not the CC-BY-SA statement. Further adding confusion because the website is offering a PDF to me but then saying that the PDF is &amp;ldquo;all rights reserved&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Also, when one downloads the resources under the resource section the resources do not have a license statement in them (I would have expected a copyright and a license statement in the footer of each printable page in the downloaded document).
+Because there is a footer on the web-page with a CC license, is the website user to assume that these download able resources are CC-BY-SA?&lt;/p&gt;
+&lt;p&gt;Organizations can avoid sending mixed messages to their constituency by clearly marking who is the copyright holder, on websites &lt;em&gt;and&lt;/em&gt; the content those websites contain. Organizational policies related to web-publishing should include editorial checks for these sorts of issues.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Characters: Trying to get the Concepts Straight</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/</link>
+      <pubDate>Wed, 10 Dec 2014 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/</guid>
+      <description>
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-version-10&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/Characters_hu97dbfb1fbb6f49a63a701f7b1634095b_158756_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Version 1.0&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/Characters_hu97dbfb1fbb6f49a63a701f7b1634095b_158756_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;An infographic explaining the parts of Unicode characters: version 1.0.&#34; width=&#34;768&#34; height=&#34;977&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Version 1.0
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-version-11&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/Characters2_hu97dbfb1fbb6f49a63a701f7b1634095b_152970_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Version 1.1&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/characters-trying-to-get-the-concepts-straight/Characters2_hu97dbfb1fbb6f49a63a701f7b1634095b_152970_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;An infographic explaining the parts of Unicode characters: version 1.1.&#34; width=&#34;768&#34; height=&#34;977&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Version 1.1
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!-- O&#39;Brien, Kirby What could I do so that I could be more succinct in my presentation? I feel like there are four things that detract from the message of the infographic... can you name them?
+
+ReplyEditDeleteLikeDec 09, 2014
+User icon: kirby_obrien
+Kirby O&#39;Brien
+HI Hugh, Great job! I&#39;m a good guinea pig because I had not seen this. It took me a while to analyze the poster to understand what it was about and how it was organized. My one thought is could you provide examples of an&#34;abstract character&#34; of a &#34;glyph&#34; or maybe just a small portion of a unicode chart. You have good information to people who might already know what the words mean but if your audience is for new or untrained people they may not know the tech talk. Just a few thoughts take or leave them they were free!!
+
+ReplyEditDeleteUnlikeYou like thisDec 10, 2014
+User icon: hugh_paterson
+Hugh Paterson AUTHOR
+Thank you those are the kind of thoughts I needed.
+
+ReplyEditDeleteLikeDec 10, 2014
+User icon: hugh_paterson
+Hugh Paterson AUTHOR
+How do I know how much information is too much information?
+
+ReplyEditDeleteLikeDec 12, 2014
+User icon: hugh_paterson
+Hugh Paterson AUTHOR
+O&#39;Brien, Kirby I was hoping to have one color for each concept, but there are not enough corporate colors for this... what ways can I balance color and concept relationships?
+
+Reply: Dec 12, 2014
+Name: Tim Gaved
+Comment: Hugh, I like this a lot. Two other terms that you might consider integrating are &#34;script&#34; and &#34;font&#34;.
+
+Reply: Dec 10, 2014
+Name: Megan Mercado
+Comment: It&#39;s not clear whether this spatial relationships between each box are meaningful or not. Are you trying to communicate some terms being subsets of or containing others? --&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;constable_toward_2002&#34;&gt;
+        &lt;dt&gt;
+          Constable
+
+          
+          (2002)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Constable&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Peter G.&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2002&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Toward a Model for Language Identification Defining an ontology of language-related categories&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;SIL Electronic Working Papers&lt;/span&gt;,&amp;#32;2002-003&lt;/i&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.sil.org/resources/publications/entry/7853&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.sil.org/resources/publications/entry/7853&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;constable_understanding_2001&#34;&gt;
+        &lt;dt&gt;
+          Constable
+
+          
+          (2001)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Constable&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Peter G.&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2001&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Understanding characters, keystrokes, codepoints and glyphs: encoding and working with multilingual text&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Lyons&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Melinda&#34; /&gt;
+    M.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Implementing Writing Systems: an Introduction&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;9–33&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Dallas&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;SIL International&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Are we upfront with the consumers of our services?</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/are-we-up-front-with-our-users/</link>
+      <pubDate>Fri, 11 Jul 2014 14:14:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/are-we-up-front-with-our-users/</guid>
+      <description>&lt;p&gt;Are we upfront with the consumers of our services? When this comes to web data, notice how worldcat.org informs (at least in 2014) their service&amp;rsquo;s consumers. At the point of login it is simple, clear and does not use a pop-up. Such a notice allows users to make informed choices about the use of a specific service&amp;hellip; assuming they are literate in the language of the notice, understand the laws of that country, and don&amp;rsquo;t also have undue pressure to use the service anyway regardless of consqences.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-worldcatorg-login-notice&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/are-we-up-front-with-our-users/USA-data2_hu877bf32cbb78377c6cb9b2b226d7edb3_273346_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;worldcat.org login notice&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/are-we-up-front-with-our-users/USA-data2_hu877bf32cbb78377c6cb9b2b226d7edb3_273346_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;Example Notice of laws governing data interactions and responsibilities.&#34; width=&#34;1349&#34; height=&#34;872&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;worldcat.org login notice
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://worldcat.org&#34;&gt; worldcat.org&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;worldcat.org&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-worldcatorg-login-noticecloseup&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/are-we-up-front-with-our-users/USA-Data_hu27281f63c05ac7e3c68cad3f831b2b5c_35913_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;worldcat.org login notice—closeup&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/are-we-up-front-with-our-users/USA-Data_hu27281f63c05ac7e3c68cad3f831b2b5c_35913_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;Closeup of notice of laws governing data interactions and responsibilities.&#34; width=&#34;392&#34; height=&#34;299&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;worldcat.org login notice—closeup
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://worldcat.org&#34;&gt; worldcat.org&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;worldcat.org&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The SIL Archive and its Two Sided Markets</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/</link>
+      <pubDate>Sun, 03 Feb 2013 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/</guid>
+      <description>&lt;p&gt;I have been thinking about the language data marketplace (exchange if one prefers), and the role of archives in a world where minority language speakers are also internet users and digital file consumers. In particular I have been thinking about 
+&lt;a href=&#34;http://www.sil.org/resources/language-culture-archives&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIL’s Language and Culture Archive&lt;/a&gt; and the economic model called a 
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Two-sided_market&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;two sided market&lt;/a&gt;. So, SIL as “Partners in Language Development” seems to be well situated for analysis using the two sided market analysis (matching linguist and professionals with language development skills, and persons with language development skills with interested parties in developing their language). On the surface, it seems that the SIL archive would also benefit from being the center of exchange between these same two groups. This is the subject of one of my slides for 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/publication/2013-challenges-ramp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;an upcoming presentation&lt;/a&gt;, therefore I sketched out the interactions various SIL staff might have with the archive to see if I could diagram the social interactions around language data in SIL’s two sided market. To my surprise, the two sided nature of access to data in the archive is not supported, thereby blocking a data-centric archiving service. It makes me wonder what the perceived value of the archive really is, and if the perceived value is low, then why bother? What is the return on investment (ROI) for users on either side of the market?&lt;/p&gt;
+&lt;p&gt;I tried to summarize the relationships between the various clients of the archive in the following image.
+&lt;img src=&#34;https://hughandbecky.us/Hugh-CV/post/the-sil-archive-and-its-two-sided-markets/SIL-Archive-and-its-two-sided-markets.jpg&#34; alt=&#34;SIL Archive and its two multi-sided market representation&#34; title=&#34;SIL Archive and its two multi-sided market representation&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Resource Metadata for Linguistic &amp; Language Resources</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2014-lrmi-metadata-for-linguistic-resources/</link>
+      <pubDate>Sat, 27 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2014-lrmi-metadata-for-linguistic-resources/</guid>
+      <description>&lt;p&gt;This project is more like a research theme. It started with some felt needs in the SIL International Training Department where I was working. We were seeking to better automate and craft the SIL course catalogue, professional development plans, and course content, while providing instructors clear access to known resources they could use in their learning events. This work involved conceptualizing the course catalogue from both the training and human resources points of view along with supporting resources. SIL&amp;rsquo;s training events are SIL licensed or implemented under contract at partner institutions of higher education. Often the contracted instruction is done via independent-ish SIL branded organizations often refereed to as &lt;em&gt;SIL Entities&lt;/em&gt; e.g., SIL Peru, SIL Philippines, etc. Entities are often a geographical locus of operations and work out their own partnerships and resource management strategies. The SIL Language &amp;amp; Culture Archive maintains specific collections for each SIL entity, one of those collections is usually for training resources. Connecting these resources to competencies is important for understanding the use, value, and re-use capability of the resource. I started looking out at how this connection between resource and competency was solved in the larger professional space. In the process I was introduced to the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_Resource_Metadata_Initiative&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning Resource Metadata Initiative&lt;/a&gt; (LRMI) and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_object_metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning Object Metadata&lt;/a&gt; (LOM) communities. My work in this capacity resulted in a recommendation to SIL to integrate LRMI into the archive for instructional materials dealing with linguistics along with mother-tongue based literacy materials. SIL choose that this was not a corporate priority. However, in the process I realized that the language revitalization community at large also has the same challenges. This project page serves to pull together my actions across these contexts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Socio-linguistic Profiles for Language Documentation</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/</link>
+      <pubDate>Thu, 23 Aug 2012 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/</guid>
+      <description>&lt;p&gt;Some researchers in linguistics (in my acquaintance) have been less than excited about the notion of asking for socio-linguistic data or socio-personal data from language informants. The objection has been that it is just bad form. While I am a great advocate of personal privacy (especially in digital formats), I see that one of the most informative parts of the language documentation process is understanding who the speakers being recording or being worked with are. Language variation is fundamentally connected with identity. While crucial elements of how a community segments itself along identity lines may not be known for several years, having a robust socio-cultural or socio-personal questionnaire about the language informants will later help place the documentation data in perspective of the larger waves of variation in the community.&lt;/p&gt;
+&lt;p&gt;This is to say, I am thoroughly convinced that a socio-linguistic questionnaire is important as part of the language documentation process. It might not need to be done first, but it will help researchers and future users of archived material understand where to place these speech samples in context of that speakers society.&lt;/p&gt;
+&lt;p&gt;One outstanding question, and one with a variable answer is how to appropriately approach the questions in the questionnaire. &lt;em&gt;Should the questionnaire be approached formally? Or should it be asked in conversational format? Should it be elicited digitally?&lt;/em&gt; One of the interesting things about eliciting things digitally is that they may have the appearance to be less intrusive because they are appear less formal. While I have no empirical evidence based on years of cross-cultural work, I do have the Facebook phenomena. That is, minority-language users all over the world are using Facebook. And Facebook is collection (and allowing the users to volunteer) and then verifying the users&amp;rsquo; provided data. Granted it is completly probable that many of these minority-language users do not understand or appreciate the impact of Facebook&amp;rsquo;s data elicitation scheme. So while the fact that Facebook is collectiong personally identifying information about people and their online habbits doesn&amp;rsquo;t mean that the field of language documentation doesn&amp;rsquo;t need to grapple with this issue, it does reset the social understanding of what is &amp;ldquo;normal&amp;rdquo;.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-facebook-user-base-graph-from-2010&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/Facebook-mapping-image_hu0aef8681ee99a41516320eb7e1527399_2066885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Facebook User Base Graph from 2010&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/socio-linguistic-profiles-for-language-documentation/Facebook-mapping-image_hu0aef8681ee99a41516320eb7e1527399_2066885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Facebook User Base Graph from 2010&#34; width=&#34;1600&#34; height=&#34;797&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Facebook User Base Graph from 2010
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Facebook&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Facebook&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Below is a list of elements which Facebook is collecting (it is also collecting log-in locations and times). So, some of these questions are certainly in-scope of what language documenters would minimally like to know about their indigenous language speaking informants and collaborators. Others of these questions are certainly not in-scope for the recommended socio-linguistic profile from language documenters or socio-linguists.&lt;/p&gt;
+&lt;h3 id=&#34;facebook-data-catagories-on-user-profiles&#34;&gt;FaceBook data catagories on user profiles&lt;/h3&gt;
+&lt;p&gt;Data Facebook Collects about users through their profile and activities. from: &lt;a href=&#34;https://www.facebook.com/help/326826564067688&#34;&gt;&lt;a href=&#34;https://www.facebook.com/help/326826564067688&#34;&gt;https://www.facebook.com/help/326826564067688&lt;/a&gt;&lt;/a&gt; on 23 August 2012.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;What info is available?&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;Where can I find it?&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;About Me&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Information you added to the About section of your timeline like relationships, work, education, where you live and more. It includes any updates or changes you made in the past and what’s currently in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Account Status History&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The dates when your account was reactivated, deactivated, disabled or deleted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Address&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Your current address or any past addresses you had on your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Alternate Name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any alternate names you have on your account (ex: a maiden name or a nickname).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Apps&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;All of the apps you subscribe to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Birthday Visibility&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;How your birthday appears on your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Chat&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A history of the conversations you’ve had on Facebook Chat.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Check-ins&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;All of the places you’ve checked into.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info  Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Connections&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The people who have liked your Page or Place, RSVPed to your event, installed your app or checked in to your advertised place within 24 hours of viewing or clicking on an ad or Sponsored Story.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Currency&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Your preferred currency on Facebook. If you use Facebook Payments, this will be used to display prices and charge your credit cards.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Current City&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The city you added to the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Date of Birth&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The date you added to Birthday in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Deleted Friends&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The people you’ve unfriended.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Education&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you added to Education in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Emails&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Email addresses added to your account (even those you may have removed).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Events&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Events you’ve joined or been invited to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Family&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Friends you’ve indicated are family members.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Favorite Quotes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Information you’ve added to the Favorite Quotes section of the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Friend Requests&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pending sent and received friend requests.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Friends&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of your friends.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Gender&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The gender you added to the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Groups&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of groups you belong to on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hidden from News Feed&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any friends, apps or pages you’ve hidden from your News Feed.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hometown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The place you added to hometown in the About section of your timeline (profile).&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;IP Addresses&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of addresses where you’ve logged into your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Last Location&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The last location associated with an update.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Other’s Posts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Posts, photos or other content you’ve liked.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Your Posts from others&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on your own posts, photos or other content.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Likes on Other Sites&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Likes you’ve made on other sites off of Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Locale&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The language you see on Facebook is based on where you’re located.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Logins&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IP address, date and time associated with logins to your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Logouts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IP address, date and time associated with logouts from your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Messages&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Archive of messages you’ve sent and received on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The name on your Facebook account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Name Changes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any changes you’ve made to the original name you used when you signed up for Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Networks&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Networks (affiliations with schools or workplaces) that you belong to on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Notes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any notes you’ve written and published to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Notification Settings&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of all your notifications and whether you have email and text enabled or disabled for each.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Pages You Admin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of pages you admin.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Phone Numbers&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mobile phone numbers you’ve added to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Photos&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any photos you’ve uploaded to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Physical Tokens&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Badges you’ve added to your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Pokes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of who’s poked you and who you’ve poked.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Political Views&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you added to Political Views in the About section of timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Your Posts&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anything you posted to your own timeline, like photos, videos and status updates.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Posts by Others&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anything you posted to someone else’s timeline (profile), like photos, videos and status updates.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Recent Activities&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Actions you’ve taken and interactions you’ve recently had.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Registration Date&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The date you joined Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Religious Views&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The information you added to Religious Views in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Screen Names&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The screen names you’ve added to your account, and the service they’re associated with. You can also see if they’re hidden or visible on your account.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Searches&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Searches you’ve made on Facebook.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Spoken Languages&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The languages you added to Spoken Languages in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Status Updates&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any status updates you’ve posted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Subscribers&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of people who are subscribed to you.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Subscriptions&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A list of people you subscribe to.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Tag Suggestions Template&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A unique number based on a comparison of the photos you&amp;rsquo;re tagged in. We use this template to help your friends tag you in the photos they upload.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Expanded Archive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Work&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Any information you’ve added to Work in the About section of your timeline.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Downloaded Info&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Videos&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Videos you’ve posted.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Activity Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+Bibliography called, but no references
+
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

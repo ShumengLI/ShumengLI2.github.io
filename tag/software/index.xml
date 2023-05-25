@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/software/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Fri, 07 May 2021 14:35:45 +0100</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Software</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/software/</link>
+    </image>
+    
+    <item>
+      <title>Converting FLExText Files to XLingPaper Interlinear Texts</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/flextext-to-xlingpaper/</link>
+      <pubDate>Fri, 07 May 2021 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/flextext-to-xlingpaper/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume that we have a generous friend who has gifted us an interlinearized text from FLEx with morpheme level glossing in the format of &lt;code&gt;.flextext&lt;/code&gt;. (&lt;code&gt;.flextext&lt;/code&gt; is an XML formated file.) And lets say we want to type set that file in XLingPaper. How can we do that?&lt;/p&gt;
+&lt;p&gt;One might be tempted to import the &lt;code&gt;.flextext&lt;/code&gt; file into FLEx so that it can be re-exported with the XLingPaper exports from the FLEx menus, but this is not really a viable option becasue if we import that FLExText to an empty FLEx database, FLEx will not import the morpheme level annotations — it will recognize the free-translation and the baseline text. Bascially anything which is related to the lexicon part of the database is not viewable in the imported database.&lt;/p&gt;
+&lt;p&gt;However all is not lost we can use the XSLT transforms from FLEx by copying them to a usable location as the data start of those transforms is also &lt;code&gt;.flextext&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I run linux. On the command line I used &lt;code&gt;locate&lt;/code&gt; to find the XSL file titled &lt;code&gt;xml2XLingPapConcatMorphemes.xsl&lt;/code&gt; with &lt;code&gt;$ locate xml2XLingPapConcat&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It appeared on my comptuer at &lt;code&gt;/usr/share/fieldworks/Language Explorer/Export Templates/Interlinear/xml2XLingPapConcatMorphemes.xsl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To run these transforms I was advised to use Saxon. Saxon is already installed on linux if XLingPaper is installed. Saxon comes with XMLMind.&lt;/p&gt;
+&lt;p&gt;I also used &lt;code&gt;locate&lt;/code&gt; to find the Saxon file with &lt;code&gt;$ locate saxon&lt;/code&gt;
+Mine was located at: &lt;code&gt;/opt/xxe-perso-7_6_0/bin/saxon.jar&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The basic syntax for operating Saxon is as follows:
+&lt;code&gt;java -cp &amp;quot;wherever_saxon.jar_is/saxon.jar&amp;quot; com.icl.saxon.StyleSheet the_flextext_file path_to_the XSLT_files/\xml2XLingPapConcatMorphemes.xsl  &amp;gt; the_XLingPaper_output_file.xml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I then needed to change where I told Saxon the files were located. In my case I coppied the &lt;code&gt;.xsl&lt;/code&gt; files to their own folder within my project folder for simpler operation.&lt;/p&gt;
+&lt;p&gt;There are other &lt;code&gt;.xsl&lt;/code&gt; files for transforming FLExTexts to interlinear files in XLingPaper. These can be seen by using &lt;code&gt;locate&lt;/code&gt; or in the official repo:
+Check for the other files in the official FLEx repo at: &lt;a href=&#34;https://gerrit.lsdev.sil.org/admin/repos/FieldWorks,&#34;&gt;https://gerrit.lsdev.sil.org/admin/repos/FieldWorks,&lt;/a&gt; or specifically look at XLingPaper export xsl transforms as discussed in their origional merge into the FLEx project: &lt;a href=&#34;https://gerrit.lsdev.sil.org/c/FieldWorks/+/1961&#34;&gt;https://gerrit.lsdev.sil.org/c/FieldWorks/+/1961&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Awesome List for Open Source Software</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/an-awesome-list-for-open-source-software/</link>
+      <pubDate>Wed, 17 Feb 2016 14:14:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/an-awesome-list-for-open-source-software/</guid>
+      <description>&lt;p&gt;The world is full of problems. Some of these can be solved through the use of technology. Other problems can&amp;rsquo;t be solved directly through the use of technology, but the deployment of technologies can impact social environments and social interactions in a way so that the problems not solvable directly though technology can be addressed.&lt;/p&gt;
+&lt;p&gt;Low-resource languages suffer from one of the problems of the second type. That is there is a sociological problem that follows briefly in the following way:&lt;/p&gt;
+&lt;p&gt;Feel-good, and do-good linguists often want to help &amp;ldquo;low-resourced&amp;rdquo; language community have digital tools in their language. This scenario is mirrored by the a different scenario, which may be contrasted with people &amp;ldquo;helping&amp;rdquo; from the outside. That is,people from within the low-resource language want to create tools for using their language - often in written form - in digital contexts. The result is that there are often a set of persons who are project managers, or who hold the business strings (access to grant funding, and are responsible for contracting with technologists to implement the project ideas and goals). The problem that occurs is that the more project managers there are (which might be more than one per language - with over 7,000 languages) the more divergent the technological solutions which are expensive and often not compatible or extensible - even if they are &amp;ldquo;open sourced&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Problem we are trying to solve is the communication problem between the plethora of coders which vary from cowboy soloists to dedicated shops working on language software targeted for use in Low-resourced communities, and the growing number of visionary project managers, who might have a background in linguistics, but often not have one in information technology or in information technology project management.&lt;/p&gt;
+&lt;p&gt;The benefits of collaboration, and reusability of code are obvious. However, there still stand a large gap between the project manager and the coding technologist. We find that this gap can be characterized by two critical problems:&lt;/p&gt;
+&lt;p&gt;What are the things which have been coded - and for what purpose are they coded?
+Assuming that this data can be gathered, how can this data be quirky made usable so that project managers can use the information intelligently in their evolving relationships with their technical teams? In summary we must create a pile of data, and then we need to make it usable.
+In the spirit of taking baby steps, we have started to amass a pile of data (asking the question - what do we know has been coded), we have started with a solution which is more native to coders than to project managers. We have used an element of Github culture - &amp;lsquo;the Awesome list&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;While this does list does make a browse able list, it does not address the myriad of points of view which project managers come from. Synthesizing the data to match the various points of view; making the data relevant and usable is still an open task.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

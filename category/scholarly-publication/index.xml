@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scholarly Publication | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/category/scholarly-publication/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/category/scholarly-publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Scholarly Publication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Scholarly Publication</title>
+      <link>https://hughandbecky.us/Hugh-CV/category/scholarly-publication/</link>
+    </image>
+    
+    <item>
+      <title>XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-xlingpaper/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-xlingpaper/</guid>
+      <description>&lt;p&gt;Since at least 2014 I have been using 
+&lt;a href=&#34;https://software.sil.org/xlingpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLingPaper&lt;/a&gt; as a composition tool. I have collaborated with Andy Back who is the primary programmer/author of XLingPaper.  Our collaboration can be characteized as me contributing ideas, suggestions, problems, test cases, and bug reports. Following the defense of my M.A. Thesis, which I wrote using XLingPaper, Andy and I together published a paper in TugBoat which disucsses XLingPaper use of TeX technology. My contribution to the XLingPaper community is ongoing through my annotated bibliography of works produced via XLingPaper and additional contributions to the software. Someday I hope that the citation and referencing process within XLingPaper will become more robust but that is a big task.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

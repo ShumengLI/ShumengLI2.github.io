@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Development | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/software-development/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software Development</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Thu, 31 Mar 2022 17:00:12 -0700</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Software Development</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/software-development/</link>
+    </image>
+    
+    <item>
+      <title>XLingPaper&#39;s use of TeX technologies</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2022-xlingpapers-use-of-tex-technologies/</link>
+      <pubDate>Thu, 31 Mar 2022 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2022-xlingpapers-use-of-tex-technologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TUG 2021 Abstracts</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-use-of-tex-technologies/</link>
+      <pubDate>Fri, 31 Dec 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-use-of-tex-technologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some Works Created in XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-annotated-bibliography/</link>
+      <pubDate>Mon, 31 May 2021 17:00:12 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/publication/2021-xlingpapers-annotated-bibliography/</guid>
+      <description>&lt;h2 id=&#34;abstract-bibliography&#34;&gt;Abstract Bibliography&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/c65nf5mz&#34;&gt;
+        &lt;dt&gt;
+          Simons&amp;#32;&amp;amp;&amp;#32;Black
+
+          
+          (2008)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Simons&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gary F&#34; /&gt;
+    G.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2008&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Third Wave Writing and Publishing&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;SIL Forum for Language Fieldwork&lt;/span&gt;,&amp;#32;2009(005)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;1–15&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.sil.org/resources/publications/entry/7783&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.sil.org/resources/publications/entry/7783&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/ki9fl25p&#34;&gt;
+        &lt;dt&gt;
+          Black&amp;#32;&amp;amp;&amp;#32;Black
+
+          
+          (2012)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Cheryl A.&#34; /&gt;
+    C.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2012&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Grammars for the people, by the people, made easier using PAWS and XlingPaper&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Nordhoff&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Sebastian&#34; /&gt;
+    S.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Electronic Grammaticography&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;103–128&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Honolulu, Hawai&amp;#39;i&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;University of Hawai&amp;#39;i Press&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/4532&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/4532&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;http//zotero.org/users/5512940/items/vxp4xzdi&#34;&gt;
+        &lt;dt&gt;
+          Black
+
+          
+          (2009)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;H. Andrew&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2009&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Writing Linguistic Papers in the Third Wave&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;SIL Forum for Language Fieldwork&lt;/span&gt;,&amp;#32;2009(004)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;11 pages&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.sil.org/resources/publications/entry/7790&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.sil.org/resources/publications/entry/7790&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>The Data Management Space for Linguists</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/the-data-management-space-for-linguists/</link>
+      <pubDate>Wed, 10 Oct 2012 01:41:38 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/the-data-management-space-for-linguists/</guid>
+      <description>&lt;p&gt;This week I have been outlining the types of data that linguists need to be able to use and relate to each other as they do Language Documentation and Linguistic Research. I try to express these things graphically and then also express where some of the leading tools which SIL International is offering sit in the problem space.&lt;/p&gt;
+&lt;p&gt;The major categories I have found include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic Publications&lt;/li&gt;
+&lt;li&gt;Elicited Language Data
+&lt;ul&gt;
+&lt;li&gt;Unstructured&lt;/li&gt;
+&lt;li&gt;Structured&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Georaphical Data&lt;/li&gt;
+&lt;li&gt;Cultural observations&lt;/li&gt;
+&lt;li&gt;Sociolinguistic profiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I try to draw out the specifics of these diverse data or content types in the included diagram.&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-the-data-management-space-for-linguists-with-sil-software&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/the-data-management-space-for-linguists/_hu4ff5960dacb67496f7fa9cf08672f8ac_129511_a0e754edaf6b6d4ac60e182eea0f9f99.jpg&#34; data-caption=&#34;The Data Management Space for linguists with SIL software.&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/post/the-data-management-space-for-linguists/_hu4ff5960dacb67496f7fa9cf08672f8ac_129511_a0e754edaf6b6d4ac60e182eea0f9f99.jpg&#34; class=&#34;lazyload&#34; alt=&#34;The Data Management Space for linguists with SIL software.&#34; width=&#34;733&#34; height=&#34;576&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;The Data Management Space for linguists with SIL software.
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

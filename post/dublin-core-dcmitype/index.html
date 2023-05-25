@@ -1,0 +1,1366 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0"><meta name="author" content="Hugh Paterson III"><meta name="description" content="Figuring out the DCMIType for a described resource.">
+  <link rel="alternate" hreflang="en-us" href="https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/">
+
+
+
+
+
+
+
+  
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="theme-color" content="#456587"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto+Mono%7CCharis+SIL&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/Hugh-CV/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31042070-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-31042070-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  <link rel="manifest" href="/Hugh-CV/index.webmanifest">
+  <link rel="icon" type="image/png" href="/Hugh-CV/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/Hugh-CV/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/">
+
+  
+  
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@thejourneyler">
+  <meta property="twitter:creator" content="@thejourneyler">
+  
+  <meta property="og:site_name" content="Hugh&#39;s Curriculum Vitae">
+  <meta property="og:url" content="https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/">
+  <meta property="og:title" content="Dublin Core DCMIType Chooser | Hugh&#39;s Curriculum Vitae">
+  <meta property="og:description" content="Figuring out the DCMIType for a described resource."><meta property="og:image" content="https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/featured.png">
+  <meta property="twitter:image" content="https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/featured.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2022-12-15T14:35:45&#43;01:00"><meta property="article:modified_time" content="2022-12-15T14:35:45&#43;01:00">
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/"
+  },
+  "headline": "Dublin Core DCMIType Chooser",
+  
+  "image": [
+    "https://hughandbecky.us/Hugh-CV/post/dublin-core-dcmitype/featured.png"
+  ],
+  
+  "datePublished": "2022-12-15T14:35:45+01:00",
+  "dateModified": "2022-12-15T14:35:45+01:00",
+
+  "author": {
+    "@type": "Person",
+    "name": "Hugh Paterson III"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hugh's Curriculum Vitae",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hughandbecky.us/Hugh-CV/images/logo.svg"
+    }
+  },
+  "description": "Figuring out the DCMIType for a described resource."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/Hugh-CV/css/custom.css" />
+
+<link rel="stylesheet" type="text/css" href="/Hugh-CV/css/hugo-cite.css" />
+
+
+<meta name="pinterest" content="nopin">
+
+
+<meta name="keywords" content="Dublin Core, OLAC, XML, DCMIType, DCMIType:IteractiveResource, DCMIType:Text, DCMIType:Dataset, DCMIType:Collection">
+
+
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+
+<meta name="DC.Title" content="Dublin Core DCMIType Chooser">
+<meta name="citation_title" content="Dublin Core DCMIType Chooser">
+<meta name="eprints.title" content="Dublin Core DCMIType Chooser">
+<meta name="dcterms.title" content="Dublin Core DCMIType Chooser">
+<meta name="DC.Creator" content="admin">
+<meta name="citation_author" content="admin">
+<meta name="DC.Subject" content="Dublin Core">
+<meta name="DC.Subject" content="OLAC">
+<meta name="DC.Subject" content="XML">
+<meta name="DC.Subject" content="DCMIType">
+<meta name="DC.Subject" content="DCMIType:IteractiveResource">
+<meta name="DC.Subject" content="DCMIType:Text">
+<meta name="DC.Subject" content="DCMIType:Dataset">
+<meta name="DC.Subject" content="DCMIType:Collection">
+<meta name="DC.Description" content="Figuring out the DCMIType for a described resource.">
+<meta name="dcterms.abstract" content="Figuring out the DCMIType for a described resource.">
+<meta name="eprints.abstract" content="Figuring out the DCMIType for a described resource."><meta name="dcterms.issued" content="2022-12-15">
+<meta name="DC.Date" content="2022-12-15">
+<meta name="citation_publication_date" content="2022">
+
+
+<meta name="DC.Rights" content="Copyright 2022">
+<meta name="citation_online_date" content="2022/12/15">
+
+<meta name="citation_keywords" content="Dublin Core, OLAC, XML, DCMIType, DCMIType:IteractiveResource, DCMIType:Text, DCMIType:Dataset, DCMIType:Collection">
+
+
+
+
+
+
+ <title>Dublin Core DCMIType Chooser | Hugh&#39;s Curriculum Vitae</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/Hugh-CV/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main" itemscope itemtype="https://schema.org/SiteNavigationElement">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/Hugh-CV/"><img src="/Hugh-CV/images/logo.svg" alt="Hugh&#39;s Curriculum Vitae"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/Hugh-CV/"><img src="/Hugh-CV/images/logo.svg" alt="Hugh&#39;s Curriculum Vitae"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex" itemscope itemtype="https://schema.org/ItemList">
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#posts"><span>Notes</span></a>
+        </li>
+
+        
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          <li class="nav-item" itemprop="itemListElement">
+          <a class="nav-link " href="/Hugh-CV/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item" itemprop="itemListElement">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Dublin Core DCMIType Chooser</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/Hugh-CV/author/hugh-paterson-iii/">Hugh Paterson III</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    15 Dec, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/Hugh-CV/category/jot/">Jot</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/Hugh-CV/project/2021-open-language-archives-community/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+<div class="article-container">
+
+    <div class="article-style"><p>Some users of Dublin Core choose not to use the DCMIType vocabulary. I find the DCMIType vocabulary deeply integral to good description using the Dublin Core framework. It adds a distinct way to orient the is-ness of the object within the capable description of items via the Dublin Core framework. I admit that it can be confusing at times. For example, I have found some resources which are hard to categorize. I have placed some of these in the following table. The description of the resource is on the left while the ambigious possibilities appear in the right two columns.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<table>
+<thead>
+<tr>
+<th align="center">Object</th>
+<th align="center">DCMIType 1</th>
+<th align="center">DCMIType 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Picture made from words</td>
+<td align="center">Text</td>
+<td align="center">Image</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank" rel="noopener">Rosetta Stone</a></td>
+<td align="center">Text</td>
+<td align="center">PhysicalObject</td>
+</tr>
+<tr>
+<td align="center">Cassette Tape</td>
+<td align="center">Sound</td>
+<td align="center">PhysicalObject</td>
+</tr>
+<tr>
+<td align="center">Moon Rock</td>
+<td align="center">PhysicalObject</td>
+<td align="center">(I actually <br/>think this one is pretty clear)</td>
+</tr>
+<tr>
+<td align="center">Spatula</td>
+<td align="center">PhysicalObject</td>
+<td align="center">InteractiveResource</td>
+</tr>
+<tr>
+<td align="center">Board Game</td>
+<td align="center">InteractiveResource</td>
+<td align="center">PhysicalObject</td>
+</tr>
+<tr>
+<td align="center">Uncompiled code</td>
+<td align="center">Text</td>
+<td align="center">Software</td>
+</tr>
+<tr>
+<td align="center">Video Game</td>
+<td align="center">MovingImage</td>
+<td align="center">InteractiveResource</td>
+</tr>
+<tr>
+<td align="center">ChatBot</td>
+<td align="center">Software</td>
+<td align="center">InteractiveResource</td>
+</tr>
+<tr>
+<td align="center">Song on YouTube with just lyrics presented</td>
+<td align="center">MovingImage</td>
+<td align="center">Collection</td>
+</tr>
+<tr>
+<td align="center">Catalog of resources</td>
+<td align="center">Text</td>
+<td align="center">Dataset or Collection</td>
+</tr>
+</tbody>
+</table>
+
+
+
+  
+  
+  
+
+<figure id="figure-a-picture-made-of-words--reinhard-döhl-apfel-1965-note-that-arabic-art-also-contains-many-images-constructed-of-text"itemscope itemtype="https://schema.org/ImageObject">
+  <a data-fancybox="" href="/Hugh-CV/post/dublin-core-dcmitype/DohlApfel_hud551a789fbb81b0c92f5be46b382cf02_35956_2000x2000_fit_q90_lanczos.jpg" data-caption="A picture made of words.  Reinhard Döhl, “Apfel” (1965). Note that Arabic art also contains many images constructed of text.">
+
+  <img data-src="/Hugh-CV/post/dublin-core-dcmitype/DohlApfel_hud551a789fbb81b0c92f5be46b382cf02_35956_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt=" Reinhard Döhl, “Apfel” (1965)" width="270" height="250" itemprop="contentUrl">
+</a>
+  
+  <figcaption>
+    <p>A picture made of words.  Reinhard Döhl, “Apfel” (1965). Note that Arabic art also contains many images constructed of text.
+      
+<span class="img-attribution">Credit: Reinhard Döhl<span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+        <meta itemprop="name" content="Reinhard Döhl" />
+      </span></span></p>
+  </figcaption></figure>
+
+<p>If we follow the 1-to-1 principle in Dublin Core then only one qualified DCMIType should be applied to any specific record. So which one? I have created the following flowchart to guide a person through the process of selecting the most appropriate DCMIType term. Clicking the diagram opens it up within the mermaid editor where the text can be more easily read.</p>
+<p>
+<a href="https://mermaid.live/edit#pako:eNqlVl1v2jAU_SuWnzYJGAHWtKjqNMFaVVXX70lb6YNxLsRrYme2A2W0_33XTgkQqq1liAd87Xvu8bkfeE65ioB26VizLCbX_YEk-Pl82--dHl_PMiA8VsqAviP1-sHjEViiwahcc3gkF813hypJ1JT0YqYtucjBWKGkeV-gXDSdE7kI5seG2BhKV7I_1AdcpRkiR0SN_Nrkw_rigPn09AwR-LhfFUZrVWGcF8m0SJkWyYxYeLA5Syqu38E8Eo40gTtut1dWZQ1yY5AEpAe9cmP_Ay4bnkkvQcDRzMcaKZ0yS6bCxiTi3UO_vHuO0FqSa_-FHHKbCLNKrbWkdrRw5EpakNb7oSQbejGtmRyjXkIS5k9ZNkygnoh7IMbqnNtcQxmiXXI7-4duHjyPhEOruHuGv9qNYN5XUIBMlb4nMZvAgoRIHQcJRGksFq1kosaCs8TjKi3wTkhaslV2DtIHkMgPayZJjlM2hkpyrsqNLZJThriRHLRlQj4S8UKQ_8b3GqVqIuT4pUucLne2iHJUZvHkxSyuNpHrZGecxoLHROfSEIWlQlLGY8zPQvuTEtI1TIXtNZo8TY_-WpYnSyGMGtkp0xupfDa_HftoiR0xywxUKfcL64q4r8Y-K6U4Xxb4mr6-0LN4ZlxFF4rjqGPcghZYt7wcVAXUrJAgl9HG_dG2DcXzkuLli1PUtR8pu8xDsGKcWjeSmYywv1RGMiWkXZC9LEFvNu_tvTVkwBARxwNeluQZVhJ-3VYkRiPQGA8HkWcuLO6sqfY8vgxDbsXYSqEa3WcUJmivSPXF2baXyqdgkbGz4U-c7pUA52ub20S6KfX7dnuMOhjihrD7C4rRZU1MJospg-lxZSMmcLlQauvARaOBngi-0WeF9a3YA0lrNAWXzAgfA3MXbUDRI4UB7eLPiOn7AR3IJzzHcquuZpLTLv7pQI3mGTYm9AXDN0RKuyOWGLRChHWhT4vXhX9k1GjG5A-l0oUjLml3Th9ot94Jw0bQ2d3ptDphazfc-diu0RnttoJGsLfb6YRB82MQ7ISd1lON_vYQrUazHYYBngzCPXRthk9_ADli-W0" target="_blank" rel="noopener"><img src="https://mermaid.ink/img/pako:eNqlVl1v2jAU_SuWnzYJGAHWtKjqNMFaVVXX70lb6YNxLsRrYme2A2W0_33XTgkQqq1liAd87Xvu8bkfeE65ioB26VizLCbX_YEk-Pl82--dHl_PMiA8VsqAviP1-sHjEViiwahcc3gkF813hypJ1JT0YqYtucjBWKGkeV-gXDSdE7kI5seG2BhKV7I_1AdcpRkiR0SN_Nrkw_rigPn09AwR-LhfFUZrVWGcF8m0SJkWyYxYeLA5Syqu38E8Eo40gTtut1dWZQ1yY5AEpAe9cmP_Ay4bnkkvQcDRzMcaKZ0yS6bCxiTi3UO_vHuO0FqSa_-FHHKbCLNKrbWkdrRw5EpakNb7oSQbejGtmRyjXkIS5k9ZNkygnoh7IMbqnNtcQxmiXXI7-4duHjyPhEOruHuGv9qNYN5XUIBMlb4nMZvAgoRIHQcJRGksFq1kosaCs8TjKi3wTkhaslV2DtIHkMgPayZJjlM2hkpyrsqNLZJThriRHLRlQj4S8UKQ_8b3GqVqIuT4pUucLne2iHJUZvHkxSyuNpHrZGecxoLHROfSEIWlQlLGY8zPQvuTEtI1TIXtNZo8TY_-WpYnSyGMGtkp0xupfDa_HftoiR0xywxUKfcL64q4r8Y-K6U4Xxb4mr6-0LN4ZlxFF4rjqGPcghZYt7wcVAXUrJAgl9HG_dG2DcXzkuLli1PUtR8pu8xDsGKcWjeSmYywv1RGMiWkXZC9LEFvNu_tvTVkwBARxwNeluQZVhJ-3VYkRiPQGA8HkWcuLO6sqfY8vgxDbsXYSqEa3WcUJmivSPXF2baXyqdgkbGz4U-c7pUA52ub20S6KfX7dnuMOhjihrD7C4rRZU1MJospg-lxZSMmcLlQauvARaOBngi-0WeF9a3YA0lrNAWXzAgfA3MXbUDRI4UB7eLPiOn7AR3IJzzHcquuZpLTLv7pQI3mGTYm9AXDN0RKuyOWGLRChHWhT4vXhX9k1GjG5A-l0oUjLml3Th9ot94Jw0bQ2d3ptDphazfc-diu0RnttoJGsLfb6YRB82MQ7ISd1lON_vYQrUazHYYBngzCPXRthk9_ADli-W0?type=png" alt=""></a></p>
+<p>With regards to the distinction between text, dataset, and collection, the OLAC cmmunity brings up an interesting use case.</p>
+<p>The 
+<a href="https://www.dublincore.org/specifications/dublin-core/collection-description/collection-application-profile/" target="_blank" rel="noopener">Dublin Core™ Collection Description Application Profile</a> suggests that indexes or catalogs of resources ought to be classified as DCMIType <em>Collection</em>. The argument is that these are collection because they are assembled and aggregated.</p>
+<blockquote>
+<p>The term &ldquo;collection&rdquo; can be applied to any aggregation of physical and/or digital resources. Those resources may be of any type, so examples might include aggregations of natural objects, created objects, &ldquo;born-digital&rdquo; items, digital surrogates of physical items, and the catalogues of such collections (as aggregations of metadata records). The criteria for aggregation may vary: e.g. by location, by type or form of the items, by provenance of the items, by source or ownership, and so on. Collections may contain any number of items and may have varying levels of permanence.</p>
+</blockquote>
+<p>If we take this Application Profile and back-port its semantics to dcterms then a 
+<a href="http://purl.org/dc/dcmitype/Collection" target="_blank" rel="noopener">DCMIType collection</a> as defined has some interesting ramifications for resources like lexicons, encyclopedia, corpora, dictionaries, newspapers, edited multi-author works, etc. :</p>
+<blockquote>
+<p>Definition: An aggregation of resources.
+Comment: A collection is described as a group; its parts may also be separately described.</p>
+</blockquote>
+<p>Resources such as annotated bibilographies, indexes, dictionaries, seem to me to be most accuratly described as DCMIType <em>Text</em>, unless they are being futher described. Even more problematic though is that many of these resources are now engaged with in multiple ways with different audiences. For example, encyclopedias and bibilographies are often read as <em>Text</em> by consumers, but are engaged with as <em>Datasets</em> by producers. Is it possible that DCMIType terms are describing the manifestation? Currently Glottolog sugests that the page that a person accesses a list of resource about the Karbi language is a text resource.</p>
+
+
+
+  
+  
+  
+
+<figure id="figure-glottolog-46-resources-for-hills-karbi-in-the-olac-search-interface"itemscope itemtype="https://schema.org/ImageObject">
+  <a data-fancybox="" href="/Hugh-CV/post/dublin-core-dcmitype/glotologrecords_hu259362def301c4a7d53fb0b3d91e2e70_59487_2000x2000_fit_lanczos_2.png" data-caption="Glottolog 4.6 Resources for Hills Karbi in the OLAC Search Interface">
+
+  <img data-src="/Hugh-CV/post/dublin-core-dcmitype/glotologrecords_hu259362def301c4a7d53fb0b3d91e2e70_59487_2000x2000_fit_lanczos_2.png" class="lazyload" alt="Glottolog 4.6 Resources for Hills Karbi" width="954" height="459" itemprop="contentUrl">
+</a>
+  
+  <figcaption>
+    <p>Glottolog 4.6 Resources for Hills Karbi in the OLAC Search Interface
+      
+<span class="img-attribution">Credit: <a href="http://dla.library.upenn.edu/dla/olac/record.html?id=glottolog_org_karb1241"> OLAC Search<span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+        <meta itemprop="name" content="OLAC Search" />
+      </span></a></span></p>
+  </figcaption></figure>
+
+<p>There is also the remaining question, is the Glottolog page actually an <em>Interactive Resource</em>, which pulls a <em>Dataset</em>?</p>
+<p>So, maybe the list of resources is a <em>Collection</em>, the Glottolog itself as a website is an <em>Interactive Resource</em>. The data which drives the website is a <em>Dataset</em>. — leaving nothing as a <em>Text</em> resource?</p>
+<!-- WEMI relationships
+| Same-Same | Same-Different |  |  |  |
+|:---:|---|---|---|---|
+| SW:SW |  |  |  |  |
+| W:W | SW:W |  |  |  |
+| E:E | SW:E | W:E |  |  |
+| M:M | SW:M | W:M | E:M |  |
+| I:I | SW:I | W:I | E:I | M:I |
+
+-->
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The definition of note of the DCMIType for <code>Text</code> states: &ldquo;Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.&rdquo; So I understand that the apple and the worm image would be classified as text. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+
+
+
+
+
+  
+    <span><em>Tags</em>:</span>    
+
+<span class="article-tags">
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dublin-core/">Dublin Core</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/olac/">OLAC</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/xml/">XML</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dcmitype/">DCMIType</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dcmitypeiteractiveresource/">DCMIType:IteractiveResource</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dcmitypetext/">DCMIType:Text</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dcmitypedataset/">DCMIType:Dataset</a>
+  
+  <a class="badge badge-light" href="/Hugh-CV/tag/dcmitypecollection/">DCMIType:Collection</a>
+  
+</span>
+
+
+  
+
+
+
+  
+    <br><span><em>Categories</em>:</span>   
+
+<span class="article-tags">
+  
+  <a class="badge badge-light" href="/Hugh-CV/category/jot/">Jot</a>
+  
+</span>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/Hugh-CV/author/hugh-paterson-iii/avatar_huf06207d43952fcec4f010d643d581cb5_33859_270x270_fill_q90_lanczos_center.jpg" alt="Hugh Paterson III">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://hughandbecky.us/Hugh-CV/">Hugh Paterson III</a></h5>
+        <h6 class="card-subtitle">Collaborative Scholar</h6>
+        <p class="card-text">My research interests include typological patterns in articulatory phonetics; User Experience design in language tools; and graph theory applied to language and linguistic resource discovery.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="//scholar.google.com/citations?user=b3KeFqkAAAAJ"  itemprop="sameAs">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="//github.com/HughP"  itemprop="sameAs">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="//twitter.com/thejourneyler"  itemprop="sameAs">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-5502-4865" target="_blank" rel="noopener" itemprop="sameAs">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/Hugh-CV/post/dublin-core-dcmitype-physicalobject/">Dublin Core DCMIType: PhysicalObject</a>&nbsp;&nbsp;<span class="badge badge-light" style="font-size: 0.6em; vertical-align: middle;">post</span></li>
+      
+      <li><a href="/Hugh-CV/post/dublin-core-namespaces/">Dublin Core Namespaces</a>&nbsp;&nbsp;<span class="badge badge-light" style="font-size: 0.6em; vertical-align: middle;">post</span></li>
+      
+      <li><a href="/Hugh-CV/post/listings-latex/">Listings a LaTeX Module for Typestting Code</a>&nbsp;&nbsp;<span class="badge badge-light" style="font-size: 0.6em; vertical-align: middle;">post</span></li>
+      
+      <li><a href="/Hugh-CV/post/metadata-quality-assessment-and-olac/">Metadata Quality Assessment &amp; OLAC</a>&nbsp;&nbsp;<span class="badge badge-light" style="font-size: 0.6em; vertical-align: middle;">post</span></li>
+      
+      <li><a href="/Hugh-CV/post/olac-term-consolidation/">OLAC Term Consolidation</a>&nbsp;&nbsp;<span class="badge badge-light" style="font-size: 0.6em; vertical-align: middle;">post</span></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+</div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/Hugh-CV/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Marginalia",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{ snippet }}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/Hugh-CV/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter">
+  
+  <p class="powered-by">
+    
+      <a href="/Hugh-CV/privacy-policy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by" itemprop="copyrightNotice">
+    Hugh Paterson III © 2023
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

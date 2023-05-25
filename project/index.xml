@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/project/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Projects</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/</link>
+    </image>
+    
+    <item>
+      <title>Multilingual Metadata &amp; Metadata Translation</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2022-multilingual-metadata/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2022-multilingual-metadata/</guid>
+      <description>&lt;p&gt;This started as a course work project as part of an advanced cataloging course at the University of North Texas. It quickly grew into more. In this project I look at and pull resources together about &lt;em&gt;Multilingual Metadata&lt;/em&gt; &amp;amp; &lt;em&gt;Metadata Translation&lt;/em&gt;. There are clearly several overlaps with my other professional interests related to linguistics and translation studies. This project is scoped widely to include issues such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Language Identification&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Script Identification&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Encoding&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Record Managment Policy&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Translation of Metadata&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Transliteration of Metadata&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Publishing Practices Related to Multilingual Works&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Citation and Referencing Practices&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;User Experience Design in Library Contexts&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;and &lt;em&gt;The Creation and Implementation of Multilingual Controlled Vocabularies&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NFT Description</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-nft-description/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-nft-description/</guid>
+      <description>&lt;p&gt;In this project I looked at a variety of NFT collections and at the developing requirements of an NFT gaming company to produce some recommendations for preserving NFT descriptions when NFTs are ported across chains. NFT descriptions were also designed to make NFTs of interest across independent games within the same &amp;ldquo;arcade&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Language Archives Community Research</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-open-language-archives-community/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-open-language-archives-community/</guid>
+      <description>&lt;p&gt;In this research project I look at the information architecture supporting the global ability to assess language resources. I look at issues such as metadata schemas, description and arrangement in archives, and the technology stack presenting OLAC. I started intently looking at OLAC resources at the end of 2020 while looking at language archives more broadly and trying to create an OLAC OAI feed. Since then I have presented at conferences and published results of my findings in several locations as my findings have bearing on the broader areas of resource stewardship and resource description.  I was invited by Steven Bird to think with him on what OLAC 2.0 might look like. That work, its results and blog posts are also linked to this &amp;ldquo;project&amp;rdquo; page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy Framework</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-oregon-privacy-research/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-oregon-privacy-research/</guid>
+      <description>&lt;p&gt;In this project with collaborators, I looked at U.S. national, U.S. state level, and other international privacy policy legal frameworks. Our work is still in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XLingPaper</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-xlingpaper/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-xlingpaper/</guid>
+      <description>&lt;p&gt;Since at least 2014 I have been using 
+&lt;a href=&#34;https://software.sil.org/xlingpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLingPaper&lt;/a&gt; as a composition tool. I have collaborated with Andy Back who is the primary programmer/author of XLingPaper.  Our collaboration can be characteized as me contributing ideas, suggestions, problems, test cases, and bug reports. Following the defense of my M.A. Thesis, which I wrote using XLingPaper, Andy and I together published a paper in TugBoat which disucsses XLingPaper use of TeX technology. My contribution to the XLingPaper community is ongoing through my annotated bibliography of works produced via XLingPaper and additional contributions to the software. Someday I hope that the citation and referencing process within XLingPaper will become more robust but that is a big task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Documentation Collections: Assessment and Recognition</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2021-language-documentation-collection-assesment/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2021-language-documentation-collection-assesment/</guid>
+      <description>&lt;h2 id=&#34;call-for-papers&#34;&gt;Call for Papers&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;In reaction to the rapid decline in linguistic diversity around the world, there has been a broad call for the increased allocation of resources and efforts to support the documentation of endangered languages and linguistic practices, and furthermore the active participation of speech communities in the documentation process (Himmelmann, 1998; Rice, 2011). This is reflected in the emergence of journals, conferences and workshops, as well as funding agencies and programs dedicated to supporting the discipline of language documentation.&lt;/p&gt;
+&lt;p&gt;Despite these encouraging developments, the lack of “guidelines and metrics for evaluating data creation, curation, sharing, and re-use” (Berez-Kroeker et al., 2018) poses a significant challenge for practitioners of language documentation, who often struggle to earn recognition from the academic community for the documentary records that they produce (Riesberg, 2018), reflecting a discipline-specific manifestation of broader lack of recognition of the merit of open scholarship for review and hiring (Alperin et al. 2019). There is an expressed need specifically for peer-review of documentary outputs, but no established standards for doing so (Thieberger et al., 2016; LSA Executive Committee, 2018; Woodbury, 2014; Haspelmath and Michaelis, 2014).&lt;/p&gt;
+&lt;p&gt;The aim of this Special Collection of the Journal of Open Humanities Data (JOHD) is to develop a detailed outline of what an effective peer-review process for documentary materials might look like, and how such a system would foster better recognition for these materials in academic evaluation systems such as in hiring, promotion, and tenure. We welcome contributions that explore assessment criteria and procedures, as well as peer-authored reviews and curator-authored case studies of documentary materials.&lt;/p&gt;
+&lt;p&gt;Submissions on the following topics and related areas are encouraged:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Articles discussing models of assessment for:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Applications of levels of access (e.g. Open Access, restricted access, sensitive materials, community access) and associated intellectual property information and reusability&lt;/li&gt;
+&lt;li&gt;Data organization, quality of collection description, and artifact metadata&lt;/li&gt;
+&lt;li&gt;Quantity, quality, and modality of the artifacts included in the collection&lt;/li&gt;
+&lt;li&gt;File formats and software dependencies&lt;/li&gt;
+&lt;li&gt;Comprehensiveness of the documentary record (e.g. diversity of speakers, speech genres, and speaker interactivity)&lt;/li&gt;
+&lt;li&gt;Provenance of the collection, lifecycle and evolution of the data, version control and history, long-term preservation.&lt;/li&gt;
+&lt;li&gt;Capacity for reuse of language documentation data for cross-disciplinary endeavors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Articles discussing assessment procedures and recognition, such as:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Contextual assessment which takes social, technological, and linguistic factors into account&lt;/li&gt;
+&lt;li&gt;The roles of individual reviewers and/or authoritative bodies in conducting assessment and promoting recognition and reuse of materials&lt;/li&gt;
+&lt;li&gt;Assessment by community members and other non-academic peers&lt;/li&gt;
+&lt;li&gt;Internal assessment procedures in use by language archives&lt;/li&gt;
+&lt;li&gt;Assessment at multiple developmental stages of the documentary record&lt;/li&gt;
+&lt;li&gt;Labor issues and reward systems for performing assessments&lt;/li&gt;
+&lt;li&gt;The role of assessment in improving recognition of documentary materials or contributing to the further development of the materials (i.e. users as curators)&lt;/li&gt;
+&lt;li&gt;Variation in regional or national assessment standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Peer-authored reviews or curator-authored case studies of documentary materials that illustrate or engage with one or more of the above points.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;submission-instructions&#34;&gt;Submission Instructions&lt;/h3&gt;
+&lt;p&gt;All submissions should be 3,000-6,000 words in length (references not included), and will be considered full length research papers in the JOHD submission system. The deadline for submissions to this special collection is October 1st, 2021. Manuscripts will be sent for single-blind peer review after editorial consideration, and accepted papers will be published online in the journal’s special collection. Please follow the 
+&lt;a href=&#34;https://openhumanitiesdata.metajnl.com/about/submissions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;submission guidelines&lt;/a&gt; to submit your manuscript and please indicate that you are submitting to the special collection on Language Documentation in your cover letter.&lt;/p&gt;
+&lt;p&gt;Please note that there are 
+&lt;a href=&#34;https://openhumanitiesdata.metajnl.com/about/submissions/#publication-fees&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Publication Fees&lt;/a&gt; for accepted papers. If you have any questions about fees, contact Anastasia Sakellariadi at &lt;a href=&#34;mailto:a.sakellariadi@ubiquitypress.com&#34;&gt;a.sakellariadi@ubiquitypress.com&lt;/a&gt;. If you have any questions about the special collection, feel free to contact the editors at &lt;a href=&#34;mailto:johd.language.documentation@gmail.com&#34;&gt;johd.language.documentation@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;call-bibliography&#34;&gt;Call Bibliography&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;alperin_how_2019&#34;&gt;
+        &lt;dt&gt;
+          Alperin,&amp;#32;
+          Muñoz Nieves,&amp;#32;
+          Schimanski,&amp;#32;
+          Fischman,&amp;#32;
+          Niles&amp;#32;&amp;amp;&amp;#32;McKiernan
+
+          
+          (2019)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Alperin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Juan P&#34; /&gt;
+    J.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Muñoz Nieves&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Carol&#34; /&gt;
+    C.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schimanski&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lesley A&#34; /&gt;
+    L.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Fischman&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gustavo E&#34; /&gt;
+    G.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Niles&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Meredith T&#34; /&gt;
+    M.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;McKiernan&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Erin C&#34; /&gt;
+    E.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2019&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;How significant are the public dimensions of faculty work in review, promotion and tenure documents?&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;eLife&lt;/span&gt;,&amp;#32;8&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;e42254&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.7554/eLife.42254&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.7554/eLife.42254&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;berez-kroeker_reproducible_2018-1&#34;&gt;
+        &lt;dt&gt;
+          Berez-Kroeker,&amp;#32;
+          Gawne,&amp;#32;
+          Kung,&amp;#32;
+          Kelly,&amp;#32;
+          Heston,&amp;#32;
+          Holton,&amp;#32;
+          Pulsifer,&amp;#32;
+          Beaver,&amp;#32;
+          Chelliah,&amp;#32;
+          Dubinsky,&amp;#32;
+          Meier,&amp;#32;
+          Thieberger,&amp;#32;
+          Rice&amp;#32;&amp;amp;&amp;#32;Woodbury
+
+          
+          (2018)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Berez-Kroeker&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Andrea L.&#34; /&gt;
+    A.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Gawne&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lauren&#34; /&gt;
+    L.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Kung&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Susan Smythe&#34; /&gt;
+    S.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Kelly&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Barbara F.&#34; /&gt;
+    B.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Heston&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Tyler&#34; /&gt;
+    T.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Holton&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gary&#34; /&gt;
+    G.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Pulsifer&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Peter&#34; /&gt;
+    P.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Beaver&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;David I.&#34; /&gt;
+    D.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Chelliah&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Shobhana&#34; /&gt;
+    S.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Dubinsky&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Stanley&#34; /&gt;
+    S.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Meier&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Richard P.&#34; /&gt;
+    R.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nick&#34; /&gt;
+    N.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Rice&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Keren&#34; /&gt;
+    K.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Woodbury&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Anthony C.&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2018&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Reproducible research in linguistics: A position statement on data citation and attribution in our field&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Linguistics&lt;/span&gt;,&amp;#32;56(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;1–18&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1515/ling-2017-0032&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1515/ling-2017-0032&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;haspelmath_annotated_2014&#34;&gt;
+        &lt;dt&gt;
+          Haspelmath&amp;#32;&amp;amp;&amp;#32;Michaelis
+
+          
+          (2014)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/BlogPosting&#34;
+      data-type=&#34;blog&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Haspelmath&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Martin&#34; /&gt;
+    M.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Michaelis&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Susanne Maria&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Annotated corpora of small languages as refereed publications: a vision&lt;/span&gt;&lt;span itemprop=&#34;genre&#34;&gt;&amp;nbsp;[Billet]&lt;/span&gt;.&amp;nbsp;&lt;span itemprop=&#34;isPartOf&#34;&gt;Diversity Linguistics Comment&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://dlc.hypotheses.org/691&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://dlc.hypotheses.org/691&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;himmelmann_documentary_1998&#34;&gt;
+        &lt;dt&gt;
+          Himmelmann
+
+          
+          (1998)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Himmelmann&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nikolaus P.&#34; /&gt;
+    N.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;1998&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Documentary and Descriptive Linguistics&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Linguistics&lt;/span&gt;,&amp;#32;36(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;161–195&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1515/ling.1998.36.1.161&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1515/ling.1998.36.1.161&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;lsa_executive_committee_statement_2018&#34;&gt;
+        &lt;dt&gt;
+          
+
+          
+          (2018)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;manuscript&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2018&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Statement on Evaluation of Language Documentation for Hiring, Tenure, and Promotion&lt;/i&gt;&lt;/span&gt;.
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        content=&#34;Washington, D.C&#34;&gt;&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.linguisticsociety.org/sites/default/files/Evaluation_Lg_Documentation.pdf&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.linguisticsociety.org/sites/default/files/Evaluation_Lg_Documentation.pdf&lt;/a&gt;&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;mazzitelli_documentation_2020&#34;&gt;
+        &lt;dt&gt;
+          Mazzitelli
+
+          
+          (2020)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Mazzitelli&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lidia Federica&#34; /&gt;
+    L.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Documentation of Lakurumau: Making the case for one more language in Papua New Guinea&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;14&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;215–237&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24922&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24922&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;rice_documentary_2011&#34;&gt;
+        &lt;dt&gt;
+          Rice
+
+          
+          (2011)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Rice&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Keren&#34; /&gt;
+    K.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2011&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Documentary Linguistics and Community Relations&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;5&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;187–207&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/4498&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/4498&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;riesberg_reflections_2018&#34;&gt;
+        &lt;dt&gt;
+          Riesberg
+
+          
+          (2018)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Riesberg&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Sonja&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2018&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Reflections on descriptive and documentary adequacy&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;McDonnell&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Bradley&#34; /&gt;
+    B.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Berez-Kroeker&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Andrea L.&#34; /&gt;
+    A.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Holton&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Gary&#34; /&gt;
+    G.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Reflections on Language Documentation 20 Years after Himmelmann 1998&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;151–156&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;University of Hawai‘i Press.&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;Honolulu&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24816&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24816&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;salffner_guide_2015&#34;&gt;
+        &lt;dt&gt;
+          Salffner
+
+          
+          (2015)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Salffner&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Sophie&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2015&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;A guide to the Ikaan language and culture documentation&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;9&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;237–267&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24639&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24639&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;sullivant_archival_2020&#34;&gt;
+        &lt;dt&gt;
+          Sullivant
+
+          
+          (2020)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Sullivant&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Ryan&#34; /&gt;
+    R.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2020&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Archival description for language documentation collections&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Language Documentation &amp;amp; Conservation&lt;/span&gt;,&amp;#32;14&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;520–578&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://hdl.handle.net/10125/24949&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://hdl.handle.net/10125/24949&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;thieberger_assessing_2016&#34;&gt;
+        &lt;dt&gt;
+          Thieberger,&amp;#32;
+          Margetts,&amp;#32;
+          Morey&amp;#32;&amp;amp;&amp;#32;Musgrave
+
+          
+          (2016)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Thieberger&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nick&#34; /&gt;
+    N.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Margetts&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Anna&#34; /&gt;
+    A.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Morey&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Stephen&#34; /&gt;
+    S.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Musgrave&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Simon&#34; /&gt;
+    S.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Assessing Annotated Corpora as Research Output&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Australian Journal of Linguistics&lt;/span&gt;,&amp;#32;36(1)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;1–21&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1080/07268602.2016.1109428&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1080/07268602.2016.1109428&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;woodbury_archives_2014&#34;&gt;
+        &lt;dt&gt;
+          Woodbury
+
+          
+          (2014)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Woodbury&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Anthony C&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Archives and audiences: Toward making endangered language documentations people can read, use, understand, and admire&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Nathan&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;David&#34; /&gt;
+    D.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Austin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Peter K.&#34; /&gt;
+    P.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Special Issue on Language Documentation and Archiving&lt;/i&gt;&lt;/span&gt;.&amp;#32;(&lt;span&gt;pp.&amp;#32;19–36&lt;/span&gt;).
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;London&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;SOAS&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.elpublishing.org/PID/135&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.elpublishing.org/PID/135&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Kainji Bibliography</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2020-kainji-bibliography/</link>
+      <pubDate>Mon, 10 Aug 2020 09:30:22 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2020-kainji-bibliography/</guid>
+      <description>&lt;h2 id=&#34;about-authors-in-the-biblography&#34;&gt;About authors in the Biblography&lt;/h2&gt;
+&lt;p&gt;Rebecca Paterson&lt;/p&gt;
+&lt;p&gt;Stuart John McGill&lt;/p&gt;
+&lt;p&gt;Clark D. Regnier&lt;/p&gt;
+&lt;p&gt;Clement Tuko&lt;/p&gt;
+&lt;p&gt;John Bendor-Samuel&lt;/p&gt;
+&lt;p&gt;Roger M. Blench&lt;/p&gt;
+&lt;p&gt;Stephen Dettweiler&lt;/p&gt;
+&lt;p&gt;Sonia Dettweiler&lt;/p&gt;
+&lt;p&gt;P. G. Harris&lt;/p&gt;
+&lt;p&gt;David Heath&lt;/p&gt;
+&lt;p&gt;Carleen Heath&lt;/p&gt;
+&lt;p&gt;Hugh Paterson III&lt;/p&gt;
+&lt;h3 id=&#34;major-sources-of-resources-include&#34;&gt;Major sources of resources include&lt;/h3&gt;
+&lt;p&gt;McGill&amp;rsquo;s SOAS deposit
+Blench&amp;rsquo;s manuscripts
+Paterson&amp;rsquo;s Data Trove
+Detweiler&amp;rsquo;s content
+Undigitized content at the Paterson house.&lt;/p&gt;
+&lt;h3 id=&#34;resources-about-how-the-biblography-is-managed&#34;&gt;Resources about how the Biblography is managed&lt;/h3&gt;
+&lt;p&gt;A spreadsheet looking at major aggregation platforms:
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1rDTthGvUkmC5UrRyNoVrE1QIEeA0BZjJ7n3F49I3I4U/edit?usp=sharing&#34;&gt;https://docs.google.com/spreadsheets/d/1rDTthGvUkmC5UrRyNoVrE1QIEeA0BZjJ7n3F49I3I4U/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A document describing how we are approaching the annotated Bibliography.
+&lt;a href=&#34;https://docs.google.com/document/d/1whZPFPZ4lAg7GigHdfGo2e-Qnz47wDPYZUYuMrxfyLI/edit?usp=sharing&#34;&gt;https://docs.google.com/document/d/1whZPFPZ4lAg7GigHdfGo2e-Qnz47wDPYZUYuMrxfyLI/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>u̱t‑Maꞌin oral histories and narratives</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2017-utmatin-oral-history/</link>
+      <pubDate>Mon, 10 Aug 2020 09:30:22 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2017-utmatin-oral-history/</guid>
+      <description>&lt;p&gt;Becky received a grant to facilitate the collection of oral story data. The terms of the grant require her to record and archive oral histories of U̠t-Ma&amp;rsquo;in speakers. My role in this project was to work with U̠t-Ma&amp;rsquo;in speakers (who actually did the recordings themselves) and present these to the Becky in way that she could arrange the files for archiving. In my role I got to visit around 40 different places in 7 different dialects. All from the back of a motorbike.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chepang annotated bibliography</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2020-chepang-bibliography/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2020-chepang-bibliography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RefLex User Interaction Design</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2020-reflex/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2020-reflex/</guid>
+      <description>&lt;p&gt;This was a grant funded project which was tasked to look at the user interaction around RefLex, a web platform which allows linguists to interact with comparative language data for the languages of Africa. The acomplished task was to make recomendations for improved user interaction, lowering barriers to use, and then to create visualizations for what those recomendations might look like. All work was conducted under the admintrative supervision of 
+&lt;a href=&#34;http://llacan.vjf.cnrs.fr/p_segerer.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guillaume Segerer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of the final recomendations included updating web security practices to increase user trust. Creating visible changes to guide users through common workflows. Creating a visual design language so that visual layout would present less cognitive disidence.&lt;/p&gt;
+&lt;p&gt;Visual design for applications dealing with linguistic concepts and scores of languages remains an under-researched area of design and user experience analysis.&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-the-starting-design-of-reflex&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/featured_huc794e2ed33b3f2280094ec8507fab6c2_559968_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;The starting design of RefLex&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/featured_huc794e2ed33b3f2280094ec8507fab6c2_559968_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;The starting design&#34; width=&#34;1912&#34; height=&#34;1294&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;The starting design of RefLex
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://hughandbecky.us/Hugh-CV&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Several Visual alternatives were part of the final product.
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-a-dark-theme-design&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS4-Dark-Landing-Page_hu52d7857c42a49063307d1cc00ce85e0a_513604_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;A &amp;amp;lsquo;dark theme&amp;amp;rsquo; design&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS4-Dark-Landing-Page_hu52d7857c42a49063307d1cc00ce85e0a_513604_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;A &amp;#39;dark theme&amp;#39; design&#34; width=&#34;2520&#34; height=&#34;1692&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;A &amp;lsquo;dark theme&amp;rsquo; design
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://hughandbecky.us/Hugh-CV&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-a-playful-theme-design&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS3-Landing-Page-playful_huc2ab14b2c524f3e24885ebf1fe72da83_245393_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;A playful theme design&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS3-Landing-Page-playful_huc2ab14b2c524f3e24885ebf1fe72da83_245393_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;A playful theme design&#34; width=&#34;2520&#34; height=&#34;1692&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;A playful theme design
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://hughandbecky.us/Hugh-CV&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-resource-search-screen&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS2-Resource-Search-1_hu760f6b20cd804991a68fb942b9d10491_162063_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Resource Search Screen&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2020-reflex/GS2-Resource-Search-1_hu760f6b20cd804991a68fb942b9d10491_162063_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;Resource Search Screen&#34; width=&#34;1260&#34; height=&#34;846&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;Resource Search Screen
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: &lt;a href=&#34;https://hughandbecky.us/Hugh-CV&#34;&gt; Hugh Paterson III&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III&#34; /&gt;
+      &lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!--
+one of the things is creating a language selector, iconizing it.
+
+https://usersnap.com/blog/design-language-switch
+https://phrase.com/blog/posts/how-to-select-fonts-when-localizing-apps-and-websites --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Business Maturity Canvas</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2019-business-maturity-canvas/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2019-business-maturity-canvas/</guid>
+      <description>&lt;p&gt;This project was a collaboration with 
+&lt;a href=&#34;https://twitter.com/stevemoitozo2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steve Moitiozo&lt;/a&gt;. He generally has the conversations, and therefore provided the content fodder. I facilitated graphical design of these ideas. I provided the canvas layout and graphic design.&lt;/p&gt;
+&lt;p&gt;The project resulted in two tools. A canvas which helps a business &amp;ldquo;owner&amp;rdquo; or and entrepreneur discover where their business is currently and what sorts of actions they should be looking at to determine how their business fits into the market.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2019-business-maturity-canvas/Business-Model-Fit-canvas-v1.pdf&#34;&gt;Canvas&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2019-business-maturity-canvas/Business-Model-Fit-Worksheet.pdf&#34;&gt;Worksheet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dan Bibliography</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2018-dan-bibliography/</link>
+      <pubDate>Fri, 10 Aug 2018 09:30:22 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2018-dan-bibliography/</guid>
+      <description>&lt;!--
+## About authors in the Biblography
+
+
+
+### Major sources of resources include
+
+
+
+### Resources about how the Biblography is managed
+
+A spreadsheet looking at major aggregation platforms:
+
+
+A document describing how we are approaching the annotated Bibliography.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R-90</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2018-sil-idx-r-90/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2018-sil-idx-r-90/</guid>
+      <description>&lt;p&gt;IDX&amp;rsquo;s 90th research project was an attempt to create a complex graph connecting diverse access points to data in order to provide market intelligence on issues related to ethnolinguistic communities. IDX is SIL International&amp;rsquo;s research and innovation lab for creating business products within a nonprofit structure. The lab&amp;rsquo;s goal (when I was there) was to manage product development for products which might become profitable business ventures when those products and their projects would otherwise die within the corporate culture of SIL&amp;rsquo;s family of organizations.&lt;/p&gt;
+&lt;p&gt;In R-90 we took a specific interest in developing a graph database to leverage SIL and affiliate data to create market based intelligence related to minority language use, and where possible sell-able tools based on language resources. The goal was to package the intelligence as products and resell it or access to the intelligence. In our product development model, intellegence included linguistic, geographic, and social factors. Market assumptions were strongly informed by active business transactions related to the Ethnologue whose business transactions were also managed by IDX. Within R-90 we looked at the span of language resources created by SIL, including software and corpora, and investigated possible business models and opportunities to repackage those resources for new audiences.&lt;/p&gt;
+&lt;p&gt;My work in this project was to investigate business models, find language resources, investigate market opportunities, and find usable resources to augment existing products in the creation of new products. I worked closely with Dan Whitenack to implement data integration models.&lt;/p&gt;
+&lt;!-- SIL Drive link Search features https://docs.google.com/document/d/18PbS8dewSWNqDdkPLoqkROYvPEJYFtyb3qJ7BFvG_pA/edit --&gt;
+&lt;!-- personal drive link https://docs.google.com/document/d/1zHq0P7-FF2XmgKkMWKrJrDI2lPlak3L6hO-UbcfgDhc/edit --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>U̠t-Ma&#39;in Lexicography</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2017-utmatin-lexicography/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2017-utmatin-lexicography/</guid>
+      <description>&lt;p&gt;This project includes combining and collating several U̠t-Ma&amp;rsquo;in databases that Becky Paterson has created over the 12 years she has worked with the U̠t-Ma&amp;rsquo;in language community. We are also importing as many Hausa terms as possible for specific elicitation (such as regional plants and animals). The final database includes grammatical features of individual lexemes. We are including various external analyses from phonology tools. None of this data is currently public. But when it is, a link from here will be posted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Legal concepts in linguistics, Language Documentation &amp; Language Development</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2017-legal-issues-in-linguistics/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2017-legal-issues-in-linguistics/</guid>
+      <description>&lt;p&gt;This project started out with a personal interest in the variation of &lt;em&gt;copyright law&lt;/em&gt; as it is applied to language documentation materials from a global perspective (different locations and different citizens). I see the issue of copyright and jursidiction as important for global nomads who engage in linguistic tourism, and who believe in archiving data. Some simple investagation has shown that there is a lot more than &amp;lsquo;just copyright&amp;rsquo; which impacts the multi-laterial relationship(s) between the law and legal policy,  the vitality of languages, and the availability of linguistic or language based resources. Several collaborations and discussions have bennefitted from this research. Ultimatly the results of this research should be in a browsable database, not in some sort of publication. More boradly, and necessary but later encountered legal topics include, &lt;em&gt;jusridiction&lt;/em&gt; and &lt;em&gt;privacy rights&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Investigation and design is still ongoing, but a rough sketch is provided.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Legislation_Impacting_Language.png&#34; alt=&#34;Leagal item browser for language impact&#34; title=&#34;Draft UI&#34;&gt;&lt;/p&gt;
+&lt;!-- Maybe https://www.christensenfund.org/programs/ would fund this project  https://twitter.com/christensenfund --&gt;
+&lt;!-- This is where access to the air-table account would be nice. To look at all the inter country relationships. I think that the account is still there but only accessale with the hugh_paterson@sil.org email address. I might have tables downloaded as csv files.--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Awesome list of Software for Endangered Languages</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2016-awesome-list/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2016-awesome-list/</guid>
+      <description>&lt;p&gt;There is no centralized list of open-source code that would be useful for documenting, conserving, developing, preserving, or working with endangered languages. According to some estimates, half of the approximatly 7,000 currently spoken languages are expected to become extinct this century. However, there is a lot of work by academics, independent scholars, organizations, communities, and individuals which goes towards stopping or slowing this trend. This list is intended to provide a central location to document those software efforts.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Awesome List&lt;/em&gt; approach is a simple distributed documentation method which grew out of GitHub culture. We used it to create a list of software serving under-resourced languages.&lt;/p&gt;
+&lt;p&gt;A white paper describing the linked repository was published at the LREC 2016 CCURL Workshop (Collaboration and Computing for Under-Resourced Languages). Head over to 
+&lt;a href=&#34;https://github.com/LowResourceLanguages/endangered-languages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; everything is over there.&lt;/p&gt;
+&lt;p&gt;Over the last several years we have watched the growth of the specific awesome-list tool. We notice that it hasn&amp;rsquo;t nearly been forked as much as we would like. We also notice that it hasn&amp;rsquo;t grown at a rate equivlent to that of software development. We think there is still room for improvement in the discovery and re-use of software to serve small-under-resourced language communities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linguistic Services Planning</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2015-linguistic-services-planning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2015-linguistic-services-planning/</guid>
+      <description>&lt;p&gt;This work was housed under SIL International&amp;rsquo;s Language Program Training (ILPT) department. I was able to help facilitate service design conversations both inside and outside the department. We used the business model canvas to capture business activities. We were then able to use the 
+&lt;a href=&#34;https://www.expressiveproductdesign.com/value-proposition-canvas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Value Proposition Canvas&lt;/a&gt; to talk about how we might add value to our customers by addressing their pain points. We wanted to know what a more valued service might look like to our customers.&lt;/p&gt;
+&lt;p&gt;We also introduced a service maturity model to help business plan owners look at the maturity of their business model and service and pursue growth opportunities.&lt;/p&gt;
+&lt;p&gt;Often in business modeling final solutions &lt;em&gt;pencil out&lt;/em&gt; in financial numbers. With NGO work we have multiple non-traditional applications of the Business Model Canvas. For instance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We have customers who are not the payees.&lt;/li&gt;
+&lt;li&gt;We have social impact goals compete with financial goals.&lt;/li&gt;
+&lt;li&gt;We have income streams which are not directly tied to output services rendered or products produced.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  
+  
+  
+
+&lt;figure id=&#34;figure-an-example-mapping-service-streams-to-business-model-canvas-boxes&#34;itemscope itemtype=&#34;https://schema.org/ImageObject&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2015-linguistic-services-planning/FB-HP3-13jul2016_hu9ba94d1562a163bc33cc7921756a7830_138599_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;An example mapping service streams to business model canvas boxes.&#34;&gt;
+
+  &lt;img data-src=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2015-linguistic-services-planning/FB-HP3-13jul2016_hu9ba94d1562a163bc33cc7921756a7830_138599_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;Example model&#34; width=&#34;1019&#34; height=&#34;728&#34; itemprop=&#34;contentUrl&#34;&gt;
+&lt;/a&gt;
+  
+  &lt;figcaption&gt;
+    &lt;p&gt;An example mapping service streams to business model canvas boxes.
+      
+&lt;span class=&#34;img-attribution&#34;&gt;Credit: Hugh Paterson III &amp;amp; Fraser Bennet&lt;span itemprop=&#34;creator&#34; itemtype=&#34;https://schema.org/Person&#34; itemscope&gt;
+        &lt;meta itemprop=&#34;name&#34; content=&#34;Hugh Paterson III &amp;amp; Fraser Bennet&#34; /&gt;
+      &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I consulted a variety of Open Education and Business Model Resources as part of this project. A partial list appears below.&lt;/p&gt;
+&lt;h3 id=&#34;consulted-sources&#34;&gt;Consulted Sources&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
+  &lt;dl&gt;
+    
+
+      &lt;div id=&#34;avonds_how_2017&#34;&gt;
+        &lt;dt&gt;
+          Avonds
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Thesis&#34;
+      data-type=&#34;thesis&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Avonds&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Bob&#34; /&gt;
+    B.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;How does organizational learning influence the business model? The case of a high-tech company&lt;/i&gt;
+  &lt;/span&gt;&lt;span itemprop=&#34;inSupportOf&#34;&gt;&amp;nbsp;(M.S. Thesis)&lt;/span&gt;.&amp;nbsp;
+&amp;#32;
+  &lt;span itemprop=&#34;publisher&#34;
+             itemtype=&#34;http://schema.org/EducationalOrganization&#34;
+             itemscope&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;Open Universiteit Nederland&lt;/span&gt;, &amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://core.ac.uk/download/pdf/85227506.pdf&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://core.ac.uk/download/pdf/85227506.pdf&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;banda_mapping_2016&#34;&gt;
+        &lt;dt&gt;
+          Banda
+
+          
+          (2016)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Banda&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Tiwonge Msulira&#34; /&gt;
+    T.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2016&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Mapping the NREN Business Model using the Business Model Canvas: the case of TENET&lt;/i&gt;&lt;/span&gt;.
+  &lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;black_online_2019&#34;&gt;
+        &lt;dt&gt;
+          Black,&amp;#32;
+          Bissessar&amp;#32;&amp;amp;&amp;#32;Boolaky
+
+          
+          (2019)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Black&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Debra&#34; /&gt;
+    D.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Bissessar&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Charmaine&#34; /&gt;
+    C.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Boolaky&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Mehraz&#34; /&gt;
+    M.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2019&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Online Education as an Opportunity Equalizer: The Changing Canvas of Online Education&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Interchange&lt;/span&gt;,&amp;#32;50(3)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;423–443&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1007/s10780-019-09358-0&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1007/s10780-019-09358-0&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;de_langen_strategies_2013&#34;&gt;
+        &lt;dt&gt;
+          De Langen
+
+          
+          (2013)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;De Langen&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;F.H.T&#34; /&gt;
+    F.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2013&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Strategies for sustainable business models for open educational resources&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;The International Review of Research in Open and Distributed Learning&lt;/span&gt;,&amp;#32;14(2)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;53&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.19173/irrodl.v14i2.1533&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.19173/irrodl.v14i2.1533&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;de_langen_there_2011&#34;&gt;
+        &lt;dt&gt;
+          Langen
+
+          
+          (2011)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Langen&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Frank&#34; /&gt;
+    F.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2011&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;There is no business model for open educational resources: a business model approach&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;Open Learning: The Journal of Open, Distance and e-Learning&lt;/span&gt;,&amp;#32;26(3)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;209–222&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.1080/02680513.2011.611683&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.1080/02680513.2011.611683&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;denna_business_2014&#34;&gt;
+        &lt;dt&gt;
+          Denna
+
+          
+          (2014)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Denna&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Eric&#34; /&gt;
+    E.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;The Business Model of Higher Education&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;EducausEreview&lt;/span&gt;(March/April)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;62–63&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;janssen_business_2012&#34;&gt;
+        &lt;dt&gt;
+          Janssen,&amp;#32;
+          Schuwer&amp;#32;&amp;amp;&amp;#32;Mulder
+
+          
+          (2012)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Chapter&#34;
+      data-type=&#34;chapter&#34;&gt;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Janssen&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Ben&#34; /&gt;
+    B.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Schuwer&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Robert&#34; /&gt;
+    R.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Mulder&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Fred&#34; /&gt;
+    F.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2012&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;A Business Model Approach for Open Educational Resources in Open Universities&lt;/span&gt;.&amp;#32;In&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Okada&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexandra&#34; /&gt;
+    A.&lt;/span&gt; (Eds.),&amp;#32;&lt;span itemprop=&#34;about&#34;&gt;
+    &lt;i&gt;Okada, A.  (2012). Open Educational Resources and Social Networks: Co-Learning and Professional Development&lt;/i&gt;&lt;/span&gt;..
+  &lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;London, England&#34;&gt;&amp;#32;&lt;span itemprop=&#34;publisher&#34;
+               itemtype=&#34;http://schema.org/Organization&#34;
+               itemscope=&#34;&#34;&gt;
+      &lt;span itemprop=&#34;name&#34;&gt;Scholio Educational Research &amp;amp; Publishing&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;https://www.robertschuwer.nl/download/BMOEROU.pdf&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://www.robertschuwer.nl/download/BMOEROU.pdf&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;lichy_advanced_2015&#34;&gt;
+        &lt;dt&gt;
+          Lichy&amp;#32;&amp;amp;&amp;#32;Birch
+
+          
+          (2015)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Book&#34;
+      data-type=&#34;book&#34;&gt;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Lichy&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Jessica&#34; /&gt;
+    J.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;editor&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Birch&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Chris&#34; /&gt;
+    C.&lt;/span&gt;&amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2015&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Advanced Business Models in International Higher Education&lt;/i&gt;&lt;/span&gt;.
+  &amp;#32;
+  &lt;span itemprop=&#34;publisher&#34;
+             itemtype=&#34;http://schema.org/Organization&#34;
+             itemscope&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;Cambridge Scholars Publishing&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;macbryde_designing_nodate&#34;&gt;
+        &lt;dt&gt;
+          MacBryde&amp;#32;&amp;amp;&amp;#32;Franco-Santos
+
+          
+          (n.d.)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;MacBryde&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Jill&#34; /&gt;
+    J.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Franco-Santos&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Monica&#34; /&gt;
+    M.&lt;/span&gt;
+  &amp;#32;
+  (n.d.).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Designing better performance measurement systems in universities using the business model canvas&lt;/span&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;10&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;mcavennie_development_2017&#34;&gt;
+        &lt;dt&gt;
+          McAvennie
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Thesis&#34;
+      data-type=&#34;thesis&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;McAvennie&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Anastasia&#34; /&gt;
+    A.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Development of a business model for the internationalisation of a Finnish corporate training service for the European data centre industry&lt;/i&gt;
+  &lt;/span&gt;&lt;span itemprop=&#34;inSupportOf&#34;&gt;&amp;nbsp;(MBA Thesis)&lt;/span&gt;.&amp;nbsp;
+&lt;meta itemprop=&#34;contentLocation&#34;
+        value=&#34;Finland&#34;&gt;&amp;#32;
+  &lt;span itemprop=&#34;publisher&#34;
+             itemtype=&#34;http://schema.org/EducationalOrganization&#34;
+             itemscope&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;Jyväskylän ammattikorkeakoulu University of Applied Sciences&lt;/span&gt;, &amp;#32; &lt;span itemprop=&#34;location&#34;&gt;Finland&lt;/span&gt;&lt;/span&gt;.&amp;#32;Retrieved from&amp;#32;
+  &lt;a href=&#34;http://www.theseus.fi/handle/10024/131377&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;http://www.theseus.fi/handle/10024/131377&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;noauthor_business_2013&#34;&gt;
+        &lt;dt&gt;
+          
+          (N.A.)
+
+          
+          (2013)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;report&#34;&gt;
+  (N.A.).
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2013&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;Business Models for Online Higher Education&lt;/i&gt;&lt;/span&gt;.
+  &amp;#32;
+  &lt;span itemprop=&#34;publisher&#34; itemtype=&#34;http://schema.org/Organization&#34; itemscope=&#34;&#34;&gt;
+    &lt;span itemprop=&#34;name&#34;&gt;Hanover Research&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;ochinanwata_business_2017&#34;&gt;
+        &lt;dt&gt;
+          Ochinanwata&amp;#32;&amp;amp;&amp;#32;Ezepue
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Ochinanwata&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Nonso&#34; /&gt;
+    N.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Ezepue&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Patrick Oseloka&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Business Model Innovation In  Nigerian Higher Education Institutions&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.5281/zenodo.822496&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.5281/zenodo.822496&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;prifti_emerging_2017&#34;&gt;
+        &lt;dt&gt;
+          Prifti,&amp;#32;
+          Knigge,&amp;#32;
+          Löffler,&amp;#32;
+          Hecht&amp;#32;&amp;amp;&amp;#32;Krcmar
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Prifti&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Loina&#34; /&gt;
+    L.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Knigge&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Marlene&#34; /&gt;
+    M.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Löffler&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Alexander&#34; /&gt;
+    A.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Hecht&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Sonja&#34; /&gt;
+    S.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Krcmar&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Helmut&#34; /&gt;
+    H.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Emerging Business Models in Education Provisioning: A Case Study on Providing Learning Support as Education-as-a-Service&lt;/span&gt;.&lt;i&gt;
+    &lt;span itemprop=&#34;about&#34;&gt;International Journal of Engineering Pedagogy (iJEP)&lt;/span&gt;,&amp;#32;7(3)&lt;/i&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;92&lt;/span&gt;.
+  &lt;a href=&#34;https://doi.org/10.3991/ijep.v7i3.7337&#34;
+     itemprop=&#34;identifier&#34;
+     itemtype=&#34;https://schema.org/URL&#34;&gt;https://doi.org/10.3991/ijep.v7i3.7337&lt;/a&gt;&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;valentin_towards_2014&#34;&gt;
+        &lt;dt&gt;
+          Valentin,&amp;#32;
+          Werth&amp;#32;&amp;amp;&amp;#32;Loos
+
+          
+          (2014)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/Article&#34;
+      data-type=&#34;article&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Valentin&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Christina Di&#34; /&gt;
+    C.&lt;/span&gt;,&amp;#32;
+  &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Werth&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Dirk&#34; /&gt;
+    D.&lt;/span&gt;&amp;#32;&amp;amp;&amp;#32;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Loos&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Peter&#34; /&gt;
+    P.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2014&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;Towards a Business Model Framework for E-learning Companies&lt;/span&gt;.&amp;#32;&lt;span itemprop=&#34;pagination&#34;&gt;11&lt;/span&gt;.&lt;/span&gt;
+
+
+
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id=&#34;wehn_university_2017&#34;&gt;
+        &lt;dt&gt;
+          Wehn
+
+          
+          (2017)&lt;/dt&gt;
+
+        &lt;dd&gt;
+          
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;span itemscope
+      itemtype=&#34;https://schema.org/CreativeWork&#34;
+      data-type=&#34;speech&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Wehn&lt;/span&gt;,&amp;#32;
+    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Uta&#34; /&gt;
+    U.&lt;/span&gt;
+  &amp;#32;
+    (&lt;span itemprop=&#34;datePublished&#34;&gt;2017&lt;/span&gt;).
+  &amp;#32;&lt;span itemprop=&#34;name&#34;&gt;
+    &lt;i&gt;University Business Models &amp;amp; Value Propositions in the Digital Age&lt;/i&gt;&lt;/span&gt;.
+  &lt;/span&gt;
+
+&lt;/dd&gt;
+
+      &lt;/div&gt;
+  &lt;/dl&gt;
+&lt;/section&gt;
+
+
+ &lt;!-- There is something incomplete in the bibliography file which is throwing the IsSet warning in hugo --&gt;&lt;/p&gt;
+&lt;!-- ILPT sprint on SIL.org: https://docs.google.com/document/d/11YaN1OIquiXMHahKFBjc-ws6opY6bJCZMMlkh2AEmQI/edit --&gt;
+&lt;!-- Additional work was done to template inter-agency contracts for services https://docs.google.com/document/d/1QP0vycT5fYyKNc_90Jn4UuUugzgJXvDGJzvdzxig1cM/edit?usp=sharing --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIL Communication Strategy Consulting</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2017-sil-ils-communications/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2017-sil-ils-communications/</guid>
+      <description>&lt;p&gt;This project is about creating a work environment where people are informed about the services and products that the organization is able to offer. It is about breaking down communication silos and working across corporate structures to create a unified workforce.
+I have the ongoing privilege of consulting with department heads and team leaders on interdepartmental communication and audience engagement strategies. Often this involves creative uses of technology and creating data management plans and publishing work flows. At SIL International we use 
+&lt;a href=&#34;https://mailchimp.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MailChimp&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.atlassian.com/software/confluence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Confluence&lt;/a&gt; to meet these communication needs.&lt;/p&gt;
+&lt;p&gt;SIL International is over 80 years old. A majority of its staff are 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Baby_boomers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baby-boomers&lt;/a&gt;. Currently work flows, even digital ones, usually mirror processes set up in paper based work enviroments.  SIL International as an organization has organizational units of various sizes in various locations of the world. Many of these units are also distributed teams. In the broader business world the battle for effective team communications is generally characterized as a battle between &lt;em&gt;looking in the inbox&lt;/em&gt; and &lt;em&gt;using the browser&lt;/em&gt; for information, collaboration, and connectivity. Tools like 
+&lt;a href=&#34;https://www.theverge.com/2014/8/12/5991005/slack-is-killing-email-yes-really&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#slack&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.fastcompany.com/3035927/inside-the-company-that-got-rid-of-email&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;management decisions to look for more effective team communications platforms&lt;/a&gt; have tried to push email our of use. In SIL International the very diverse nature of the workforce presents challenges to those with low-bandwidth connectivity.&lt;/p&gt;
+&lt;p&gt;We use a two prong communications approach. Email and corporate blog use. For Email we use Mailchimp. For the corporate blog we use Confluence Wiki.&lt;/p&gt;
+&lt;p&gt;SIL International deployed Confluence company wide in 2008 as a white board for people in the organization to use within their organizational unit. By 2011 the wiki had evolved into a platform for departmental websites and had supplanted official information repositories for official documentation. This has made the platform invaluable for interdepartmental communications.&lt;/p&gt;
+&lt;p&gt;In 2015 various organizational units within SIL International started to independently use Mailchimp.&lt;/p&gt;
+&lt;p&gt;Due to the highly transitional nature of SIL International staff, it is often the case that SIL staff do not have the knowledge base needed to leverage the capacities of these two systems. My role is often to demonstrate features relevant to business goals.&lt;/p&gt;
+&lt;p&gt;I have engaged with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SIL International Language and Culture Archive&lt;/li&gt;
+&lt;li&gt;SIL International Language Program Training&lt;/li&gt;
+&lt;li&gt;SIL International Language Program Services&lt;/li&gt;
+&lt;li&gt;SIL International External Communications&lt;/li&gt;
+&lt;li&gt;SIL Intellectual Property Team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--  
+Two other links are: https://www.forbes.com/sites/tykiisel/2011/11/30/ceo-bans-email/
+and
+https://hbr.org/2016/06/some-companies-are-banning-email-and-getting-more-done
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The minority language typing experience</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2014-typing-experience/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2014-typing-experience/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Previous work&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;This project follows and builds upon the project where 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2011-mexico-keyboards/&#34;&gt;keyboard layouts for Meꞌphaa and Sochiapam Chinantec&lt;/a&gt; were produced. This project uses data from Meꞌphaa and Sochiapam Chinantec but purposely extends the scope of the analysis to include Latin and Cyrillic script languages, particularly focusing on those with diacritics which express tone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The goal of this project is to bring &amp;lsquo;natural&amp;rsquo;, intuitive, and easy to use typing experiences in the form of keyboard layout designs to minority language users. These language users often do not type in their own languages, but rather experience technology through languages other than their first language. This is in part because of the perception that their language is complex or not easy to type, which is often not an invalid observation. However, with these languages which have different and sometimes more characters than English, what does a good layout look like?
+The objectives of this project are threefold:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To establish a consistent method to evaluate the appropriateness of a keyboard layout for a specific language situation given a specific text sample. This needs to include &lt;code&gt;deadkeys&lt;/code&gt; and &lt;code&gt;alt&lt;/code&gt; states.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;This needs to account for monolingual situations&lt;/li&gt;
+&lt;li&gt;This needs to account for multi-lingual situations where each language has its own keyboard&lt;/li&gt;
+&lt;li&gt;This needs to account for multi-lingual situations where only a single keyboard is used&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Provide a best fit solution recommendation when provided the following:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;A corpus of text encoded in UTF-16 or UTF-8 in any language&lt;/li&gt;
+&lt;li&gt;A user selected choice between a physical keyboard layout of ANSI, ISO, or JIS
+The application providing the best fit solution needs to be able to suggest a better layout, inclusive of &lt;code&gt;alt&lt;/code&gt; states and &lt;code&gt;deadkey&lt;/code&gt; options.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Assess and analyze real user feedback. That is, measure the impacts of keyboards on users. Speed of typing, speed of keyboard acquisition, error rate, and results such as language choice when typing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;fa fa-github fa-2x&#34;&gt;&lt;/span&gt; Project resources are split into three repos: 
+&lt;a href=&#34;https://github.com/HughP/MLKA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLKA&lt;/a&gt;, 
+&lt;a href=&#34;https://github.com/HughP/MLKA-Bash-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLKA-Bash-data&lt;/a&gt;, and 
+&lt;a href=&#34;https://github.com/HughP/MLKA-Test-Data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLKA-Test-Data&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>User Experience Consulting on SIL.org</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2013-sil-org/</link>
+      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2013-sil-org/</guid>
+      <description>&lt;p&gt;Within User Experience studies, there are at least two ways to apply the term (UX): &lt;em&gt;The design of experiences that a corporation wants their customers to engage in&lt;/em&gt;, and &lt;em&gt;the  way that people take an object (product) and decide to use it&lt;/em&gt;. Both are important, but how a company approaches either of these facets and how they relate that approach back to their other business goals scopes the relevance of User Experience Design within the organization. Successful interactions depend on both points of view and the metrics chosen for evaluating success.&lt;/p&gt;
+&lt;p&gt;Between 2010 and 2016 I intergrated with the SIL communications team to contribute to desin descussions on the SIL website. The project was to move the current website from hand crafted HTML poduced by dozens of departments over hundreds of projects to Drupal 7, a content manament system. The move to a content managment system was a strategic move for the organization that impacted all parts of the organization. I contributed a variety of perspectives to an evolving design incuding &lt;em&gt;Readability&lt;/em&gt;, &lt;em&gt;Professional profile design&lt;/em&gt;, &lt;em&gt;URL managment&lt;/em&gt;, &lt;em&gt;SEO considerations&lt;/em&gt;, &lt;em&gt;Interactive features&lt;/em&gt;, &lt;em&gt;List layout and design&lt;/em&gt;, and &lt;em&gt;Page element cohesion&lt;/em&gt;, &lt;em&gt;Designing for web and print&lt;/em&gt;, &lt;em&gt;Multi-lingual navigation&lt;/em&gt;, .&lt;/p&gt;
+&lt;p&gt;I raised empathy considerations, where the tasks of the end-user were considered over the traditions of the organization. I brought an awareness of what other organizations in the pulishing industry were doing and their users were expecting from a web-based interaction. I was able to be a resource introducing some of these design ideas to a communications team with diverse strenghts in print design and text based messaging.&lt;/p&gt;
+&lt;p&gt;&amp;lt;&amp;ndash; My work with SIL started with a report that they were not using a &lt;code&gt;print.css&lt;/code&gt; file on the SIL Bibliography in 2006 and were wasting a lot of ink when people were printing pages. I think this was corrected by 2009. This was typical for the pace of technical innovative change. SIL is a very corporate feature focused development environment.
+&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;p&gt;SIL.org is an interesting use case in UX design for at least 6 reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;SIL has several major areas of very public interactions which it engages with to various degrees in various parts of the world — but the Internet is flat.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advocacy with public policy making bodies regarding the needs of minority language speakers.&lt;/li&gt;
+&lt;li&gt;Publishing and sales of professional resources and materials.&lt;/li&gt;
+&lt;li&gt;Bible translation.&lt;/li&gt;
+&lt;li&gt;Educational programs (both formal and workshop style) in linguistics and language development.&lt;/li&gt;
+&lt;li&gt;Mother tongue Multi-lingual educational programs.&lt;/li&gt;
+&lt;li&gt;Minority language literacy (both integrated with national educational programs, and community sponsored programs, for children and adults).&lt;/li&gt;
+&lt;li&gt;NGOs and development agencies.&lt;/li&gt;
+&lt;li&gt;Innovative computer technology development related to non-English typesetting and computing.&lt;/li&gt;
+&lt;li&gt;Innovative creative access power solutions (like solar).&lt;/li&gt;
+&lt;li&gt;Sustainable logistical support for difficult to access project locations (usually via air).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SIL has historically had a very fractured internal identity, and a very decentralized governance, which has not required a high degree of uniformity throughout the organization. Digital infrastructure projects stress these social norms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Within the organization web-presence has come to be regarded as the officiating act recognition of an internal group&amp;rsquo;s merit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Different people within the organization have strong opinions about how the world should view the organization — which are reflected in what they think the organization should say about itself — including the interactions that the organization provides to the people who interact via its website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Globally at the time the Internet was going mobile mobile-first, something not until-then  considered in web-designs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SIL had, and conintues to have, multiple audiences for which the organization has very different engagement goals. For example, generating the visual and informatic thrill needed to entice donors is a different communication task than facilitating product (publication and product) distribution. These tasks and their audiences are then again different from training and education related interactions for which SIL was offereing. SIL also provides high-level information about subject areas in which SIL engages  focused at politicians and staffs of other NGOs. However, quantitatively, most people came to SIL.org to learn about linguistics, the plethora of digital tools that SIL distributes via sil.org, or the vast number of resources about languages and the people who speak them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--
+Rebranding SIL Journals
+
+Journal of phonological description
+Journal of grammatical description
+Journal of descriptive and comparative dialectology
+Journal of orthographic description and history
+Journal of sociolinguistic description
+--&gt;
+&lt;!--  8 May 2013-  I sometimes wonder if Vision2025 applied to sil.org is to shut the website down and turn it off. If every language which needs a Bible Translation will have a project started by 2025. Then there really is no place left for SIL after that and why would SIL need a website then?
+
+:: because we all believe that Bible Translation is more important than Language Development and there will be no way to share what Christ did for us in humanity after 2025 through language development.
+
+:: because we all know that there will be no need for Bible Translation Revisions, after 2025... We got it right the first time...
+
+:: because SIL will have spent all its time and effort preaching to partners &#34;sustainability&#34; it will have none in the end...
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Resource Metadata for Linguistic &amp; Language Resources</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2014-lrmi-metadata-for-linguistic-resources/</link>
+      <pubDate>Sat, 27 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2014-lrmi-metadata-for-linguistic-resources/</guid>
+      <description>&lt;p&gt;This project is more like a research theme. It started with some felt needs in the SIL International Training Department where I was working. We were seeking to better automate and craft the SIL course catalogue, professional development plans, and course content, while providing instructors clear access to known resources they could use in their learning events. This work involved conceptualizing the course catalogue from both the training and human resources points of view along with supporting resources. SIL&amp;rsquo;s training events are SIL licensed or implemented under contract at partner institutions of higher education. Often the contracted instruction is done via independent-ish SIL branded organizations often refereed to as &lt;em&gt;SIL Entities&lt;/em&gt; e.g., SIL Peru, SIL Philippines, etc. Entities are often a geographical locus of operations and work out their own partnerships and resource management strategies. The SIL Language &amp;amp; Culture Archive maintains specific collections for each SIL entity, one of those collections is usually for training resources. Connecting these resources to competencies is important for understanding the use, value, and re-use capability of the resource. I started looking out at how this connection between resource and competency was solved in the larger professional space. In the process I was introduced to the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_Resource_Metadata_Initiative&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning Resource Metadata Initiative&lt;/a&gt; (LRMI) and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_object_metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning Object Metadata&lt;/a&gt; (LOM) communities. My work in this capacity resulted in a recommendation to SIL to integrate LRMI into the archive for instructional materials dealing with linguistics along with mother-tongue based literacy materials. SIL choose that this was not a corporate priority. However, in the process I realized that the language revitalization community at large also has the same challenges. This project page serves to pull together my actions across these contexts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meꞌphaa and Sochiapam Chinantec Keyboards</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2012-mexico-keyboards/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2012-mexico-keyboards/</guid>
+      <description>&lt;p&gt;This project formalized my interest in the text input problem. While doing text input for the Meꞌphaa language documentation project it was imperative to get Unicode encoded texts. I worked with Kevin Cline to create OS X and native Windows OS keyboards for Meꞌphaa writers.  We used 
+&lt;a href=&#34;http://scripts.sil.org/ukelele&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ukelele&lt;/a&gt; to create the OS X keyboards and  
+&lt;a href=&#34;https://web.archive.org/web/20170202084913/https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Keyboard Layout Creator (MSKLC)&lt;/a&gt; to create the Windows keyboards.&lt;/p&gt;
+&lt;p&gt;Upon hearing of my new found skills, language users from the Sochiapam Chinantec community asked me to make an OS X keyboard for their language. In both cases existing keyboard layouts were matched to synchronize the user experience across the OSes.&lt;/p&gt;
+&lt;p&gt;Some of the design choices in the original layouts did not make sense to me. Hence the birth of the 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/Hugh-CV/project/2014-typing-expereince/&#34;&gt;The minority language typing experience&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Audio Digitization</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-audio-digitization/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-audio-digitization/</guid>
+      <description>&lt;p&gt;This project involved the accession, cataloging and digitization of several collections. It also involved cataloging of multiple collections already accessioned but not yet cataloged. I was responsible for identifying and collecting metadata relevant for audio collections. I communicated with the SIL Language and Culture Archive staff when metadata schemas in place were insufficient for audio collections. I identified and recommended changes to metadata profiles used at the time by the Language and Culture Archives. I consulted industry best practices and established quality control procedures related to the digitization of cassette tapes and reel to reel tapes. I served as project manager, with a volunteer workforce.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photo Digitization</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-photo-digitization/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-photo-digitization/</guid>
+      <description>&lt;p&gt;I served as project manager, recruiting and supervising a volunteer workforce. Together we cataloged and scanned over 1000 photos.&lt;/p&gt;
+&lt;p&gt;We also repatriated some photos. We took old photo albums to reunions where former SIL staff identified persons and places in the images.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Text Digitization</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-text-digitization/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2010-americas-area-text-digitization/</guid>
+      <description>&lt;p&gt;I worked with the SIL Americas Area Access Coordinator to make language materials available to translators, researchers, and language development workers. There is a wealth of information that is simply inaccessible to those who could use it. I helped in the implementation of a system to make these materials available digitally, via the internet. Access to these materials affects the mechanics of language development and translation projects throughout the Americas Area and around the world.&lt;/p&gt;
+&lt;p&gt;I contributed in general to archiving processes related to text scanning, and the post processing of these scans into archival and distribution formats. I served as site manager and recruiter with a volunteer work force. I brokered accessions of older materials from their creators.
+I worked with IT staff to produce an automated reporting mechanism to track team progress.&lt;/p&gt;
+&lt;!--
+-- insert photos
+-- insert data progress chart --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Usability &amp; Language Resource Stewardship</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2012-archive-usability/</link>
+      <pubDate>Sat, 18 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2012-archive-usability/</guid>
+      <description>&lt;p&gt;In this research theme, I look at avariety of usability issues from resource arrangment and description in stewardship arrangments of language resources to user interfaces to those resources. I have published several papers, given many talks and written many blog posts.&lt;/p&gt;
+&lt;p&gt;Early in this project the focus was more narrow and I sought to look at issues in &lt;em&gt;Language Resource Accessibility&lt;/em&gt;. My work was primarily concerned with two facets of accessibility:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the &lt;em&gt;User Experience&lt;/em&gt; related to interacting with archived content; and&lt;/li&gt;
+&lt;li&gt;the aggregation of item level metadata about language resources in collections.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;However, I have now expanded my resarch focus to include language resource description and arrangment.&lt;/p&gt;
+&lt;p&gt;I maintain a github repo with raw data and academic outputs for earily works in project at: &lt;a href=&#34;https://github.com/HughP/Lexical-Database-Archiving-Stats&#34;&gt;https://github.com/HughP/Lexical-Database-Archiving-Stats&lt;/a&gt; more recent works have their own data repositories, usually on Zenodo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geo-Linguistics</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2011-geo-linguistics/</link>
+      <pubDate>Sat, 12 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2011-geo-linguistics/</guid>
+      <description>&lt;p&gt;Geo-linguistics is a methodology of plotting various linguistic dimensions on cartographic displays. When I started in language documentation there were not many resources for interdisciplinary cartographers. Maps are very useful, but potentially deceptive tools. I wrote a 
+&lt;a href=&#34;https://hugh.thejourneyler.org/2012/types-of-linguistic-maps-the-mapping-of-linguistic-features/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; in 2012 titled: “Types of Linguistic Maps: The Mapping of Linguistic Features and Researcher Interactivity.” At one time ranked within the top three hits (via Google) for linguistic maps and ranks first for &amp;ldquo;types of linguistic maps&amp;rdquo;. As a result it was cited several times in academic literature. (It&amp;rsquo;s interesting to see how various people respond to my post. For some it has been very influential—almost copying it—and other using it for fodder.)&lt;/p&gt;
+&lt;p&gt;No less than four academic articles cite it. I have been encouraged by one of the authors to take the article to print. Maybe one day I will. It seems that the tyranny of the urgent dictates my writing schedule. Articles which cite my post can be found at the following links:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;(in Arabic script) &lt;a href=&#34;https://iling.spb.ru/periodicals/larng/2018/book.pdf#page=212&#34;&gt;https://iling.spb.ru/periodicals/larng/2018/book.pdf#page=212&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(in Cyrillic script) &lt;a href=&#34;https://www.researchgate.net/profile/Soumia-Tamma-2/publication/364028635_Techniques_of_Designing_Modern_Linguistics_Mapping/links/63369ce9ff870c55ceea2249/Techniques-of-Designing-Modern-Linguistics-Mapping.pdf&#34;&gt;https://www.researchgate.net/profile/Soumia-Tamma-2/publication/364028635_Techniques_of_Designing_Modern_Linguistics_Mapping/links/63369ce9ff870c55ceea2249/Techniques-of-Designing-Modern-Linguistics-Mapping.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Drude, Sebastian. 2018. “Why We Need Better Language Maps, and What They Could Look Like.” In Endangered Languages and the Land: Mapping Landscapes of Multilingualism, 33–40. Proceedings of FEL XXII/2018 Reykjavík, Iceland. London, UK: FEL &amp;amp; EL Publishing. 
+&lt;a href=&#34;http://www.elpublishing.org/docs/4/01/FEL-2018-06.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.elpublishing.org/PID/4006&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholarspace.manoa.hawaii.edu/handle/10125/24692&#34;&gt;https://scholarspace.manoa.hawaii.edu/handle/10125/24692&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are now other displays of language maps available. For example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vox.com/2014/11/17/7082317/language-maps-charts&#34;&gt;https://www.vox.com/2014/11/17/7082317/language-maps-charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blogs.loc.gov/maps/2022/02/words-on-a-map-the-cartography-of-language&#34;&gt;https://blogs.loc.gov/maps/2022/02/words-on-a-map-the-cartography-of-language&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The focus of my blog post was just the start of the acquisition of more skills in the area of cartography. I address more areas, including linguistics and ways of plotting languages in 
+&lt;a href=&#34;https://hugh.thejourneyler.org/category/cartography/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my series of posts on cartography&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Explaining cartographic concepts.&lt;/li&gt;
+&lt;li&gt;Explaining and reviewing tools for generating and processing the necessary data.&lt;/li&gt;
+&lt;li&gt;Creating population density visualizations.&lt;/li&gt;
+&lt;li&gt;Collecting place names and generating a map in Nigeria.&lt;/li&gt;
+&lt;li&gt;Creating a map of the language documentation files in the Meꞌphaa language documentation project.&lt;/li&gt;
+&lt;li&gt;Creating a map of the language documentation files in the U̠t-Ma&amp;rsquo;in language documentation project.&lt;/li&gt;
+&lt;li&gt;Creating several maps for Dan related to work in that language.&lt;/li&gt;
+&lt;li&gt;Creating maps of the primary location where languages are spoken for which we know resources exist but are not archived.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- Map making tools
+
+Import geo-names into QGIS: http://forum.geonames.org/gforum/posts/list/67.page
+QGIS to illustrator: https://vimeo.com/124793295
+Georeferencing Topo Sheets and Scanned Maps: http://www.qgistutorials.com/en/docs/georeferencing_basics.html
+
+https://mygeodata.cloud/converter/svg-to-kml
+https://bitbucket.org/tbrugz/kmlutils/wiki/HOWTO.en
+https://freegeographytools.com/2009/convertreproject-shapefiles-and-kml-files-to-svg-format-with-indiemapper
+
+https://bitbucket.org/voron-raven/maps
+
+
+Paterson III, Hugh. 2012. “Types of Linguistic Maps: The Mapping of Linguistic Features and Researcher Interactivity.” The Journeyler. March 23. http://hugh.thejourneyler.org/2012/types-of-linguistic-maps-the-mapping-of-linguistic-features/.
+
+
+Filter country shapes: https://wiki.openstreetmap.org/wiki/Osmfilter --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meꞌphaa Language Documentation</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2011-mexico/</link>
+      <pubDate>Sat, 12 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2011-mexico/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;File-man.jpg&#34; alt=&#34;Hugh in recording&#34;&gt;
+Grammarian of digital file names is the loneliest job of them all.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.mexico.sil.org/publications/i-wpindex/work_papers_-_mephaa_grammar_files&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corpus of descriptive work&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interdental approximant</title>
+      <link>https://hughandbecky.us/Hugh-CV/project/2010-interdental-approximant/</link>
+      <pubDate>Wed, 18 Jun 2008 08:18:27 -0700</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/project/2010-interdental-approximant/</guid>
+      <description>&lt;p&gt;This research project was spearheaded by Ken Olson. As a collaborator with him I focused on the historical linguistics status of the interdental approximant in Philippine languages. I also did a lot of library resources discovery and acquisition.&lt;/p&gt;
+&lt;p&gt;In this project description I have listed more than my contribution because I am not sure there is anywhere else that has pulled together the combined research on this topic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Results &amp;amp; Significance&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ultrasound Study on the articulation of the interdental approximant.&lt;/li&gt;
+&lt;li&gt;Published phonetic descriptions of the interdental approximant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Academic Output&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Publications&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mielke, Jeff, Kenneth S. Olson, Adam Baker &amp;amp; Diana Archangeli. 2011. Articulation of the Kagayanen interdental approximant: An ultrasound study. Journal of Phonetics 39(3). 403–412. DOI: 
+&lt;a href=&#34;http://dx.doi.org/10.1016/j.wocn.2011.02.008&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1016/j.wocn.2011.02.008&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Olson, Kenneth S., Emy T. Ballenas &amp;amp; Nilo M. Borromeo. 2009. Buhi’non (Bikol) digital wordlist: Presentation form. Language Documentation &amp;amp; Conservation 3(2). 213–225. URI: 
+&lt;a href=&#34;http://hdl.handle.net/10125/4440&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://hdl.handle.net/10125/4440&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Olson, Kenneth S., Glenn Machlan &amp;amp; Nelson Amangao. 2008. Minangali (Kalinga) digital wordlist: Presentation form. Language Documentation &amp;amp; Conservation 2(1). 141–156. URI 
+&lt;a href=&#34;http://hdl.handle.net/10125/1772&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://hdl.handle.net/10125/1772&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Olson, Kenneth S. &amp;amp; Jeff Mielke. 2008. Acoustic properties of the interdental approximant in Kagayanen. Journal of the Acoustical Society of America 123(5). 3460. DOI: 
+&lt;a href=&#34;http://dx.doi.org/10.1121/1.2934307&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1121/1.2934307&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Related Academic Work&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matthew Harley (2012) Unusual sounds in Nigerian languages. In Advances in Minority Language Research in Nigeria Part I (eds.) Roger M. Blench and Stuart McGill. Kay Williamson Educational Foundation African languages Monographs No. 5. pages: 38-65. Rüdiger Köppe Verlag: Köln&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Follow-up work&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;It seems that the interdental approximant [ð̞] in Austronesian languages should challenge linguists in three important areas and thus deserves more thought and perhaps application in our theories. These categories are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The phonological status and interactions that happen with the segment.&lt;/li&gt;
+&lt;li&gt;The phonetic contrast of the segment.&lt;/li&gt;
+&lt;li&gt;The Historical status of the segment and the impact of its recognition in the Austronesian historical linguistic narrative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Publications to date have focused on two relevant aspects of the interdental approximant:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ð̞ is important in descriptive linguistics.&lt;/li&gt;
+&lt;li&gt;ð̞ is different phonetically from other described segments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following remain to be shown clearly in appropriate publications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Phonetic contrast&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the duration of the sound and what are the boarders?&lt;/li&gt;
+&lt;li&gt;Measure the stable section?&lt;/li&gt;
+&lt;li&gt;Where does it stop and where does it begin?&lt;/li&gt;
+&lt;li&gt;What is the acoustical (in terms of both production and perception) difference between /l/ and /ð̞ /?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ulturasound study does provide a good starting point to answer these questions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ it has a unique spectrograph when compared with other liquids, vowels, and interdentals - especially within the same language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ is different from the native sounds of { l, a, ɐ, n, ʔ, d, g, r, s, h, x} which occur in Philippine languages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This has been done in small phonology descriptions but not full scale acoustically reference-able phonetic descriptions across the entire set of languages discussed in the &lt;em&gt;JIPA&lt;/em&gt; article.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ is different from the borrowed sounds of { l, a, ɐ, n, ʔ, d, g, θ, ð, r, s, h, x, ɣ}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In terms of psycholinguistics the question remains,: &lt;em&gt;What are the unique properties of this sound as they are culturally defined?&lt;/em&gt; or to put this another way: &lt;em&gt;What are the acustic cues, what are the visual cues, and what are the cultural constraints that those cues may violate?&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My research position suggests that there has been change. Change involves a variety of cognitive processes. Re-analysis is one such process. If I hypothesize that re-analysis has occurred, then what is the Cognitive load of this segment? How has that load shifted or why can it shift?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What are the unique properties that users attribute to this segment as cross-linguistically defined (but keeping within Austronesian or the Austro-Tai hypotheses).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What are those unique properties as Universally or empirically defined?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Historical Narrative&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There is an open question with relationship to historical Austronesian as to what the metrical structure of the language was. If we posit some change in the metical structrue what relevance does that have on the interdental approximant? Does the concept of Phonetic Gemination apply?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In some theories of 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Austro-Tai_languages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Austro-Tai&lt;/a&gt; there is some relevance to constructing suprasegmental features and genisis or de-genesis processes for these features. In that contexts: &lt;em&gt;Is it possible that ð̞ is a tone bearing unit? (TBU)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interdental is contrastive with dental in Place in the IPA Chart
+ð̞ is important to PAn Historical Phonology Theory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ is related to several mergers and splits&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ is PAn *R&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ Shows that [+Nasal], historically, is, or is/and a super-segmental feature in Austronesian languages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ shows that there are fewer proto-phonemes than necessary in current models
+of PAn.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ helps us to understand the PAn foot.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ was represented in the baybin original orthography.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ð̞ is relevant enough to be represented consistently in orthographies in the
+languages it occurs in.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Phonology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;There are several open phonological questions. Some of these have answers in the cited materials, but the data is not always clear for all languages which also have interdental approximants.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What are the claimed Phonemes of kangayen?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It would be all the more the claim that ð̞ is phonemic not due to a split. If it is a retention then this perspective has more weight.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the ð̞ pattern concerning natural classes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a feature geometry perspective, what features does ð̞ have.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some Austornesian language have Metathesis. Is this metathesis process triggered in any way by the ð̞?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ð̞ has moraic value - what is it?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the affect of ð̞ on vowel quality?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In what ways can we measure the impact that ð̞ has on cognitive load?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Does the ð̞ occur in multiple areas of the lexicon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To do this a survey of the texts should be used to evaluated the
+location of ð̞ in the lexicon. One resource for texts could be:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grayden, Bruce. 1978. &amp;ldquo;Southern Kalinga [language text].&amp;rdquo; In Evan L. Antworth (ed.),
+Folktale texts, 13-23. Studies in Philippine Linguistics, 2(2). Manila: Linguistic Society of the Philippines and Summer Institute of Linguistics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What do I want to research?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Why is it important?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How do I want to research it?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the Problem?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the Solution?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What do I want to Say?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the continued importance of a feature analysis to the field of descriptive linguistics and to the field of historical linguistics and to the field of Phonology?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

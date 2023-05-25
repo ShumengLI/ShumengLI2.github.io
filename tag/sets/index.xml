@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sets | Hugh&#39;s Curriculum Vitae</title>
+    <link>https://hughandbecky.us/Hugh-CV/tag/sets/</link>
+      <atom:link href="https://hughandbecky.us/Hugh-CV/tag/sets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sets</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Hugh Paterson III © 2023</copyright><lastBuildDate>Sat, 07 Jan 2023 14:35:45 +0100</lastBuildDate>
+    <image>
+      <url>https://hughandbecky.us/Hugh-CV/media/HughPaterson.jpg</url>
+      <title>Sets</title>
+      <link>https://hughandbecky.us/Hugh-CV/tag/sets/</link>
+    </image>
+    
+    <item>
+      <title>An Application of OAI Sets for OLAC</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/olac-sets/</link>
+      <pubDate>Sat, 07 Jan 2023 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/olac-sets/</guid>
+      <description>&lt;p&gt;In a previous 
+&lt;a href=&#34;https://hughandbecky.us/Hugh-CV/post/oai-sets-for-olac/&#34;&gt;note&lt;/a&gt; I described a the use of OAI sets. These are essentially classes that can be applied to records. It came to mind today that in fact these classes could be used to support a variety of features that Dublin Core does not support.  These classes appear in the header of the OAI Record as shown below for &lt;code&gt;LanguageSoftware&lt;/code&gt; and &lt;code&gt;Software&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;oai:header&amp;gt;
+&amp;lt;oai:identifier&amp;gt;oai:hugh4.us:0007&amp;lt;/oai:identifier&amp;gt;
+&amp;lt;oai:datestamp&amp;gt;2023-01-07&amp;lt;/oai:datestamp&amp;gt;
+  &amp;lt;setSpec&amp;gt;LanguageSoftware&amp;lt;setSpec&amp;gt;
+  &amp;lt;setSpec&amp;gt;Software&amp;lt;setSpec&amp;gt;
+&amp;lt;/oai:header&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;These classes could be used to indicate the type of record or record level metadata such as the 
+&lt;a href=&#34;https://journal.code4lib.org/articles/16491&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WEMI&lt;/a&gt; class of a record. Alternatively they could be used within the User Interface of the record and become part of the Application Profile supporting navigation elements. For example, &lt;code&gt;Learning Resources&lt;/code&gt; is not a clear bibliographic category, but could be a cross-provider class that data providers could use to support the inclusion of resources within an aggregator.&lt;/p&gt;
+&lt;p&gt;The use of OAI sets could also be used to categorize records by one of the three origional goals DATA, TOOLS, and ADVICE:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By DATA we mean any information that documents or describes a language, such as a published monograph, a computer data file, or even a shoebox full of hand-written index cards. The information could range in content from unanalyzed sound recordings to fully transcribed and annotated texts to a complete descriptive grammar. By TOOLS we mean computational resources that facilitate creating, viewing, querying, or otherwise using language data. Tools include not just software programs, but also the digital resources that the programs depend on, such as fonts, stylesheets, and document type definitions. By ADVICE we mean any information about what data sources are reliable, what tools are appropriate in a given situation, what practices to follow when creating new data, and so forth.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href=&#34;http://www.language-archives.org/documents/overview.html&#34;&gt;http://www.language-archives.org/documents/overview.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OAI-Sets for OLAC</title>
+      <link>https://hughandbecky.us/Hugh-CV/post/oai-sets-for-olac/</link>
+      <pubDate>Wed, 17 Aug 2022 14:35:45 +0100</pubDate>
+      <guid>https://hughandbecky.us/Hugh-CV/post/oai-sets-for-olac/</guid>
+      <description>&lt;p&gt;In a passing conversation Steven Bird and I were discussing the options for displaying collection metadata in OLAC. For a long time the assumption has been that OLAC records are flat on the basis of Dublin Core constraints. This is not completely true with the presence of the DCMIType value &lt;code&gt;Collection&lt;/code&gt; and the relationship &lt;code&gt;hasPart&lt;/code&gt; or &lt;code&gt;isPartOf&lt;/code&gt;. That is through these mechanisms a hierarchy can be infered.&lt;/p&gt;
+&lt;p&gt;In a while brain storming for other options Steven mentioned the OAI value for 
+&lt;a href=&#34;http://www.openarchives.org/OAI/openarchivesprotocol.html#Set&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sets&lt;/a&gt; (and also 
+&lt;a href=&#34;http://www.openarchives.org/OAI/openarchivesprotocol.html#Set&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the historical documentation in OAI version 1.0&lt;/a&gt;), which is an interesting part of the OAI protocol. Basically it is a way to establish classes that the OAI verbs will respect. How these classes are set up is completely dependent on the data source manager. So, unless an OLAC recomendation document established a set of classes which it expected OLAC data providers to implement I don&amp;rsquo;t see how this actually resolves or lowers complexity related to setting up an OAI service for OLAC to harvest from. However, classes can be useful if an OAI provider has several different clients it is seeking to facilitate but only wants to provide a single OAI endpoint.&lt;/p&gt;
+&lt;p&gt;OpenEditions, the publisher in France, has an 
+&lt;a href=&#34;https://oai-openedition.readthedocs.io/en/latest/sets.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example of documentation where the OAI provider defines the sets they make available&lt;/a&gt;. They chose &lt;em&gt;books&lt;/em&gt;, &lt;em&gt;journals&lt;/em&gt;, &lt;em&gt;blogs&lt;/em&gt;, and &lt;em&gt;events&lt;/em&gt; as their sets. In some ways this could be navigated with DCMITypes and complex queries, but maybe some of thier clients OAI harvesters are only interested in certain sets (for example DOAJ is only interested in the journals). In the OLAC case, the harvester generally wants everything. So these specific classes doesn&amp;rsquo;t make much sense. I don&amp;rsquo;t redily see how OAI classes fit the proposed use case of establishing hierarchical structures for the description of collections. But perhaps another useful application can be thought of. The one case I can think of is if an OLAC data provider indexes resources which it doesn&amp;rsquo;t actually have a copy of and also indexes items it &lt;em&gt;does&lt;/em&gt; have a copy of then these might be of interest to divide into two sets, but OLAC would harvest them both anyway.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
